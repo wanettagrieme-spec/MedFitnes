@@ -57,6 +57,9 @@ def caption(post):
 
 def send(token, channel, post):
     data = {"chat_id": channel, "caption": caption(post), "parse_mode": "HTML"}
+    local = post.get("photo_file") and (POSTS.parents[1] / post["photo_file"])
+    if local and local.exists():
+        return api(token, "sendPhoto", data, files={"photo": (local.name, local.read_bytes())})
     if post.get("photo_url"):
         res = api(token, "sendPhoto", {**data, "photo": post["photo_url"]})
         if res.get("ok"):
