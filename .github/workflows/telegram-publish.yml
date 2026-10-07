@@ -10,6 +10,10 @@ on:
         description: "Пробный запуск (ничего не отправлять)"
         type: boolean
         default: true
+      check_only:
+        description: "Только проверить бота и канал (ничего не публиковать)"
+        type: boolean
+        default: false
       post_id:
         description: "Номер поста (пусто — следующий по расписанию)"
         required: false
@@ -36,6 +40,7 @@ jobs:
           TELEGRAM_CHANNEL: ${{ vars.TELEGRAM_CHANNEL }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '0' }}
           POST_ID: ${{ inputs.post_id }}
+          CHECK_ONLY: ${{ inputs.check_only && '1' || '0' }}
         run: python telegram/publisher/publish.py
       - name: Отмечаем «опубликовано» в расписании
         run: |

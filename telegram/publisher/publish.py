@@ -68,7 +68,30 @@ def send(token, channel, post):
     return api(token, "sendMessage", {"chat_id": channel, "text": data["caption"], "parse_mode": "HTML"})
 
 
+def check():
+    """Проверка без публикации: ключ рабочий, бот — админ канала с правом постить."""
+    token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    if not token:
+        sys.exit("Нет секрета TELEGRAM_BOT_TOKEN.")
+    channel = os.environ.get("TELEGRAM_CHANNEL") or "@MedFitnes"
+    me = api(token, "getMe")
+    if not me.get("ok"):
+        sys.exit(f"Ключ бота не принят Telegram: {me.get('description')}")
+    bot = me["result"]
+    print(f"Бот: @{bot.get('username')}")
+    m = api(token, "getChatMember", {"chat_id": channel, "user_id": bot["id"]})
+    if not m.get("ok"):
+        sys.exit(f"Бот не видит канал {channel}: {m.get('description')}")
+    st = m["result"]
+    if st.get("status") == "creator" or (st.get("status") == "administrator" and st.get("can_post_messages")):
+        print(f"Бот — администратор {channel} с правом публикации. Всё готово.")
+    else:
+        sys.exit(f"Бот в {channel} со статусом «{st.get('status')}» без права публикации — сделайте его администратором.")
+
+
 def main():
+    if os.environ.get("CHECK_ONLY") == "1":
+        return check()
     posts = json.loads(POSTS.read_text(encoding="utf-8"))
     now = dt.datetime.now(MSK)
     today = now.date().isoformat()
