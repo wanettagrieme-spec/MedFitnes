@@ -1,0 +1,48 @@
+name: Публикация в Telegram (@MedFitnes)
+
+on:
+  schedule:
+    # каждый день в 06:45 UTC = 09:45 по Москве; публикует пост, если его дата наступила
+    - cron: "45 6 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Пробный запуск (ничего не отправлять)"
+        type: boolean
+        default: true
+      post_id:
+        description: "Номер поста (пусто — следующий по расписанию)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: telegram-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Публикуем пост
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL: ${{ vars.TELEGRAM_CHANNEL }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '0' }}
+          POST_ID: ${{ inputs.post_id }}
+        run: python telegram/publisher/publish.py
+      - name: Отмечаем «опубликовано» в расписании
+        run: |
+          if ! git diff --quiet telegram/schedule/posts.json; then
+            git config user.name "medfitnes-bot"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add telegram/schedule/posts.json
+            git commit -m "Опубликован пост в @MedFitnes"
+            git push
+          fi
