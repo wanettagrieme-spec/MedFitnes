@@ -1,0 +1,3475 @@
+{
+ "words": [
+  {
+   "text": "После",
+   "startMs": 400,
+   "endMs": 640,
+   "scene": 0
+  },
+  {
+   "text": "инсульта,",
+   "startMs": 640,
+   "endMs": 1360,
+   "scene": 0
+  },
+  {
+   "text": "операции",
+   "startMs": 1360,
+   "endMs": 2100,
+   "scene": 0
+  },
+  {
+   "text": "или",
+   "startMs": 2100,
+   "endMs": 2560,
+   "scene": 0
+  },
+  {
+   "text": "тяжёлой",
+   "startMs": 2560,
+   "endMs": 3000,
+   "scene": 0
+  },
+  {
+   "text": "травмы",
+   "startMs": 3000,
+   "endMs": 3690,
+   "scene": 0
+  },
+  {
+   "text": "врачи",
+   "startMs": 3690,
+   "endMs": 3950,
+   "scene": 0
+  },
+  {
+   "text": "сначала",
+   "startMs": 3950,
+   "endMs": 4430,
+   "scene": 0
+  },
+  {
+   "text": "спасают",
+   "startMs": 4430,
+   "endMs": 4900,
+   "scene": 0
+  },
+  {
+   "text": "жизнь.",
+   "startMs": 4900,
+   "endMs": 5500,
+   "scene": 0
+  },
+  {
+   "text": "Но",
+   "startMs": 5500,
+   "endMs": 6080,
+   "scene": 0
+  },
+  {
+   "text": "уже",
+   "startMs": 6080,
+   "endMs": 6190,
+   "scene": 0
+  },
+  {
+   "text": "в",
+   "startMs": 6190,
+   "endMs": 6270,
+   "scene": 0
+  },
+  {
+   "text": "эти",
+   "startMs": 6210,
+   "endMs": 6540,
+   "scene": 0
+  },
+  {
+   "text": "первые",
+   "startMs": 6540,
+   "endMs": 7260,
+   "scene": 0
+  },
+  {
+   "text": "дни",
+   "startMs": 7260,
+   "endMs": 7480,
+   "scene": 0
+  },
+  {
+   "text": "встаёт",
+   "startMs": 7480,
+   "endMs": 8130,
+   "scene": 0
+  },
+  {
+   "text": "следующий",
+   "startMs": 8130,
+   "endMs": 8540,
+   "scene": 0
+  },
+  {
+   "text": "вопрос:",
+   "startMs": 8540,
+   "endMs": 9170,
+   "scene": 0
+  },
+  {
+   "text": "как",
+   "startMs": 9170,
+   "endMs": 9300,
+   "scene": 0
+  },
+  {
+   "text": "снова",
+   "startMs": 9300,
+   "endMs": 9670,
+   "scene": 0
+  },
+  {
+   "text": "ходить,",
+   "startMs": 9670,
+   "endMs": 10210,
+   "scene": 0
+  },
+  {
+   "text": "обслуживать",
+   "startMs": 10210,
+   "endMs": 10980,
+   "scene": 0
+  },
+  {
+   "text": "себя,",
+   "startMs": 10980,
+   "endMs": 11430,
+   "scene": 0
+  },
+  {
+   "text": "вернуться",
+   "startMs": 11430,
+   "endMs": 12040,
+   "scene": 0
+  },
+  {
+   "text": "домой?",
+   "startMs": 12040,
+   "endMs": 12660,
+   "scene": 0
+  },
+  {
+   "text": "Ответ —",
+   "startMs": 12660,
+   "endMs": 13690,
+   "scene": 0
+  },
+  {
+   "text": "медицинская",
+   "startMs": 13920,
+   "endMs": 14520,
+   "scene": 0
+  },
+  {
+   "text": "реабилитация.",
+   "startMs": 14520,
+   "endMs": 15870,
+   "scene": 0
+  },
+  {
+   "text": "Медицинская",
+   "startMs": 16479,
+   "endMs": 16750,
+   "scene": 1
+  },
+  {
+   "text": "реабилитация —",
+   "startMs": 16750,
+   "endMs": 17790,
+   "scene": 1
+  },
+  {
+   "text": "это",
+   "startMs": 17860,
+   "endMs": 18120,
+   "scene": 1
+  },
+  {
+   "text": "не",
+   "startMs": 18120,
+   "endMs": 18460,
+   "scene": 1
+  },
+  {
+   "text": "отдых",
+   "startMs": 18460,
+   "endMs": 18720,
+   "scene": 1
+  },
+  {
+   "text": "в",
+   "startMs": 18720,
+   "endMs": 18800,
+   "scene": 1
+  },
+  {
+   "text": "санатории",
+   "startMs": 18800,
+   "endMs": 19570,
+   "scene": 1
+  },
+  {
+   "text": "и",
+   "startMs": 19570,
+   "endMs": 19650,
+   "scene": 1
+  },
+  {
+   "text": "не",
+   "startMs": 19650,
+   "endMs": 19820,
+   "scene": 1
+  },
+  {
+   "text": "«просто",
+   "startMs": 19820,
+   "endMs": 20600,
+   "scene": 1
+  },
+  {
+   "text": "зарядка».",
+   "startMs": 20600,
+   "endMs": 21450,
+   "scene": 1
+  },
+  {
+   "text": "Это",
+   "startMs": 21450,
+   "endMs": 22460,
+   "scene": 1
+  },
+  {
+   "text": "часть",
+   "startMs": 22460,
+   "endMs": 22800,
+   "scene": 1
+  },
+  {
+   "text": "лечения.",
+   "startMs": 22800,
+   "endMs": 23650,
+   "scene": 1
+  },
+  {
+   "text": "Её",
+   "startMs": 23650,
+   "endMs": 23810,
+   "scene": 1
+  },
+  {
+   "text": "цель",
+   "startMs": 23810,
+   "endMs": 24150,
+   "scene": 1
+  },
+  {
+   "text": "записана",
+   "startMs": 24150,
+   "endMs": 24920,
+   "scene": 1
+  },
+  {
+   "text": "в",
+   "startMs": 24920,
+   "endMs": 25000,
+   "scene": 1
+  },
+  {
+   "text": "законе:",
+   "startMs": 24920,
+   "endMs": 25430,
+   "scene": 1
+  },
+  {
+   "text": "восстановить",
+   "startMs": 25510,
+   "endMs": 26720,
+   "scene": 1
+  },
+  {
+   "text": "то,",
+   "startMs": 26720,
+   "endMs": 26890,
+   "scene": 1
+  },
+  {
+   "text": "что",
+   "startMs": 26890,
+   "endMs": 27180,
+   "scene": 1
+  },
+  {
+   "text": "нарушила",
+   "startMs": 27180,
+   "endMs": 27840,
+   "scene": 1
+  },
+  {
+   "text": "болезнь",
+   "startMs": 27840,
+   "endMs": 28700,
+   "scene": 1
+  },
+  {
+   "text": "или",
+   "startMs": 28700,
+   "endMs": 29000,
+   "scene": 1
+  },
+  {
+   "text": "травма,",
+   "startMs": 29000,
+   "endMs": 29560,
+   "scene": 1
+  },
+  {
+   "text": "а",
+   "startMs": 29560,
+   "endMs": 29730,
+   "scene": 1
+  },
+  {
+   "text": "если",
+   "startMs": 29730,
+   "endMs": 30300,
+   "scene": 1
+  },
+  {
+   "text": "полностью",
+   "startMs": 30300,
+   "endMs": 30990,
+   "scene": 1
+  },
+  {
+   "text": "не",
+   "startMs": 30990,
+   "endMs": 31150,
+   "scene": 1
+  },
+  {
+   "text": "получается —",
+   "startMs": 31150,
+   "endMs": 32050,
+   "scene": 1
+  },
+  {
+   "text": "научиться",
+   "startMs": 32050,
+   "endMs": 32860,
+   "scene": 1
+  },
+  {
+   "text": "это",
+   "startMs": 32860,
+   "endMs": 32960,
+   "scene": 1
+  },
+  {
+   "text": "компенсировать.",
+   "startMs": 32960,
+   "endMs": 34250,
+   "scene": 1
+  },
+  {
+   "text": "Чтобы",
+   "startMs": 34250,
+   "endMs": 34680,
+   "scene": 1
+  },
+  {
+   "text": "вы",
+   "startMs": 34680,
+   "endMs": 34780,
+   "scene": 1
+  },
+  {
+   "text": "снова",
+   "startMs": 34780,
+   "endMs": 35160,
+   "scene": 1
+  },
+  {
+   "text": "могли",
+   "startMs": 35160,
+   "endMs": 35540,
+   "scene": 1
+  },
+  {
+   "text": "ходить,",
+   "startMs": 35540,
+   "endMs": 36380,
+   "scene": 1
+  },
+  {
+   "text": "обслуживать",
+   "startMs": 36380,
+   "endMs": 37100,
+   "scene": 1
+  },
+  {
+   "text": "себя,",
+   "startMs": 37100,
+   "endMs": 37400,
+   "scene": 1
+  },
+  {
+   "text": "работать",
+   "startMs": 37780,
+   "endMs": 38180,
+   "scene": 1
+  },
+  {
+   "text": "и",
+   "startMs": 38180,
+   "endMs": 38430,
+   "scene": 1
+  },
+  {
+   "text": "жить",
+   "startMs": 38430,
+   "endMs": 38660,
+   "scene": 1
+  },
+  {
+   "text": "полной",
+   "startMs": 38660,
+   "endMs": 39470,
+   "scene": 1
+  },
+  {
+   "text": "жизнью.",
+   "startMs": 39470,
+   "endMs": 40090,
+   "scene": 1
+  },
+  {
+   "text": "Лечение",
+   "startMs": 40759,
+   "endMs": 40839,
+   "scene": 2
+  },
+  {
+   "text": "в",
+   "startMs": 40770,
+   "endMs": 40860,
+   "scene": 2
+  },
+  {
+   "text": "больнице",
+   "startMs": 40860,
+   "endMs": 41720,
+   "scene": 2
+  },
+  {
+   "text": "борется",
+   "startMs": 41720,
+   "endMs": 42350,
+   "scene": 2
+  },
+  {
+   "text": "с",
+   "startMs": 42350,
+   "endMs": 42430,
+   "scene": 2
+  },
+  {
+   "text": "причиной",
+   "startMs": 42400,
+   "endMs": 43170,
+   "scene": 2
+  },
+  {
+   "text": "болезни",
+   "startMs": 43170,
+   "endMs": 43940,
+   "scene": 2
+  },
+  {
+   "text": "и",
+   "startMs": 43940,
+   "endMs": 44020,
+   "scene": 2
+  },
+  {
+   "text": "острыми",
+   "startMs": 43990,
+   "endMs": 44780,
+   "scene": 2
+  },
+  {
+   "text": "симптомами.",
+   "startMs": 44780,
+   "endMs": 45480,
+   "scene": 2
+  },
+  {
+   "text": "Реабилитация",
+   "startMs": 46300,
+   "endMs": 46940,
+   "scene": 2
+  },
+  {
+   "text": "работает",
+   "startMs": 46940,
+   "endMs": 47020,
+   "scene": 2
+  },
+  {
+   "text": "с",
+   "startMs": 47010,
+   "endMs": 47150,
+   "scene": 2
+  },
+  {
+   "text": "последствиями:",
+   "startMs": 47150,
+   "endMs": 48230,
+   "scene": 2
+  },
+  {
+   "text": "что",
+   "startMs": 48230,
+   "endMs": 48430,
+   "scene": 2
+  },
+  {
+   "text": "вам",
+   "startMs": 48430,
+   "endMs": 48860,
+   "scene": 2
+  },
+  {
+   "text": "сейчас",
+   "startMs": 48860,
+   "endMs": 49160,
+   "scene": 2
+  },
+  {
+   "text": "трудно",
+   "startMs": 49160,
+   "endMs": 49620,
+   "scene": 2
+  },
+  {
+   "text": "делать",
+   "startMs": 49620,
+   "endMs": 50160,
+   "scene": 2
+  },
+  {
+   "text": "и",
+   "startMs": 50160,
+   "endMs": 50240,
+   "scene": 2
+  },
+  {
+   "text": "что",
+   "startMs": 50240,
+   "endMs": 50390,
+   "scene": 2
+  },
+  {
+   "text": "для",
+   "startMs": 50390,
+   "endMs": 50680,
+   "scene": 2
+  },
+  {
+   "text": "вас",
+   "startMs": 50680,
+   "endMs": 50860,
+   "scene": 2
+  },
+  {
+   "text": "важно",
+   "startMs": 50860,
+   "endMs": 51420,
+   "scene": 2
+  },
+  {
+   "text": "вернуть.",
+   "startMs": 51420,
+   "endMs": 51860,
+   "scene": 2
+  },
+  {
+   "text": "Поэтому",
+   "startMs": 52810,
+   "endMs": 52890,
+   "scene": 2
+  },
+  {
+   "text": "смотрят",
+   "startMs": 52890,
+   "endMs": 53410,
+   "scene": 2
+  },
+  {
+   "text": "не",
+   "startMs": 53410,
+   "endMs": 53590,
+   "scene": 2
+  },
+  {
+   "text": "только",
+   "startMs": 53590,
+   "endMs": 54060,
+   "scene": 2
+  },
+  {
+   "text": "на",
+   "startMs": 54060,
+   "endMs": 54190,
+   "scene": 2
+  },
+  {
+   "text": "диагноз,",
+   "startMs": 54190,
+   "endMs": 54910,
+   "scene": 2
+  },
+  {
+   "text": "но",
+   "startMs": 54910,
+   "endMs": 55070,
+   "scene": 2
+  },
+  {
+   "text": "и",
+   "startMs": 55070,
+   "endMs": 55150,
+   "scene": 2
+  },
+  {
+   "text": "на",
+   "startMs": 55150,
+   "endMs": 55310,
+   "scene": 2
+  },
+  {
+   "text": "вашу",
+   "startMs": 55310,
+   "endMs": 55630,
+   "scene": 2
+  },
+  {
+   "text": "повседневную",
+   "startMs": 55630,
+   "endMs": 56620,
+   "scene": 2
+  },
+  {
+   "text": "жизнь —",
+   "startMs": 56620,
+   "endMs": 57000,
+   "scene": 2
+  },
+  {
+   "text": "и",
+   "startMs": 57000,
+   "endMs": 57080,
+   "scene": 2
+  },
+  {
+   "text": "цели",
+   "startMs": 57070,
+   "endMs": 57400,
+   "scene": 2
+  },
+  {
+   "text": "ставят",
+   "startMs": 57400,
+   "endMs": 58000,
+   "scene": 2
+  },
+  {
+   "text": "вместе",
+   "startMs": 58000,
+   "endMs": 58440,
+   "scene": 2
+  },
+  {
+   "text": "с",
+   "startMs": 58440,
+   "endMs": 58520,
+   "scene": 2
+  },
+  {
+   "text": "вами.",
+   "startMs": 58520,
+   "endMs": 58760,
+   "scene": 2
+  },
+  {
+   "text": "Например:",
+   "startMs": 59540,
+   "endMs": 59840,
+   "scene": 2
+  },
+  {
+   "text": "самому",
+   "startMs": 59840,
+   "endMs": 60170,
+   "scene": 2
+  },
+  {
+   "text": "дойти",
+   "startMs": 60170,
+   "endMs": 60500,
+   "scene": 2
+  },
+  {
+   "text": "до",
+   "startMs": 60500,
+   "endMs": 60630,
+   "scene": 2
+  },
+  {
+   "text": "магазина",
+   "startMs": 60630,
+   "endMs": 61360,
+   "scene": 2
+  },
+  {
+   "text": "или",
+   "startMs": 61360,
+   "endMs": 61650,
+   "scene": 2
+  },
+  {
+   "text": "подняться",
+   "startMs": 61650,
+   "endMs": 62360,
+   "scene": 2
+  },
+  {
+   "text": "на",
+   "startMs": 62360,
+   "endMs": 62500,
+   "scene": 2
+  },
+  {
+   "text": "свой",
+   "startMs": 62500,
+   "endMs": 62840,
+   "scene": 2
+  },
+  {
+   "text": "этаж.",
+   "startMs": 62840,
+   "endMs": 63520,
+   "scene": 2
+  },
+  {
+   "text": "Реабилитацию",
+   "startMs": 64622,
+   "endMs": 65010,
+   "scene": 3
+  },
+  {
+   "text": "начинают",
+   "startMs": 65010,
+   "endMs": 66010,
+   "scene": 3
+  },
+  {
+   "text": "как",
+   "startMs": 66010,
+   "endMs": 66470,
+   "scene": 3
+  },
+  {
+   "text": "можно",
+   "startMs": 66470,
+   "endMs": 66660,
+   "scene": 3
+  },
+  {
+   "text": "раньше —",
+   "startMs": 66660,
+   "endMs": 67310,
+   "scene": 3
+  },
+  {
+   "text": "уже",
+   "startMs": 67310,
+   "endMs": 67540,
+   "scene": 3
+  },
+  {
+   "text": "в",
+   "startMs": 67540,
+   "endMs": 67620,
+   "scene": 3
+  },
+  {
+   "text": "реанимации.",
+   "startMs": 67620,
+   "endMs": 68660,
+   "scene": 3
+  },
+  {
+   "text": "Это",
+   "startMs": 68660,
+   "endMs": 68900,
+   "scene": 3
+  },
+  {
+   "text": "первый",
+   "startMs": 68900,
+   "endMs": 69380,
+   "scene": 3
+  },
+  {
+   "text": "этап,",
+   "startMs": 69380,
+   "endMs": 69940,
+   "scene": 3
+  },
+  {
+   "text": "его",
+   "startMs": 69940,
+   "endMs": 70100,
+   "scene": 3
+  },
+  {
+   "text": "называют",
+   "startMs": 70100,
+   "endMs": 70740,
+   "scene": 3
+  },
+  {
+   "text": "ранней",
+   "startMs": 70740,
+   "endMs": 71220,
+   "scene": 3
+  },
+  {
+   "text": "реабилитацией.",
+   "startMs": 71220,
+   "endMs": 72500,
+   "scene": 3
+  },
+  {
+   "text": "Затем —",
+   "startMs": 72500,
+   "endMs": 73000,
+   "scene": 3
+  },
+  {
+   "text": "отделение",
+   "startMs": 73080,
+   "endMs": 73820,
+   "scene": 3
+  },
+  {
+   "text": "реабилитации,",
+   "startMs": 73820,
+   "endMs": 75090,
+   "scene": 3
+  },
+  {
+   "text": "а",
+   "startMs": 75090,
+   "endMs": 75170,
+   "scene": 3
+  },
+  {
+   "text": "потом",
+   "startMs": 75170,
+   "endMs": 75640,
+   "scene": 3
+  },
+  {
+   "text": "поликлиника",
+   "startMs": 75640,
+   "endMs": 76650,
+   "scene": 3
+  },
+  {
+   "text": "или",
+   "startMs": 76650,
+   "endMs": 76930,
+   "scene": 3
+  },
+  {
+   "text": "занятия",
+   "startMs": 76930,
+   "endMs": 77760,
+   "scene": 3
+  },
+  {
+   "text": "дома.",
+   "startMs": 77760,
+   "endMs": 77968,
+   "scene": 3
+  },
+  {
+   "text": "В",
+   "startMs": 78518,
+   "endMs": 78598,
+   "scene": 4
+  },
+  {
+   "text": "отделении",
+   "startMs": 78518,
+   "endMs": 79150,
+   "scene": 4
+  },
+  {
+   "text": "реабилитации",
+   "startMs": 79150,
+   "endMs": 80240,
+   "scene": 4
+  },
+  {
+   "text": "с",
+   "startMs": 80240,
+   "endMs": 80330,
+   "scene": 4
+  },
+  {
+   "text": "вами",
+   "startMs": 80330,
+   "endMs": 80840,
+   "scene": 4
+  },
+  {
+   "text": "работает",
+   "startMs": 80840,
+   "endMs": 81360,
+   "scene": 4
+  },
+  {
+   "text": "целая",
+   "startMs": 81680,
+   "endMs": 82320,
+   "scene": 4
+  },
+  {
+   "text": "команда.",
+   "startMs": 82320,
+   "endMs": 82680,
+   "scene": 4
+  },
+  {
+   "text": "Врач",
+   "startMs": 82680,
+   "endMs": 83030,
+   "scene": 4
+  },
+  {
+   "text": "физической",
+   "startMs": 83030,
+   "endMs": 83870,
+   "scene": 4
+  },
+  {
+   "text": "и",
+   "startMs": 83870,
+   "endMs": 83950,
+   "scene": 4
+  },
+  {
+   "text": "реабилитационной",
+   "startMs": 83930,
+   "endMs": 85530,
+   "scene": 4
+  },
+  {
+   "text": "медицины",
+   "startMs": 85530,
+   "endMs": 85880,
+   "scene": 4
+  },
+  {
+   "text": "руководит",
+   "startMs": 85880,
+   "endMs": 86700,
+   "scene": 4
+  },
+  {
+   "text": "вашей",
+   "startMs": 86700,
+   "endMs": 87000,
+   "scene": 4
+  },
+  {
+   "text": "программой.",
+   "startMs": 87000,
+   "endMs": 88200,
+   "scene": 4
+  },
+  {
+   "text": "Инструктор",
+   "startMs": 88200,
+   "endMs": 88940,
+   "scene": 4
+  },
+  {
+   "text": "лечебной",
+   "startMs": 88940,
+   "endMs": 89550,
+   "scene": 4
+  },
+  {
+   "text": "физкультуры",
+   "startMs": 89550,
+   "endMs": 90330,
+   "scene": 4
+  },
+  {
+   "text": "восстанавливает",
+   "startMs": 90330,
+   "endMs": 91470,
+   "scene": 4
+  },
+  {
+   "text": "движение.",
+   "startMs": 91470,
+   "endMs": 92270,
+   "scene": 4
+  },
+  {
+   "text": "Эрготерапевт",
+   "startMs": 92270,
+   "endMs": 93150,
+   "scene": 4
+  },
+  {
+   "text": "возвращает",
+   "startMs": 93150,
+   "endMs": 93890,
+   "scene": 4
+  },
+  {
+   "text": "бытовые",
+   "startMs": 93890,
+   "endMs": 94560,
+   "scene": 4
+  },
+  {
+   "text": "навыки:",
+   "startMs": 94560,
+   "endMs": 94640,
+   "scene": 4
+  },
+  {
+   "text": "одеться,",
+   "startMs": 94610,
+   "endMs": 95200,
+   "scene": 4
+  },
+  {
+   "text": "поесть,",
+   "startMs": 95200,
+   "endMs": 96710,
+   "scene": 4
+  },
+  {
+   "text": "умыться.",
+   "startMs": 96710,
+   "endMs": 97520,
+   "scene": 4
+  },
+  {
+   "text": "Клинический",
+   "startMs": 97520,
+   "endMs": 98510,
+   "scene": 4
+  },
+  {
+   "text": "психолог",
+   "startMs": 98510,
+   "endMs": 99040,
+   "scene": 4
+  },
+  {
+   "text": "помогает",
+   "startMs": 99040,
+   "endMs": 99690,
+   "scene": 4
+  },
+  {
+   "text": "с",
+   "startMs": 99690,
+   "endMs": 99770,
+   "scene": 4
+  },
+  {
+   "text": "настроением,",
+   "startMs": 99760,
+   "endMs": 100900,
+   "scene": 4
+  },
+  {
+   "text": "памятью",
+   "startMs": 100900,
+   "endMs": 101680,
+   "scene": 4
+  },
+  {
+   "text": "и",
+   "startMs": 101680,
+   "endMs": 101820,
+   "scene": 4
+  },
+  {
+   "text": "вниманием,",
+   "startMs": 101820,
+   "endMs": 102750,
+   "scene": 4
+  },
+  {
+   "text": "клинический",
+   "startMs": 102750,
+   "endMs": 103670,
+   "scene": 4
+  },
+  {
+   "text": "логопед —",
+   "startMs": 103670,
+   "endMs": 104340,
+   "scene": 4
+  },
+  {
+   "text": "с",
+   "startMs": 104380,
+   "endMs": 104460,
+   "scene": 4
+  },
+  {
+   "text": "речью",
+   "startMs": 104420,
+   "endMs": 104840,
+   "scene": 4
+  },
+  {
+   "text": "и",
+   "startMs": 104840,
+   "endMs": 104920,
+   "scene": 4
+  },
+  {
+   "text": "глотанием.",
+   "startMs": 104920,
+   "endMs": 105930,
+   "scene": 4
+  },
+  {
+   "text": "А",
+   "startMs": 105930,
+   "endMs": 106010,
+   "scene": 4
+  },
+  {
+   "text": "медицинская",
+   "startMs": 106010,
+   "endMs": 106940,
+   "scene": 4
+  },
+  {
+   "text": "сестра",
+   "startMs": 106940,
+   "endMs": 107720,
+   "scene": 4
+  },
+  {
+   "text": "по",
+   "startMs": 107720,
+   "endMs": 107800,
+   "scene": 4
+  },
+  {
+   "text": "реабилитации",
+   "startMs": 107720,
+   "endMs": 108440,
+   "scene": 4
+  },
+  {
+   "text": "помогает",
+   "startMs": 109110,
+   "endMs": 109440,
+   "scene": 4
+  },
+  {
+   "text": "закреплять",
+   "startMs": 109440,
+   "endMs": 110410,
+   "scene": 4
+  },
+  {
+   "text": "навыки",
+   "startMs": 110410,
+   "endMs": 110870,
+   "scene": 4
+  },
+  {
+   "text": "каждый",
+   "startMs": 110870,
+   "endMs": 111420,
+   "scene": 4
+  },
+  {
+   "text": "день.",
+   "startMs": 111420,
+   "endMs": 112050,
+   "scene": 4
+  },
+  {
+   "text": "И",
+   "startMs": 112050,
+   "endMs": 112140,
+   "scene": 4
+  },
+  {
+   "text": "в",
+   "startMs": 112140,
+   "endMs": 112230,
+   "scene": 4
+  },
+  {
+   "text": "этой",
+   "startMs": 112230,
+   "endMs": 112670,
+   "scene": 4
+  },
+  {
+   "text": "команде",
+   "startMs": 112670,
+   "endMs": 113240,
+   "scene": 4
+  },
+  {
+   "text": "есть",
+   "startMs": 113240,
+   "endMs": 113470,
+   "scene": 4
+  },
+  {
+   "text": "ещё",
+   "startMs": 113470,
+   "endMs": 113640,
+   "scene": 4
+  },
+  {
+   "text": "двое",
+   "startMs": 113640,
+   "endMs": 113860,
+   "scene": 4
+  },
+  {
+   "text": "важных",
+   "startMs": 113860,
+   "endMs": 114240,
+   "scene": 4
+  },
+  {
+   "text": "участников:",
+   "startMs": 114240,
+   "endMs": 115240,
+   "scene": 4
+  },
+  {
+   "text": "вы",
+   "startMs": 115240,
+   "endMs": 115320,
+   "scene": 4
+  },
+  {
+   "text": "сами",
+   "startMs": 115650,
+   "endMs": 115890,
+   "scene": 4
+  },
+  {
+   "text": "и",
+   "startMs": 115890,
+   "endMs": 115970,
+   "scene": 4
+  },
+  {
+   "text": "ваши",
+   "startMs": 115900,
+   "endMs": 116430,
+   "scene": 4
+  },
+  {
+   "text": "близкие.",
+   "startMs": 116430,
+   "endMs": 117764,
+   "scene": 4
+  },
+  {
+   "text": "И",
+   "startMs": 118314,
+   "endMs": 118394,
+   "scene": 5
+  },
+  {
+   "text": "важно",
+   "startMs": 118314,
+   "endMs": 118510,
+   "scene": 5
+  },
+  {
+   "text": "знать:",
+   "startMs": 118510,
+   "endMs": 119430,
+   "scene": 5
+  },
+  {
+   "text": "при",
+   "startMs": 119430,
+   "endMs": 120070,
+   "scene": 5
+  },
+  {
+   "text": "медицинских",
+   "startMs": 120070,
+   "endMs": 120630,
+   "scene": 5
+  },
+  {
+   "text": "показаниях",
+   "startMs": 120630,
+   "endMs": 121760,
+   "scene": 5
+  },
+  {
+   "text": "реабилитация",
+   "startMs": 121760,
+   "endMs": 122440,
+   "scene": 5
+  },
+  {
+   "text": "проводится",
+   "startMs": 122440,
+   "endMs": 123370,
+   "scene": 5
+  },
+  {
+   "text": "бесплатно,",
+   "startMs": 123370,
+   "endMs": 124380,
+   "scene": 5
+  },
+  {
+   "text": "по",
+   "startMs": 124380,
+   "endMs": 124550,
+   "scene": 5
+  },
+  {
+   "text": "полису",
+   "startMs": 124550,
+   "endMs": 125120,
+   "scene": 5
+  },
+  {
+   "text": "ОМС.",
+   "startMs": 125120,
+   "endMs": 125760,
+   "scene": 5
+  },
+  {
+   "text": "Что",
+   "startMs": 125760,
+   "endMs": 126000,
+   "scene": 5
+  },
+  {
+   "text": "можно",
+   "startMs": 126000,
+   "endMs": 126390,
+   "scene": 5
+  },
+  {
+   "text": "сделать",
+   "startMs": 126390,
+   "endMs": 126960,
+   "scene": 5
+  },
+  {
+   "text": "уже",
+   "startMs": 126960,
+   "endMs": 127200,
+   "scene": 5
+  },
+  {
+   "text": "сейчас?",
+   "startMs": 127200,
+   "endMs": 127720,
+   "scene": 5
+  },
+  {
+   "text": "Спросите",
+   "startMs": 127720,
+   "endMs": 129080,
+   "scene": 5
+  },
+  {
+   "text": "лечащего",
+   "startMs": 129080,
+   "endMs": 129680,
+   "scene": 5
+  },
+  {
+   "text": "врача:",
+   "startMs": 129680,
+   "endMs": 130330,
+   "scene": 5
+  },
+  {
+   "text": "нужна",
+   "startMs": 130330,
+   "endMs": 130700,
+   "scene": 5
+  },
+  {
+   "text": "ли",
+   "startMs": 130700,
+   "endMs": 130870,
+   "scene": 5
+  },
+  {
+   "text": "мне",
+   "startMs": 130870,
+   "endMs": 131130,
+   "scene": 5
+  },
+  {
+   "text": "реабилитация,",
+   "startMs": 131130,
+   "endMs": 132320,
+   "scene": 5
+  },
+  {
+   "text": "когда",
+   "startMs": 132320,
+   "endMs": 132750,
+   "scene": 5
+  },
+  {
+   "text": "её",
+   "startMs": 132750,
+   "endMs": 132940,
+   "scene": 5
+  },
+  {
+   "text": "начинать",
+   "startMs": 132940,
+   "endMs": 133630,
+   "scene": 5
+  },
+  {
+   "text": "и",
+   "startMs": 133630,
+   "endMs": 133710,
+   "scene": 5
+  },
+  {
+   "text": "куда",
+   "startMs": 133690,
+   "endMs": 134060,
+   "scene": 5
+  },
+  {
+   "text": "меня",
+   "startMs": 134060,
+   "endMs": 134510,
+   "scene": 5
+  },
+  {
+   "text": "направят.",
+   "startMs": 134510,
+   "endMs": 135100,
+   "scene": 5
+  },
+  {
+   "text": "А",
+   "startMs": 135100,
+   "endMs": 135890,
+   "scene": 5
+  },
+  {
+   "text": "в",
+   "startMs": 135890,
+   "endMs": 136080,
+   "scene": 5
+  },
+  {
+   "text": "следующем",
+   "startMs": 136080,
+   "endMs": 136600,
+   "scene": 5
+  },
+  {
+   "text": "выпуске",
+   "startMs": 136600,
+   "endMs": 137250,
+   "scene": 5
+  },
+  {
+   "text": "разберём,",
+   "startMs": 137250,
+   "endMs": 137700,
+   "scene": 5
+  },
+  {
+   "text": "кому",
+   "startMs": 137700,
+   "endMs": 137950,
+   "scene": 5
+  },
+  {
+   "text": "она",
+   "startMs": 137950,
+   "endMs": 138290,
+   "scene": 5
+  },
+  {
+   "text": "нужна.",
+   "startMs": 138290,
+   "endMs": 138720,
+   "scene": 5
+  }
+ ],
+ "pages": [
+  {
+   "startMs": 400,
+   "endMs": 3690,
+   "text": "После инсульта, операции или тяжёлой травмы",
+   "words": [
+    {
+     "text": "После",
+     "startMs": 400,
+     "endMs": 640,
+     "scene": 0
+    },
+    {
+     "text": "инсульта,",
+     "startMs": 640,
+     "endMs": 1360,
+     "scene": 0
+    },
+    {
+     "text": "операции",
+     "startMs": 1360,
+     "endMs": 2100,
+     "scene": 0
+    },
+    {
+     "text": "или",
+     "startMs": 2100,
+     "endMs": 2560,
+     "scene": 0
+    },
+    {
+     "text": "тяжёлой",
+     "startMs": 2560,
+     "endMs": 3000,
+     "scene": 0
+    },
+    {
+     "text": "травмы",
+     "startMs": 3000,
+     "endMs": 3690,
+     "scene": 0
+    }
+   ]
+  },
+  {
+   "startMs": 3690,
+   "endMs": 5500,
+   "text": "врачи сначала спасают жизнь.",
+   "words": [
+    {
+     "text": "врачи",
+     "startMs": 3690,
+     "endMs": 3950,
+     "scene": 0
+    },
+    {
+     "text": "сначала",
+     "startMs": 3950,
+     "endMs": 4430,
+     "scene": 0
+    },
+    {
+     "text": "спасают",
+     "startMs": 4430,
+     "endMs": 4900,
+     "scene": 0
+    },
+    {
+     "text": "жизнь.",
+     "startMs": 4900,
+     "endMs": 5500,
+     "scene": 0
+    }
+   ]
+  },
+  {
+   "startMs": 5500,
+   "endMs": 7480,
+   "text": "Но уже в эти первые дни",
+   "words": [
+    {
+     "text": "Но",
+     "startMs": 5500,
+     "endMs": 6080,
+     "scene": 0
+    },
+    {
+     "text": "уже",
+     "startMs": 6080,
+     "endMs": 6190,
+     "scene": 0
+    },
+    {
+     "text": "в",
+     "startMs": 6190,
+     "endMs": 6270,
+     "scene": 0
+    },
+    {
+     "text": "эти",
+     "startMs": 6210,
+     "endMs": 6540,
+     "scene": 0
+    },
+    {
+     "text": "первые",
+     "startMs": 6540,
+     "endMs": 7260,
+     "scene": 0
+    },
+    {
+     "text": "дни",
+     "startMs": 7260,
+     "endMs": 7480,
+     "scene": 0
+    }
+   ]
+  },
+  {
+   "startMs": 7480,
+   "endMs": 10210,
+   "text": "встаёт следующий вопрос: как снова ходить,",
+   "words": [
+    {
+     "text": "встаёт",
+     "startMs": 7480,
+     "endMs": 8130,
+     "scene": 0
+    },
+    {
+     "text": "следующий",
+     "startMs": 8130,
+     "endMs": 8540,
+     "scene": 0
+    },
+    {
+     "text": "вопрос:",
+     "startMs": 8540,
+     "endMs": 9170,
+     "scene": 0
+    },
+    {
+     "text": "как",
+     "startMs": 9170,
+     "endMs": 9300,
+     "scene": 0
+    },
+    {
+     "text": "снова",
+     "startMs": 9300,
+     "endMs": 9670,
+     "scene": 0
+    },
+    {
+     "text": "ходить,",
+     "startMs": 9670,
+     "endMs": 10210,
+     "scene": 0
+    }
+   ]
+  },
+  {
+   "startMs": 10210,
+   "endMs": 13920,
+   "text": "обслуживать себя, вернуться домой? Ответ —",
+   "words": [
+    {
+     "text": "обслуживать",
+     "startMs": 10210,
+     "endMs": 10980,
+     "scene": 0
+    },
+    {
+     "text": "себя,",
+     "startMs": 10980,
+     "endMs": 11430,
+     "scene": 0
+    },
+    {
+     "text": "вернуться",
+     "startMs": 11430,
+     "endMs": 12040,
+     "scene": 0
+    },
+    {
+     "text": "домой?",
+     "startMs": 12040,
+     "endMs": 12660,
+     "scene": 0
+    },
+    {
+     "text": "Ответ —",
+     "startMs": 12660,
+     "endMs": 13690,
+     "scene": 0
+    }
+   ]
+  },
+  {
+   "startMs": 13920,
+   "endMs": 16479,
+   "text": "медицинская реабилитация.",
+   "words": [
+    {
+     "text": "медицинская",
+     "startMs": 13920,
+     "endMs": 14520,
+     "scene": 0
+    },
+    {
+     "text": "реабилитация.",
+     "startMs": 14520,
+     "endMs": 15870,
+     "scene": 0
+    }
+   ]
+  },
+  {
+   "startMs": 16479,
+   "endMs": 17860,
+   "text": "Медицинская реабилитация —",
+   "words": [
+    {
+     "text": "Медицинская",
+     "startMs": 16479,
+     "endMs": 16750,
+     "scene": 1
+    },
+    {
+     "text": "реабилитация —",
+     "startMs": 16750,
+     "endMs": 17790,
+     "scene": 1
+    }
+   ]
+  },
+  {
+   "startMs": 17860,
+   "endMs": 19570,
+   "text": "это не отдых в санатории",
+   "words": [
+    {
+     "text": "это",
+     "startMs": 17860,
+     "endMs": 18120,
+     "scene": 1
+    },
+    {
+     "text": "не",
+     "startMs": 18120,
+     "endMs": 18460,
+     "scene": 1
+    },
+    {
+     "text": "отдых",
+     "startMs": 18460,
+     "endMs": 18720,
+     "scene": 1
+    },
+    {
+     "text": "в",
+     "startMs": 18720,
+     "endMs": 18800,
+     "scene": 1
+    },
+    {
+     "text": "санатории",
+     "startMs": 18800,
+     "endMs": 19570,
+     "scene": 1
+    }
+   ]
+  },
+  {
+   "startMs": 19570,
+   "endMs": 23650,
+   "text": "и не «просто зарядка». Это часть лечения.",
+   "words": [
+    {
+     "text": "и",
+     "startMs": 19570,
+     "endMs": 19650,
+     "scene": 1
+    },
+    {
+     "text": "не",
+     "startMs": 19650,
+     "endMs": 19820,
+     "scene": 1
+    },
+    {
+     "text": "«просто",
+     "startMs": 19820,
+     "endMs": 20600,
+     "scene": 1
+    },
+    {
+     "text": "зарядка».",
+     "startMs": 20600,
+     "endMs": 21450,
+     "scene": 1
+    },
+    {
+     "text": "Это",
+     "startMs": 21450,
+     "endMs": 22460,
+     "scene": 1
+    },
+    {
+     "text": "часть",
+     "startMs": 22460,
+     "endMs": 22800,
+     "scene": 1
+    },
+    {
+     "text": "лечения.",
+     "startMs": 22800,
+     "endMs": 23650,
+     "scene": 1
+    }
+   ]
+  },
+  {
+   "startMs": 23650,
+   "endMs": 26890,
+   "text": "Её цель записана в законе: восстановить то,",
+   "words": [
+    {
+     "text": "Её",
+     "startMs": 23650,
+     "endMs": 23810,
+     "scene": 1
+    },
+    {
+     "text": "цель",
+     "startMs": 23810,
+     "endMs": 24150,
+     "scene": 1
+    },
+    {
+     "text": "записана",
+     "startMs": 24150,
+     "endMs": 24920,
+     "scene": 1
+    },
+    {
+     "text": "в",
+     "startMs": 24920,
+     "endMs": 25000,
+     "scene": 1
+    },
+    {
+     "text": "законе:",
+     "startMs": 24920,
+     "endMs": 25430,
+     "scene": 1
+    },
+    {
+     "text": "восстановить",
+     "startMs": 25510,
+     "endMs": 26720,
+     "scene": 1
+    },
+    {
+     "text": "то,",
+     "startMs": 26720,
+     "endMs": 26890,
+     "scene": 1
+    }
+   ]
+  },
+  {
+   "startMs": 26890,
+   "endMs": 29560,
+   "text": "что нарушила болезнь или травма,",
+   "words": [
+    {
+     "text": "что",
+     "startMs": 26890,
+     "endMs": 27180,
+     "scene": 1
+    },
+    {
+     "text": "нарушила",
+     "startMs": 27180,
+     "endMs": 27840,
+     "scene": 1
+    },
+    {
+     "text": "болезнь",
+     "startMs": 27840,
+     "endMs": 28700,
+     "scene": 1
+    },
+    {
+     "text": "или",
+     "startMs": 28700,
+     "endMs": 29000,
+     "scene": 1
+    },
+    {
+     "text": "травма,",
+     "startMs": 29000,
+     "endMs": 29560,
+     "scene": 1
+    }
+   ]
+  },
+  {
+   "startMs": 29560,
+   "endMs": 32050,
+   "text": "а если полностью не получается —",
+   "words": [
+    {
+     "text": "а",
+     "startMs": 29560,
+     "endMs": 29730,
+     "scene": 1
+    },
+    {
+     "text": "если",
+     "startMs": 29730,
+     "endMs": 30300,
+     "scene": 1
+    },
+    {
+     "text": "полностью",
+     "startMs": 30300,
+     "endMs": 30990,
+     "scene": 1
+    },
+    {
+     "text": "не",
+     "startMs": 30990,
+     "endMs": 31150,
+     "scene": 1
+    },
+    {
+     "text": "получается —",
+     "startMs": 31150,
+     "endMs": 32050,
+     "scene": 1
+    }
+   ]
+  },
+  {
+   "startMs": 32050,
+   "endMs": 34250,
+   "text": "научиться это компенсировать.",
+   "words": [
+    {
+     "text": "научиться",
+     "startMs": 32050,
+     "endMs": 32860,
+     "scene": 1
+    },
+    {
+     "text": "это",
+     "startMs": 32860,
+     "endMs": 32960,
+     "scene": 1
+    },
+    {
+     "text": "компенсировать.",
+     "startMs": 32960,
+     "endMs": 34250,
+     "scene": 1
+    }
+   ]
+  },
+  {
+   "startMs": 34250,
+   "endMs": 36380,
+   "text": "Чтобы вы снова могли ходить,",
+   "words": [
+    {
+     "text": "Чтобы",
+     "startMs": 34250,
+     "endMs": 34680,
+     "scene": 1
+    },
+    {
+     "text": "вы",
+     "startMs": 34680,
+     "endMs": 34780,
+     "scene": 1
+    },
+    {
+     "text": "снова",
+     "startMs": 34780,
+     "endMs": 35160,
+     "scene": 1
+    },
+    {
+     "text": "могли",
+     "startMs": 35160,
+     "endMs": 35540,
+     "scene": 1
+    },
+    {
+     "text": "ходить,",
+     "startMs": 35540,
+     "endMs": 36380,
+     "scene": 1
+    }
+   ]
+  },
+  {
+   "startMs": 36380,
+   "endMs": 37780,
+   "text": "обслуживать себя,",
+   "words": [
+    {
+     "text": "обслуживать",
+     "startMs": 36380,
+     "endMs": 37100,
+     "scene": 1
+    },
+    {
+     "text": "себя,",
+     "startMs": 37100,
+     "endMs": 37400,
+     "scene": 1
+    }
+   ]
+  },
+  {
+   "startMs": 37780,
+   "endMs": 40759,
+   "text": "работать и жить полной жизнью.",
+   "words": [
+    {
+     "text": "работать",
+     "startMs": 37780,
+     "endMs": 38180,
+     "scene": 1
+    },
+    {
+     "text": "и",
+     "startMs": 38180,
+     "endMs": 38430,
+     "scene": 1
+    },
+    {
+     "text": "жить",
+     "startMs": 38430,
+     "endMs": 38660,
+     "scene": 1
+    },
+    {
+     "text": "полной",
+     "startMs": 38660,
+     "endMs": 39470,
+     "scene": 1
+    },
+    {
+     "text": "жизнью.",
+     "startMs": 39470,
+     "endMs": 40090,
+     "scene": 1
+    }
+   ]
+  },
+  {
+   "startMs": 40759,
+   "endMs": 43170,
+   "text": "Лечение в больнице борется с причиной",
+   "words": [
+    {
+     "text": "Лечение",
+     "startMs": 40759,
+     "endMs": 40839,
+     "scene": 2
+    },
+    {
+     "text": "в",
+     "startMs": 40770,
+     "endMs": 40860,
+     "scene": 2
+    },
+    {
+     "text": "больнице",
+     "startMs": 40860,
+     "endMs": 41720,
+     "scene": 2
+    },
+    {
+     "text": "борется",
+     "startMs": 41720,
+     "endMs": 42350,
+     "scene": 2
+    },
+    {
+     "text": "с",
+     "startMs": 42350,
+     "endMs": 42430,
+     "scene": 2
+    },
+    {
+     "text": "причиной",
+     "startMs": 42400,
+     "endMs": 43170,
+     "scene": 2
+    }
+   ]
+  },
+  {
+   "startMs": 43170,
+   "endMs": 46300,
+   "text": "болезни и острыми симптомами.",
+   "words": [
+    {
+     "text": "болезни",
+     "startMs": 43170,
+     "endMs": 43940,
+     "scene": 2
+    },
+    {
+     "text": "и",
+     "startMs": 43940,
+     "endMs": 44020,
+     "scene": 2
+    },
+    {
+     "text": "острыми",
+     "startMs": 43990,
+     "endMs": 44780,
+     "scene": 2
+    },
+    {
+     "text": "симптомами.",
+     "startMs": 44780,
+     "endMs": 45480,
+     "scene": 2
+    }
+   ]
+  },
+  {
+   "startMs": 46300,
+   "endMs": 48230,
+   "text": "Реабилитация работает с последствиями:",
+   "words": [
+    {
+     "text": "Реабилитация",
+     "startMs": 46300,
+     "endMs": 46940,
+     "scene": 2
+    },
+    {
+     "text": "работает",
+     "startMs": 46940,
+     "endMs": 47020,
+     "scene": 2
+    },
+    {
+     "text": "с",
+     "startMs": 47010,
+     "endMs": 47150,
+     "scene": 2
+    },
+    {
+     "text": "последствиями:",
+     "startMs": 47150,
+     "endMs": 48230,
+     "scene": 2
+    }
+   ]
+  },
+  {
+   "startMs": 48230,
+   "endMs": 50160,
+   "text": "что вам сейчас трудно делать",
+   "words": [
+    {
+     "text": "что",
+     "startMs": 48230,
+     "endMs": 48430,
+     "scene": 2
+    },
+    {
+     "text": "вам",
+     "startMs": 48430,
+     "endMs": 48860,
+     "scene": 2
+    },
+    {
+     "text": "сейчас",
+     "startMs": 48860,
+     "endMs": 49160,
+     "scene": 2
+    },
+    {
+     "text": "трудно",
+     "startMs": 49160,
+     "endMs": 49620,
+     "scene": 2
+    },
+    {
+     "text": "делать",
+     "startMs": 49620,
+     "endMs": 50160,
+     "scene": 2
+    }
+   ]
+  },
+  {
+   "startMs": 50160,
+   "endMs": 52810,
+   "text": "и что для вас важно вернуть.",
+   "words": [
+    {
+     "text": "и",
+     "startMs": 50160,
+     "endMs": 50240,
+     "scene": 2
+    },
+    {
+     "text": "что",
+     "startMs": 50240,
+     "endMs": 50390,
+     "scene": 2
+    },
+    {
+     "text": "для",
+     "startMs": 50390,
+     "endMs": 50680,
+     "scene": 2
+    },
+    {
+     "text": "вас",
+     "startMs": 50680,
+     "endMs": 50860,
+     "scene": 2
+    },
+    {
+     "text": "важно",
+     "startMs": 50860,
+     "endMs": 51420,
+     "scene": 2
+    },
+    {
+     "text": "вернуть.",
+     "startMs": 51420,
+     "endMs": 51860,
+     "scene": 2
+    }
+   ]
+  },
+  {
+   "startMs": 52810,
+   "endMs": 54910,
+   "text": "Поэтому смотрят не только на диагноз,",
+   "words": [
+    {
+     "text": "Поэтому",
+     "startMs": 52810,
+     "endMs": 52890,
+     "scene": 2
+    },
+    {
+     "text": "смотрят",
+     "startMs": 52890,
+     "endMs": 53410,
+     "scene": 2
+    },
+    {
+     "text": "не",
+     "startMs": 53410,
+     "endMs": 53590,
+     "scene": 2
+    },
+    {
+     "text": "только",
+     "startMs": 53590,
+     "endMs": 54060,
+     "scene": 2
+    },
+    {
+     "text": "на",
+     "startMs": 54060,
+     "endMs": 54190,
+     "scene": 2
+    },
+    {
+     "text": "диагноз,",
+     "startMs": 54190,
+     "endMs": 54910,
+     "scene": 2
+    }
+   ]
+  },
+  {
+   "startMs": 54910,
+   "endMs": 57000,
+   "text": "но и на вашу повседневную жизнь —",
+   "words": [
+    {
+     "text": "но",
+     "startMs": 54910,
+     "endMs": 55070,
+     "scene": 2
+    },
+    {
+     "text": "и",
+     "startMs": 55070,
+     "endMs": 55150,
+     "scene": 2
+    },
+    {
+     "text": "на",
+     "startMs": 55150,
+     "endMs": 55310,
+     "scene": 2
+    },
+    {
+     "text": "вашу",
+     "startMs": 55310,
+     "endMs": 55630,
+     "scene": 2
+    },
+    {
+     "text": "повседневную",
+     "startMs": 55630,
+     "endMs": 56620,
+     "scene": 2
+    },
+    {
+     "text": "жизнь —",
+     "startMs": 56620,
+     "endMs": 57000,
+     "scene": 2
+    }
+   ]
+  },
+  {
+   "startMs": 57000,
+   "endMs": 59540,
+   "text": "и цели ставят вместе с вами.",
+   "words": [
+    {
+     "text": "и",
+     "startMs": 57000,
+     "endMs": 57080,
+     "scene": 2
+    },
+    {
+     "text": "цели",
+     "startMs": 57070,
+     "endMs": 57400,
+     "scene": 2
+    },
+    {
+     "text": "ставят",
+     "startMs": 57400,
+     "endMs": 58000,
+     "scene": 2
+    },
+    {
+     "text": "вместе",
+     "startMs": 58000,
+     "endMs": 58440,
+     "scene": 2
+    },
+    {
+     "text": "с",
+     "startMs": 58440,
+     "endMs": 58520,
+     "scene": 2
+    },
+    {
+     "text": "вами.",
+     "startMs": 58520,
+     "endMs": 58760,
+     "scene": 2
+    }
+   ]
+  },
+  {
+   "startMs": 59540,
+   "endMs": 61360,
+   "text": "Например: самому дойти до магазина",
+   "words": [
+    {
+     "text": "Например:",
+     "startMs": 59540,
+     "endMs": 59840,
+     "scene": 2
+    },
+    {
+     "text": "самому",
+     "startMs": 59840,
+     "endMs": 60170,
+     "scene": 2
+    },
+    {
+     "text": "дойти",
+     "startMs": 60170,
+     "endMs": 60500,
+     "scene": 2
+    },
+    {
+     "text": "до",
+     "startMs": 60500,
+     "endMs": 60630,
+     "scene": 2
+    },
+    {
+     "text": "магазина",
+     "startMs": 60630,
+     "endMs": 61360,
+     "scene": 2
+    }
+   ]
+  },
+  {
+   "startMs": 61360,
+   "endMs": 64622,
+   "text": "или подняться на свой этаж.",
+   "words": [
+    {
+     "text": "или",
+     "startMs": 61360,
+     "endMs": 61650,
+     "scene": 2
+    },
+    {
+     "text": "подняться",
+     "startMs": 61650,
+     "endMs": 62360,
+     "scene": 2
+    },
+    {
+     "text": "на",
+     "startMs": 62360,
+     "endMs": 62500,
+     "scene": 2
+    },
+    {
+     "text": "свой",
+     "startMs": 62500,
+     "endMs": 62840,
+     "scene": 2
+    },
+    {
+     "text": "этаж.",
+     "startMs": 62840,
+     "endMs": 63520,
+     "scene": 2
+    }
+   ]
+  },
+  {
+   "startMs": 64622,
+   "endMs": 67310,
+   "text": "Реабилитацию начинают как можно раньше —",
+   "words": [
+    {
+     "text": "Реабилитацию",
+     "startMs": 64622,
+     "endMs": 65010,
+     "scene": 3
+    },
+    {
+     "text": "начинают",
+     "startMs": 65010,
+     "endMs": 66010,
+     "scene": 3
+    },
+    {
+     "text": "как",
+     "startMs": 66010,
+     "endMs": 66470,
+     "scene": 3
+    },
+    {
+     "text": "можно",
+     "startMs": 66470,
+     "endMs": 66660,
+     "scene": 3
+    },
+    {
+     "text": "раньше —",
+     "startMs": 66660,
+     "endMs": 67310,
+     "scene": 3
+    }
+   ]
+  },
+  {
+   "startMs": 67310,
+   "endMs": 69940,
+   "text": "уже в реанимации. Это первый этап,",
+   "words": [
+    {
+     "text": "уже",
+     "startMs": 67310,
+     "endMs": 67540,
+     "scene": 3
+    },
+    {
+     "text": "в",
+     "startMs": 67540,
+     "endMs": 67620,
+     "scene": 3
+    },
+    {
+     "text": "реанимации.",
+     "startMs": 67620,
+     "endMs": 68660,
+     "scene": 3
+    },
+    {
+     "text": "Это",
+     "startMs": 68660,
+     "endMs": 68900,
+     "scene": 3
+    },
+    {
+     "text": "первый",
+     "startMs": 68900,
+     "endMs": 69380,
+     "scene": 3
+    },
+    {
+     "text": "этап,",
+     "startMs": 69380,
+     "endMs": 69940,
+     "scene": 3
+    }
+   ]
+  },
+  {
+   "startMs": 69940,
+   "endMs": 73080,
+   "text": "его называют ранней реабилитацией. Затем —",
+   "words": [
+    {
+     "text": "его",
+     "startMs": 69940,
+     "endMs": 70100,
+     "scene": 3
+    },
+    {
+     "text": "называют",
+     "startMs": 70100,
+     "endMs": 70740,
+     "scene": 3
+    },
+    {
+     "text": "ранней",
+     "startMs": 70740,
+     "endMs": 71220,
+     "scene": 3
+    },
+    {
+     "text": "реабилитацией.",
+     "startMs": 71220,
+     "endMs": 72500,
+     "scene": 3
+    },
+    {
+     "text": "Затем —",
+     "startMs": 72500,
+     "endMs": 73000,
+     "scene": 3
+    }
+   ]
+  },
+  {
+   "startMs": 73080,
+   "endMs": 75090,
+   "text": "отделение реабилитации,",
+   "words": [
+    {
+     "text": "отделение",
+     "startMs": 73080,
+     "endMs": 73820,
+     "scene": 3
+    },
+    {
+     "text": "реабилитации,",
+     "startMs": 73820,
+     "endMs": 75090,
+     "scene": 3
+    }
+   ]
+  },
+  {
+   "startMs": 75090,
+   "endMs": 78518,
+   "text": "а потом поликлиника или занятия дома.",
+   "words": [
+    {
+     "text": "а",
+     "startMs": 75090,
+     "endMs": 75170,
+     "scene": 3
+    },
+    {
+     "text": "потом",
+     "startMs": 75170,
+     "endMs": 75640,
+     "scene": 3
+    },
+    {
+     "text": "поликлиника",
+     "startMs": 75640,
+     "endMs": 76650,
+     "scene": 3
+    },
+    {
+     "text": "или",
+     "startMs": 76650,
+     "endMs": 76930,
+     "scene": 3
+    },
+    {
+     "text": "занятия",
+     "startMs": 76930,
+     "endMs": 77760,
+     "scene": 3
+    },
+    {
+     "text": "дома.",
+     "startMs": 77760,
+     "endMs": 77968,
+     "scene": 3
+    }
+   ]
+  },
+  {
+   "startMs": 78518,
+   "endMs": 80240,
+   "text": "В отделении реабилитации",
+   "words": [
+    {
+     "text": "В",
+     "startMs": 78518,
+     "endMs": 78598,
+     "scene": 4
+    },
+    {
+     "text": "отделении",
+     "startMs": 78518,
+     "endMs": 79150,
+     "scene": 4
+    },
+    {
+     "text": "реабилитации",
+     "startMs": 79150,
+     "endMs": 80240,
+     "scene": 4
+    }
+   ]
+  },
+  {
+   "startMs": 80240,
+   "endMs": 82680,
+   "text": "с вами работает целая команда.",
+   "words": [
+    {
+     "text": "с",
+     "startMs": 80240,
+     "endMs": 80330,
+     "scene": 4
+    },
+    {
+     "text": "вами",
+     "startMs": 80330,
+     "endMs": 80840,
+     "scene": 4
+    },
+    {
+     "text": "работает",
+     "startMs": 80840,
+     "endMs": 81360,
+     "scene": 4
+    },
+    {
+     "text": "целая",
+     "startMs": 81680,
+     "endMs": 82320,
+     "scene": 4
+    },
+    {
+     "text": "команда.",
+     "startMs": 82320,
+     "endMs": 82680,
+     "scene": 4
+    }
+   ]
+  },
+  {
+   "startMs": 82680,
+   "endMs": 85530,
+   "text": "Врач физической и реабилитационной",
+   "words": [
+    {
+     "text": "Врач",
+     "startMs": 82680,
+     "endMs": 83030,
+     "scene": 4
+    },
+    {
+     "text": "физической",
+     "startMs": 83030,
+     "endMs": 83870,
+     "scene": 4
+    },
+    {
+     "text": "и",
+     "startMs": 83870,
+     "endMs": 83950,
+     "scene": 4
+    },
+    {
+     "text": "реабилитационной",
+     "startMs": 83930,
+     "endMs": 85530,
+     "scene": 4
+    }
+   ]
+  },
+  {
+   "startMs": 85530,
+   "endMs": 88200,
+   "text": "медицины руководит вашей программой.",
+   "words": [
+    {
+     "text": "медицины",
+     "startMs": 85530,
+     "endMs": 85880,
+     "scene": 4
+    },
+    {
+     "text": "руководит",
+     "startMs": 85880,
+     "endMs": 86700,
+     "scene": 4
+    },
+    {
+     "text": "вашей",
+     "startMs": 86700,
+     "endMs": 87000,
+     "scene": 4
+    },
+    {
+     "text": "программой.",
+     "startMs": 87000,
+     "endMs": 88200,
+     "scene": 4
+    }
+   ]
+  },
+  {
+   "startMs": 88200,
+   "endMs": 90330,
+   "text": "Инструктор лечебной физкультуры",
+   "words": [
+    {
+     "text": "Инструктор",
+     "startMs": 88200,
+     "endMs": 88940,
+     "scene": 4
+    },
+    {
+     "text": "лечебной",
+     "startMs": 88940,
+     "endMs": 89550,
+     "scene": 4
+    },
+    {
+     "text": "физкультуры",
+     "startMs": 89550,
+     "endMs": 90330,
+     "scene": 4
+    }
+   ]
+  },
+  {
+   "startMs": 90330,
+   "endMs": 92270,
+   "text": "восстанавливает движение.",
+   "words": [
+    {
+     "text": "восстанавливает",
+     "startMs": 90330,
+     "endMs": 91470,
+     "scene": 4
+    },
+    {
+     "text": "движение.",
+     "startMs": 91470,
+     "endMs": 92270,
+     "scene": 4
+    }
+   ]
+  },
+  {
+   "startMs": 92270,
+   "endMs": 94610,
+   "text": "Эрготерапевт возвращает бытовые навыки:",
+   "words": [
+    {
+     "text": "Эрготерапевт",
+     "startMs": 92270,
+     "endMs": 93150,
+     "scene": 4
+    },
+    {
+     "text": "возвращает",
+     "startMs": 93150,
+     "endMs": 93890,
+     "scene": 4
+    },
+    {
+     "text": "бытовые",
+     "startMs": 93890,
+     "endMs": 94560,
+     "scene": 4
+    },
+    {
+     "text": "навыки:",
+     "startMs": 94560,
+     "endMs": 94640,
+     "scene": 4
+    }
+   ]
+  },
+  {
+   "startMs": 94610,
+   "endMs": 97520,
+   "text": "одеться, поесть, умыться.",
+   "words": [
+    {
+     "text": "одеться,",
+     "startMs": 94610,
+     "endMs": 95200,
+     "scene": 4
+    },
+    {
+     "text": "поесть,",
+     "startMs": 95200,
+     "endMs": 96710,
+     "scene": 4
+    },
+    {
+     "text": "умыться.",
+     "startMs": 96710,
+     "endMs": 97520,
+     "scene": 4
+    }
+   ]
+  },
+  {
+   "startMs": 97520,
+   "endMs": 100900,
+   "text": "Клинический психолог помогает с настроением,",
+   "words": [
+    {
+     "text": "Клинический",
+     "startMs": 97520,
+     "endMs": 98510,
+     "scene": 4
+    },
+    {
+     "text": "психолог",
+     "startMs": 98510,
+     "endMs": 99040,
+     "scene": 4
+    },
+    {
+     "text": "помогает",
+     "startMs": 99040,
+     "endMs": 99690,
+     "scene": 4
+    },
+    {
+     "text": "с",
+     "startMs": 99690,
+     "endMs": 99770,
+     "scene": 4
+    },
+    {
+     "text": "настроением,",
+     "startMs": 99760,
+     "endMs": 100900,
+     "scene": 4
+    }
+   ]
+  },
+  {
+   "startMs": 100900,
+   "endMs": 104380,
+   "text": "памятью и вниманием, клинический логопед —",
+   "words": [
+    {
+     "text": "памятью",
+     "startMs": 100900,
+     "endMs": 101680,
+     "scene": 4
+    },
+    {
+     "text": "и",
+     "startMs": 101680,
+     "endMs": 101820,
+     "scene": 4
+    },
+    {
+     "text": "вниманием,",
+     "startMs": 101820,
+     "endMs": 102750,
+     "scene": 4
+    },
+    {
+     "text": "клинический",
+     "startMs": 102750,
+     "endMs": 103670,
+     "scene": 4
+    },
+    {
+     "text": "логопед —",
+     "startMs": 103670,
+     "endMs": 104340,
+     "scene": 4
+    }
+   ]
+  },
+  {
+   "startMs": 104380,
+   "endMs": 105930,
+   "text": "с речью и глотанием.",
+   "words": [
+    {
+     "text": "с",
+     "startMs": 104380,
+     "endMs": 104460,
+     "scene": 4
+    },
+    {
+     "text": "речью",
+     "startMs": 104420,
+     "endMs": 104840,
+     "scene": 4
+    },
+    {
+     "text": "и",
+     "startMs": 104840,
+     "endMs": 104920,
+     "scene": 4
+    },
+    {
+     "text": "глотанием.",
+     "startMs": 104920,
+     "endMs": 105930,
+     "scene": 4
+    }
+   ]
+  },
+  {
+   "startMs": 105930,
+   "endMs": 109110,
+   "text": "А медицинская сестра по реабилитации",
+   "words": [
+    {
+     "text": "А",
+     "startMs": 105930,
+     "endMs": 106010,
+     "scene": 4
+    },
+    {
+     "text": "медицинская",
+     "startMs": 106010,
+     "endMs": 106940,
+     "scene": 4
+    },
+    {
+     "text": "сестра",
+     "startMs": 106940,
+     "endMs": 107720,
+     "scene": 4
+    },
+    {
+     "text": "по",
+     "startMs": 107720,
+     "endMs": 107800,
+     "scene": 4
+    },
+    {
+     "text": "реабилитации",
+     "startMs": 107720,
+     "endMs": 108440,
+     "scene": 4
+    }
+   ]
+  },
+  {
+   "startMs": 109110,
+   "endMs": 112050,
+   "text": "помогает закреплять навыки каждый день.",
+   "words": [
+    {
+     "text": "помогает",
+     "startMs": 109110,
+     "endMs": 109440,
+     "scene": 4
+    },
+    {
+     "text": "закреплять",
+     "startMs": 109440,
+     "endMs": 110410,
+     "scene": 4
+    },
+    {
+     "text": "навыки",
+     "startMs": 110410,
+     "endMs": 110870,
+     "scene": 4
+    },
+    {
+     "text": "каждый",
+     "startMs": 110870,
+     "endMs": 111420,
+     "scene": 4
+    },
+    {
+     "text": "день.",
+     "startMs": 111420,
+     "endMs": 112050,
+     "scene": 4
+    }
+   ]
+  },
+  {
+   "startMs": 112050,
+   "endMs": 113640,
+   "text": "И в этой команде есть ещё",
+   "words": [
+    {
+     "text": "И",
+     "startMs": 112050,
+     "endMs": 112140,
+     "scene": 4
+    },
+    {
+     "text": "в",
+     "startMs": 112140,
+     "endMs": 112230,
+     "scene": 4
+    },
+    {
+     "text": "этой",
+     "startMs": 112230,
+     "endMs": 112670,
+     "scene": 4
+    },
+    {
+     "text": "команде",
+     "startMs": 112670,
+     "endMs": 113240,
+     "scene": 4
+    },
+    {
+     "text": "есть",
+     "startMs": 113240,
+     "endMs": 113470,
+     "scene": 4
+    },
+    {
+     "text": "ещё",
+     "startMs": 113470,
+     "endMs": 113640,
+     "scene": 4
+    }
+   ]
+  },
+  {
+   "startMs": 113640,
+   "endMs": 115240,
+   "text": "двое важных участников:",
+   "words": [
+    {
+     "text": "двое",
+     "startMs": 113640,
+     "endMs": 113860,
+     "scene": 4
+    },
+    {
+     "text": "важных",
+     "startMs": 113860,
+     "endMs": 114240,
+     "scene": 4
+    },
+    {
+     "text": "участников:",
+     "startMs": 114240,
+     "endMs": 115240,
+     "scene": 4
+    }
+   ]
+  },
+  {
+   "startMs": 115240,
+   "endMs": 118314,
+   "text": "вы сами и ваши близкие.",
+   "words": [
+    {
+     "text": "вы",
+     "startMs": 115240,
+     "endMs": 115320,
+     "scene": 4
+    },
+    {
+     "text": "сами",
+     "startMs": 115650,
+     "endMs": 115890,
+     "scene": 4
+    },
+    {
+     "text": "и",
+     "startMs": 115890,
+     "endMs": 115970,
+     "scene": 4
+    },
+    {
+     "text": "ваши",
+     "startMs": 115900,
+     "endMs": 116430,
+     "scene": 4
+    },
+    {
+     "text": "близкие.",
+     "startMs": 116430,
+     "endMs": 117764,
+     "scene": 4
+    }
+   ]
+  },
+  {
+   "startMs": 118314,
+   "endMs": 121760,
+   "text": "И важно знать: при медицинских показаниях",
+   "words": [
+    {
+     "text": "И",
+     "startMs": 118314,
+     "endMs": 118394,
+     "scene": 5
+    },
+    {
+     "text": "важно",
+     "startMs": 118314,
+     "endMs": 118510,
+     "scene": 5
+    },
+    {
+     "text": "знать:",
+     "startMs": 118510,
+     "endMs": 119430,
+     "scene": 5
+    },
+    {
+     "text": "при",
+     "startMs": 119430,
+     "endMs": 120070,
+     "scene": 5
+    },
+    {
+     "text": "медицинских",
+     "startMs": 120070,
+     "endMs": 120630,
+     "scene": 5
+    },
+    {
+     "text": "показаниях",
+     "startMs": 120630,
+     "endMs": 121760,
+     "scene": 5
+    }
+   ]
+  },
+  {
+   "startMs": 121760,
+   "endMs": 124380,
+   "text": "реабилитация проводится бесплатно,",
+   "words": [
+    {
+     "text": "реабилитация",
+     "startMs": 121760,
+     "endMs": 122440,
+     "scene": 5
+    },
+    {
+     "text": "проводится",
+     "startMs": 122440,
+     "endMs": 123370,
+     "scene": 5
+    },
+    {
+     "text": "бесплатно,",
+     "startMs": 123370,
+     "endMs": 124380,
+     "scene": 5
+    }
+   ]
+  },
+  {
+   "startMs": 124380,
+   "endMs": 127720,
+   "text": "по полису ОМС. Что можно сделать уже сейчас?",
+   "words": [
+    {
+     "text": "по",
+     "startMs": 124380,
+     "endMs": 124550,
+     "scene": 5
+    },
+    {
+     "text": "полису",
+     "startMs": 124550,
+     "endMs": 125120,
+     "scene": 5
+    },
+    {
+     "text": "ОМС.",
+     "startMs": 125120,
+     "endMs": 125760,
+     "scene": 5
+    },
+    {
+     "text": "Что",
+     "startMs": 125760,
+     "endMs": 126000,
+     "scene": 5
+    },
+    {
+     "text": "можно",
+     "startMs": 126000,
+     "endMs": 126390,
+     "scene": 5
+    },
+    {
+     "text": "сделать",
+     "startMs": 126390,
+     "endMs": 126960,
+     "scene": 5
+    },
+    {
+     "text": "уже",
+     "startMs": 126960,
+     "endMs": 127200,
+     "scene": 5
+    },
+    {
+     "text": "сейчас?",
+     "startMs": 127200,
+     "endMs": 127720,
+     "scene": 5
+    }
+   ]
+  },
+  {
+   "startMs": 127720,
+   "endMs": 130330,
+   "text": "Спросите лечащего врача:",
+   "words": [
+    {
+     "text": "Спросите",
+     "startMs": 127720,
+     "endMs": 129080,
+     "scene": 5
+    },
+    {
+     "text": "лечащего",
+     "startMs": 129080,
+     "endMs": 129680,
+     "scene": 5
+    },
+    {
+     "text": "врача:",
+     "startMs": 129680,
+     "endMs": 130330,
+     "scene": 5
+    }
+   ]
+  },
+  {
+   "startMs": 130330,
+   "endMs": 132320,
+   "text": "нужна ли мне реабилитация,",
+   "words": [
+    {
+     "text": "нужна",
+     "startMs": 130330,
+     "endMs": 130700,
+     "scene": 5
+    },
+    {
+     "text": "ли",
+     "startMs": 130700,
+     "endMs": 130870,
+     "scene": 5
+    },
+    {
+     "text": "мне",
+     "startMs": 130870,
+     "endMs": 131130,
+     "scene": 5
+    },
+    {
+     "text": "реабилитация,",
+     "startMs": 131130,
+     "endMs": 132320,
+     "scene": 5
+    }
+   ]
+  },
+  {
+   "startMs": 132320,
+   "endMs": 135100,
+   "text": "когда её начинать и куда меня направят.",
+   "words": [
+    {
+     "text": "когда",
+     "startMs": 132320,
+     "endMs": 132750,
+     "scene": 5
+    },
+    {
+     "text": "её",
+     "startMs": 132750,
+     "endMs": 132940,
+     "scene": 5
+    },
+    {
+     "text": "начинать",
+     "startMs": 132940,
+     "endMs": 133630,
+     "scene": 5
+    },
+    {
+     "text": "и",
+     "startMs": 133630,
+     "endMs": 133710,
+     "scene": 5
+    },
+    {
+     "text": "куда",
+     "startMs": 133690,
+     "endMs": 134060,
+     "scene": 5
+    },
+    {
+     "text": "меня",
+     "startMs": 134060,
+     "endMs": 134510,
+     "scene": 5
+    },
+    {
+     "text": "направят.",
+     "startMs": 134510,
+     "endMs": 135100,
+     "scene": 5
+    }
+   ]
+  },
+  {
+   "startMs": 135100,
+   "endMs": 137700,
+   "text": "А в следующем выпуске разберём,",
+   "words": [
+    {
+     "text": "А",
+     "startMs": 135100,
+     "endMs": 135890,
+     "scene": 5
+    },
+    {
+     "text": "в",
+     "startMs": 135890,
+     "endMs": 136080,
+     "scene": 5
+    },
+    {
+     "text": "следующем",
+     "startMs": 136080,
+     "endMs": 136600,
+     "scene": 5
+    },
+    {
+     "text": "выпуске",
+     "startMs": 136600,
+     "endMs": 137250,
+     "scene": 5
+    },
+    {
+     "text": "разберём,",
+     "startMs": 137250,
+     "endMs": 137700,
+     "scene": 5
+    }
+   ]
+  },
+  {
+   "startMs": 137700,
+   "endMs": 139920,
+   "text": "кому она нужна.",
+   "words": [
+    {
+     "text": "кому",
+     "startMs": 137700,
+     "endMs": 137950,
+     "scene": 5
+    },
+    {
+     "text": "она",
+     "startMs": 137950,
+     "endMs": 138290,
+     "scene": 5
+    },
+    {
+     "text": "нужна.",
+     "startMs": 138290,
+     "endMs": 138720,
+     "scene": 5
+    }
+   ]
+  }
+ ]
+}

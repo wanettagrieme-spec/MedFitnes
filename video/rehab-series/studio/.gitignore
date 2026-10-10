@@ -8,3 +8,4 @@ tools/*.log
 .env
 episodes/*/voice/*.wav
 public/stock/**/*.mp4
+public/episodes/**/*.wav
