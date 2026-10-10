@@ -1,0 +1,7 @@
+node_modules/
+out/
+whisper.cpp/
+tools/venv/
+tools/test/
+tools/*.log
+.DS_Store

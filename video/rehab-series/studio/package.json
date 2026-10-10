@@ -1,0 +1,23 @@
+{
+  "name": "medifit-video-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Серия роликов Медифит о медицинской реабилитации (Remotion + Whisper)",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/captions": "^4.0.534",
+    "@remotion/cli": "^4.0.534",
+    "@remotion/install-whisper-cpp": "^4.0.534",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "^4.0.534"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}

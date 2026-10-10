@@ -14,3 +14,7 @@
 - Нужен секрет репозитория `TELEGRAM_BOT_TOKEN` (Settings → Secrets and variables → Actions); бот — администратор канала с правом публикации.
 - Ручной запуск: Actions → «Публикация в Telegram» → Run workflow (по умолчанию пробный, без отправки).
 - Новый пост — добавить запись в `posts.json` со статусом `pending`.
+
+## Видео: серия о медицинской реабилитации
+- `video/rehab-series/intro/` — заставка 10 с «Медицинская реабилитация»: без звука, с синтезированной музыкой, с треком Mixkit «Digital Clouds» (лицензия — `MUSIC_CREDITS.txt`); исходник анимации `rehab_intro.html`, `tools/render.mjs` (HTML → MP4) и `tools/music.mjs` (синтез саундтрека).
+- `video/rehab-series/studio/` — рабочий проект серии на Remotion + Whisper (установка — в его README).

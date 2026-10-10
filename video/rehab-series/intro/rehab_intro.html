@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Медицинская реабилитация</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=block&subset=cyrillic" rel="stylesheet">
+<style>
+  html, body { margin: 0; height: 100%; background: #021c1d; }
+  body { display: grid; place-items: center; }
+  canvas { display: block; width: 100vw; max-width: calc(100vh * 16 / 9); height: auto; }
+</style>
+</head>
+<body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<script>
+// Ролик 10 с, 1920×1080. Весь кадр — чистая функция draw(t), поэтому
+// одинаково работает и в браузере (превью), и при покадровом рендере (?capture).
+const W = 1920, H = 1080, DUR = 10;
+const cv = document.getElementById('c');
+const ctx = cv.getContext('2d');
+const FONT = 'Manrope, "SF Pro Display", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif';
+
+const C = {
+  bg0: '#021f21', bg1: '#06504b',
+  teal: '#14b8a6', mint: '#5eead4', mint2: '#99f6e4', mint3: '#ccfbf1',
+  white: '#f0fdfa', back: '#6fcfbf',
+};
+
+// ---------- helpers ----------
+const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
+const lerp = (a, b, t) => a + (b - a) * t;
+const prog = (t, a, b) => clamp((t - a) / (b - a));
+const eOutCubic = x => 1 - Math.pow(1 - x, 3);
+const eInOutCubic = x => x < .5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2;
+const eInOutSine = x => -(Math.cos(Math.PI * x) - 1) / 2;
+const eOutBack = x => { const c1 = 1.70158, c3 = c1 + 1; return 1 + c3 * Math.pow(x - 1, 3) + c1 * Math.pow(x - 1, 2); };
+function mulberry32(a) { return () => { a |= 0; a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+
+// Один цикл ЭКГ, f ∈ [0,1): зубец P, комплекс QRS, зубец T
+function ecgShape(f) {
+  const bump = (c, w, h) => h * Math.exp(-Math.pow((f - c) / w, 2));
+  let y = bump(.2, .03, .12) + bump(.68, .05, .22);
+  const q = [[.40, 0], [.425, -.12], [.455, 1], [.485, -.35], [.52, 0]];
+  if (f > q[0][0] && f < q[4][0]) {
+    for (let i = 0; i < 4; i++) if (f >= q[i][0] && f <= q[i + 1][0]) {
+      y += lerp(q[i][1], q[i + 1][1], (f - q[i][0]) / (q[i + 1][0] - q[i][0]));
+      break;
+    }
+  }
+  return y;
+}
+
+// ---------- layout ----------
+const RX = 560, RY = 540, R = 300;        // кольцо с фигурой
+const GY = RY + 190;                       // «пол» под фигурой
+const TX = 1010;                           // левый край заголовка
+const LINES = ['Медицинская', 'реабилитация'];
+const PILLS = ['Восстановление', 'Движение', 'Здоровье'];
+let FS, widths, charX, Y1, Y2, YU, YP, ULEN;
+
+function setupText() {
+  ctx.font = `800 100px ${FONT}`;
+  const m = Math.max(...LINES.map(s => ctx.measureText(s).width));
+  FS = Math.min(116, Math.floor(100 * (W - TX - 120) / m));
+  ctx.font = `800 ${FS}px ${FONT}`;
+  widths = LINES.map(s => ctx.measureText(s).width);
+  charX = LINES.map(s => [...s].map((_, i) => ctx.measureText(s.slice(0, i)).width));
+  ULEN = Math.max(...widths);
+  const blockH = 2.45 * FS + 94;
+  Y1 = RY - blockH / 2 + 0.73 * FS;
+  Y2 = Y1 + 1.1 * FS;
+  YU = Y2 + 0.62 * FS;
+  YP = YU + 40;
+}
+
+// ---------- particles ----------
+const rnd = mulberry32(7);
+const PARTS = Array.from({ length: 46 }, () => ({
+  x: rnd() * W, y: rnd() * H, s: 5 + rnd() * 10, v: 10 + rnd() * 26,
+  ph: rnd() * 6.28, a: .05 + rnd() * .16, cross: rnd() < .45,
+}));
+
+// ---------- scene pieces ----------
+function drawBg(t) {
+  const g = ctx.createLinearGradient(0, 0, W, H);
+  g.addColorStop(0, C.bg0); g.addColorStop(1, C.bg1);
+  ctx.fillStyle = g; ctx.fillRect(-40, -40, W + 80, H + 80);
+
+  ctx.fillStyle = 'rgba(255,255,255,0.035)';
+  for (let x = 24; x < W; x += 48) for (let y = 24; y < H; y += 48) ctx.fillRect(x - 1, y - 1, 2, 2);
+
+  const glow = .55 * eOutCubic(prog(t, 0.9, 2.6)) + .45 * Math.sin(Math.PI * prog(t, 8.9, 9.9));
+  if (glow > 0) {
+    const rg = ctx.createRadialGradient(RX, RY, 0, RX, RY, 640);
+    rg.addColorStop(0, `rgba(45,212,191,${.24 * glow})`);
+    rg.addColorStop(1, 'rgba(45,212,191,0)');
+    ctx.fillStyle = rg; ctx.fillRect(0, 0, W, H);
+  }
+  const rg2 = ctx.createRadialGradient(W * .78, H * .2, 0, W * .78, H * .2, 700);
+  rg2.addColorStop(0, 'rgba(14,116,144,0.20)'); rg2.addColorStop(1, 'rgba(14,116,144,0)');
+  ctx.fillStyle = rg2; ctx.fillRect(0, 0, W, H);
+}
+
+function drawParticles(t) {
+  ctx.save();
+  for (const p of PARTS) {
+    const y = ((p.y - p.v * t) % (H + 60) + H + 60) % (H + 60) - 30;
+    const x = p.x + Math.sin(t * .6 + p.ph) * 14;
+    ctx.globalAlpha = p.a * eOutCubic(prog(t, 0.2, 1.4));
+    if (p.cross) {
+      ctx.strokeStyle = C.mint2; ctx.lineWidth = p.s * .32; ctx.lineCap = 'round';
+      ctx.beginPath(); ctx.moveTo(x - p.s / 2, y); ctx.lineTo(x + p.s / 2, y);
+      ctx.moveTo(x, y - p.s / 2); ctx.lineTo(x, y + p.s / 2); ctx.stroke();
+    } else {
+      ctx.fillStyle = C.mint2; ctx.beginPath(); ctx.arc(x, y, p.s * .22, 0, 7); ctx.fill();
+    }
+  }
+  ctx.restore();
+}
+
+// Вступление: линия ЭКГ пробегает через весь кадр и сама гаснет хвостом
+const ECG_T0 = 0.15, ECG_T1 = 3.2, ECG_FROM = -150, ECG_TO = W + 1300, ECG_P = 420;
+const ECG_OFF = ((.455 * ECG_P - RX) % ECG_P + ECG_P) % ECG_P;   // пик R ровно в центре кольца
+const T_SPIKE = ECG_T0 + (RX - ECG_FROM) / (ECG_TO - ECG_FROM) * (ECG_T1 - ECG_T0);
+
+function drawIntroECG(t) {
+  const a = prog(t, ECG_T0, ECG_T1);
+  if (a <= 0 || a >= 1) return;
+  const head = lerp(ECG_FROM, ECG_TO, a), tail = head - 1100, A = 120;
+  const yAt = x => RY - A * ecgShape((((x + ECG_OFF) / ECG_P) % 1 + 1) % 1);
+  ctx.save();
+  const g = ctx.createLinearGradient(tail, 0, head, 0);
+  g.addColorStop(0, 'rgba(94,234,212,0)');
+  g.addColorStop(.75, 'rgba(94,234,212,.55)');
+  g.addColorStop(1, 'rgba(204,251,241,1)');
+  ctx.strokeStyle = g; ctx.lineWidth = 4; ctx.lineJoin = 'round'; ctx.lineCap = 'round';
+  ctx.shadowColor = 'rgba(94,234,212,.8)'; ctx.shadowBlur = 18;
+  ctx.beginPath();
+  const x0 = Math.max(-10, tail), x1 = Math.min(W + 10, head);
+  for (let x = x0; x <= x1; x += 2) x === x0 ? ctx.moveTo(x, yAt(x)) : ctx.lineTo(x, yAt(x));
+  ctx.stroke();
+  if (head > -20 && head < W + 20) {
+    const hy = yAt(head);
+    const rg = ctx.createRadialGradient(head, hy, 0, head, hy, 46);
+    rg.addColorStop(0, 'rgba(204,251,241,.9)'); rg.addColorStop(1, 'rgba(94,234,212,0)');
+    ctx.shadowBlur = 0; ctx.fillStyle = rg; ctx.beginPath(); ctx.arc(head, hy, 46, 0, 7); ctx.fill();
+    ctx.fillStyle = '#fff'; ctx.beginPath(); ctx.arc(head, hy, 6, 0, 7); ctx.fill();
+  }
+  ctx.restore();
+}
+
+function ripple(t, t0, dur, r0, r1, alpha, lw) {
+  const k = prog(t, t0, t0 + dur);
+  if (k <= 0 || k >= 1) return;
+  const e = eOutCubic(k);
+  ctx.save();
+  ctx.strokeStyle = `rgba(153,246,228,${alpha * (1 - k)})`; ctx.lineWidth = lw;
+  ctx.beginPath(); ctx.arc(RX, RY, lerp(r0, r1, e), 0, 7); ctx.stroke();
+  ctx.restore();
+}
+
+const PROG_T0 = 2.6, PROG_T1 = 8.9;
+
+function drawRing(t) {
+  ripple(t, T_SPIKE, 1.0, 20, R, .9, 3);
+  ripple(t, T_SPIKE + .18, 1.0, 20, R, .5, 2);
+  const a = eOutCubic(prog(t, 1.0, 2.2));
+  if (a <= 0) return;
+  ctx.save();
+  // шкала-тики
+  for (let i = 0; i < 72; i++) {
+    const ti = eOutCubic(prog(t, 1.0 + i * .012, 1.3 + i * .012));
+    if (ti <= 0) continue;
+    const ang = -Math.PI / 2 + i * Math.PI * 2 / 72, big = i % 6 === 0;
+    const r1 = R + 22, r2 = r1 + (big ? 16 : 8) * ti;
+    ctx.strokeStyle = `rgba(204,251,241,${(big ? .38 : .18) * ti})`; ctx.lineWidth = big ? 2.5 : 1.5;
+    ctx.beginPath(); ctx.moveTo(RX + Math.cos(ang) * r1, RY + Math.sin(ang) * r1);
+    ctx.lineTo(RX + Math.cos(ang) * r2, RY + Math.sin(ang) * r2); ctx.stroke();
+  }
+  // вращающийся пунктир
+  ctx.setLineDash([2, 14]); ctx.lineDashOffset = -t * 18;
+  ctx.strokeStyle = `rgba(153,246,228,${.28 * a})`; ctx.lineWidth = 2;
+  ctx.beginPath(); ctx.arc(RX, RY, R + 62, 0, 7); ctx.stroke();
+  ctx.setLineDash([]);
+  // трек
+  ctx.strokeStyle = `rgba(255,255,255,${.10 * a})`; ctx.lineWidth = 6;
+  ctx.beginPath(); ctx.arc(RX, RY, R, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * a); ctx.stroke();
+  // прогресс восстановления
+  const pr = eInOutSine(prog(t, PROG_T0, PROG_T1));
+  if (pr > 0) {
+    const cg = ctx.createConicGradient(-Math.PI / 2, RX, RY);
+    cg.addColorStop(0, C.teal); cg.addColorStop(.6, C.mint); cg.addColorStop(1, C.mint3);
+    ctx.strokeStyle = cg; ctx.lineWidth = 10; ctx.lineCap = 'round';
+    ctx.shadowColor = 'rgba(94,234,212,.9)'; ctx.shadowBlur = 22;
+    const end = -Math.PI / 2 + Math.PI * 2 * pr;
+    ctx.beginPath(); ctx.arc(RX, RY, R, -Math.PI / 2, end); ctx.stroke();
+    const ex = RX + Math.cos(end) * R, ey = RY + Math.sin(end) * R;
+    ctx.fillStyle = '#fff'; ctx.beginPath(); ctx.arc(ex, ey, 9, 0, 7); ctx.fill();
+  }
+  ctx.restore();
+  // кольцо замкнулось — волна
+  ripple(t, PROG_T1, 1.0, R, R + 110, .7, 4);
+  ripple(t, PROG_T1 + .2, 1.0, R, R + 80, .4, 2);
+}
+
+// ---------- фигура: приседание с выносом рук, затем руки вверх ----------
+const fig = document.createElement('canvas'); fig.width = W; fig.height = H;
+const fctx = fig.getContext('2d');
+const EX_T0 = 2.7, EX_PERIOD = 2.0, EX_REPS = 3, EX_T1 = EX_T0 + EX_PERIOD * EX_REPS;
+const L = { thigh: 88, shin: 85, torso: 120, neck: 13, head: 25, upper: 66, fore: 61, foot: 26 };
+
+function ik(A, B, l1, l2) {
+  const dx = B.x - A.x, dy = B.y - A.y;
+  const d = Math.min(Math.hypot(dx, dy), l1 + l2 - .001);
+  const base = Math.atan2(dy, dx);
+  const a = Math.acos(clamp((l1 * l1 + d * d - l2 * l2) / (2 * l1 * d), -1, 1));
+  return { x: A.x + Math.cos(base + a) * l1, y: A.y + Math.sin(base + a) * l1 };   // колено вперёд (+x)
+}
+
+function pose(t) {
+  let p = 0, k = -1;
+  if (t > EX_T0 && t < EX_T1) { k = ((t - EX_T0) % EX_PERIOD) / EX_PERIOD; p = (1 - Math.cos(2 * Math.PI * k)) / 2; }
+  const up = eInOutCubic(prog(t, EX_T1 + .05, EX_T1 + .75));
+  const arm = lerp(lerp(6, 90, p), 140, up) * Math.PI / 180;
+  const ax = RX + 14, ay = GY - 10;
+  const hip = { x: ax - 56 * p, y: ay - (L.thigh + L.shin) * (.985 - .40 * p) };
+  const knee = ik({ x: ax, y: ay }, hip, L.shin, L.thigh);
+  const lean = (34 * p - 3 * up) * Math.PI / 180;
+  const dx = Math.sin(lean), dy = -Math.cos(lean);
+  const neck = { x: hip.x + dx * L.torso, y: hip.y + dy * L.torso };
+  const sh = { x: hip.x + dx * (L.torso - 11), y: hip.y + dy * (L.torso - 11) };
+  const hl = lean * .7;
+  const head = { x: neck.x + Math.sin(hl) * (L.neck + L.head), y: neck.y - Math.cos(hl) * (L.neck + L.head) };
+  const elbow = { x: sh.x + Math.sin(arm) * L.upper, y: sh.y + Math.cos(arm) * L.upper };
+  const fa = arm + lerp(14, -10, up) * Math.PI / 180;
+  const hand = { x: elbow.x + Math.sin(fa) * L.fore, y: elbow.y + Math.cos(fa) * L.fore };
+  return { p, k, ankle: { x: ax, y: ay }, toe: { x: ax + L.foot, y: ay }, hip, knee, neck, sh, head, elbow, hand };
+}
+
+function stroke(c, pts, lw, col) {
+  c.beginPath(); c.moveTo(pts[0].x, pts[0].y);
+  for (let i = 1; i < pts.length; i++) c.lineTo(pts[i].x, pts[i].y);
+  c.lineWidth = lw; c.strokeStyle = col; c.lineCap = 'round'; c.lineJoin = 'round'; c.stroke();
+}
+
+function drawFigure(t) {
+  const appear = eOutCubic(prog(t, 1.6, 2.5));
+  if (appear <= 0) return;
+  const P = pose(t);
+  const o = { x: -9, y: -2 };
+  const off = q => ({ x: q.x + o.x, y: q.y + o.y });
+
+  fctx.clearRect(0, 0, W, H);
+  // дальние конечности
+  stroke(fctx, [P.sh, P.elbow, P.hand].map(off), 19, C.back);
+  stroke(fctx, [P.hip, P.knee, P.ankle, P.toe].map(off), 20, C.back);
+  // корпус и голова
+  stroke(fctx, [P.hip, P.neck], 30, C.white);
+  fctx.fillStyle = C.white; fctx.beginPath(); fctx.arc(P.head.x, P.head.y, L.head, 0, 7); fctx.fill();
+  // ближние конечности
+  stroke(fctx, [P.hip, P.knee, P.ankle, P.toe], 20, C.white);
+  stroke(fctx, [P.sh, P.elbow, P.hand], 19, C.white);
+  // суставы
+  for (const j of [P.knee, P.sh]) {
+    fctx.fillStyle = C.teal; fctx.beginPath(); fctx.arc(j.x, j.y, 6.5, 0, 7); fctx.fill();
+  }
+
+  ctx.save();
+  // пол и тень
+  const half = Math.sqrt(R * R - (GY - RY) * (GY - RY)) - 20;
+  const fg = ctx.createLinearGradient(RX - half, 0, RX + half, 0);
+  fg.addColorStop(0, 'rgba(153,246,228,0)'); fg.addColorStop(.5, `rgba(153,246,228,${.35 * appear})`); fg.addColorStop(1, 'rgba(153,246,228,0)');
+  ctx.strokeStyle = fg; ctx.lineWidth = 2;
+  ctx.beginPath(); ctx.moveTo(RX - half, GY + 1); ctx.lineTo(RX + half, GY + 1); ctx.stroke();
+  ctx.fillStyle = `rgba(0,20,20,${.35 * appear})`;
+  ctx.beginPath(); ctx.ellipse(P.ankle.x + 4, GY + 4, 70 + 18 * P.p, 8, 0, 0, 7); ctx.fill();
+
+  ctx.globalAlpha = appear;
+  ctx.shadowColor = 'rgba(94,234,212,.55)'; ctx.shadowBlur = 26;
+  ctx.drawImage(fig, 0, (1 - appear) * 30);
+  ctx.shadowBlur = 0;
+
+  // пульсация суставов на каждом повторе
+  if (P.k >= 0) {
+    const e = prog(P.k, .3, .95);
+    if (e > 0 && e < 1) for (const j of [P.knee, P.sh]) {
+      ctx.strokeStyle = `rgba(94,234,212,${.8 * (1 - e)})`; ctx.lineWidth = 2.5;
+      ctx.beginPath(); ctx.arc(j.x, j.y, 10 + 26 * eOutCubic(e), 0, 7); ctx.stroke();
+    }
+  }
+  ctx.restore();
+}
+
+// ---------- текст ----------
+const LINE_T = [3.1, 3.55];
+
+function lineFill(i) {
+  if (i === 0) return C.white;
+  const g = ctx.createLinearGradient(TX, 0, TX + widths[1], 0);
+  g.addColorStop(0, C.mint); g.addColorStop(.6, C.mint2); g.addColorStop(1, C.mint3);
+  return g;
+}
+
+function drawTitle(t) {
+  ctx.save();
+  ctx.font = `800 ${FS}px ${FONT}`; ctx.textBaseline = 'alphabetic';
+  [Y1, Y2].forEach((y, li) => {
+    const s = [...LINES[li]], t0 = LINE_T[li];
+    if (t < t0) return;
+    ctx.save();
+    ctx.beginPath(); ctx.rect(TX - 30, y - FS * 1.05, W - TX + 30, FS * 1.38); ctx.clip();
+    ctx.fillStyle = lineFill(li);
+    s.forEach((ch, i) => {
+      const lt = prog(t, t0 + i * .035, t0 + i * .035 + .6);
+      if (lt <= 0) return;
+      ctx.globalAlpha = clamp(lt * 1.6);
+      ctx.fillText(ch, TX + charX[li][i], y + (1 - eOutCubic(lt)) * FS * 1.15);
+    });
+    ctx.restore();
+    // блик
+    const sk = prog(t, 6.6 + li * .12, 7.5 + li * .12);
+    if (sk > 0 && sk < 1) {
+      const bx = lerp(TX - 220, TX + ULEN + 220, eInOutSine(sk));
+      const bg = ctx.createLinearGradient(bx - 140, 0, bx + 140, 0);
+      bg.addColorStop(0, 'rgba(255,255,255,0)'); bg.addColorStop(.5, 'rgba(255,255,255,.75)'); bg.addColorStop(1, 'rgba(255,255,255,0)');
+      ctx.fillStyle = bg; ctx.fillText(LINES[li], TX, y);
+    }
+  });
+  ctx.restore();
+}
+
+// Подчёркивание-кардиограмма под заголовком
+const UL_T0 = 4.35, UL_T1 = 5.5, UL_A = 34;
+function ulY(f) {
+  for (const [a, b] of [[.10, .44], [.52, .86]]) if (f >= a && f < b) return ecgShape((f - a) / (b - a));
+  return 0;
+}
+function ulPath(x1) {
+  ctx.beginPath();
+  for (let x = TX; x <= x1; x += 2) {
+    const y = YU - UL_A * ulY((x - TX) / ULEN);
+    x === TX ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+  }
+}
+function drawUnderline(t) {
+  const u = eInOutCubic(prog(t, UL_T0, UL_T1));
+  if (u <= 0) return;
+  const x1 = TX + ULEN * u;
+  ctx.save();
+  ctx.lineWidth = 4; ctx.lineJoin = 'round'; ctx.lineCap = 'round';
+  ctx.strokeStyle = C.mint; ctx.shadowColor = 'rgba(94,234,212,.8)'; ctx.shadowBlur = 14;
+  ulPath(x1); ctx.stroke();
+  ctx.shadowBlur = 0;
+  if (u < 1) {
+    const hy = YU - UL_A * ulY((x1 - TX) / ULEN);
+    const rg = ctx.createRadialGradient(x1, hy, 0, x1, hy, 30);
+    rg.addColorStop(0, 'rgba(204,251,241,.9)'); rg.addColorStop(1, 'rgba(94,234,212,0)');
+    ctx.fillStyle = rg; ctx.beginPath(); ctx.arc(x1, hy, 30, 0, 7); ctx.fill();
+    ctx.fillStyle = '#fff'; ctx.beginPath(); ctx.arc(x1, hy, 5, 0, 7); ctx.fill();
+  }
+  // бегущий «импульс» по готовой линии
+  for (const [a, b] of [[5.9, 7.3], [7.7, 9.1]]) {
+    const k = prog(t, a, b);
+    if (k <= 0 || k >= 1) continue;
+    const hx = lerp(TX - 100, TX + ULEN + 100, k);
+    const g = ctx.createLinearGradient(hx - 110, 0, hx + 110, 0);
+    g.addColorStop(0, 'rgba(255,255,255,0)'); g.addColorStop(.5, 'rgba(255,255,255,.95)'); g.addColorStop(1, 'rgba(255,255,255,0)');
+    ctx.strokeStyle = g; ctx.lineWidth = 5; ctx.shadowColor = 'rgba(204,251,241,.9)'; ctx.shadowBlur = 16;
+    ulPath(TX + ULEN); ctx.stroke();
+  }
+  ctx.restore();
+}
+
+function drawPills(t) {
+  ctx.save();
+  ctx.font = `600 26px ${FONT}`; ctx.textBaseline = 'middle';
+  let x = TX;
+  PILLS.forEach((s, i) => {
+    const tw = ctx.measureText(s).width, w = tw + 66, h = 52;
+    const t0 = 5.25 + i * .16, e = prog(t, t0, t0 + .55);
+    if (e > 0) {
+      ctx.save();
+      ctx.globalAlpha = clamp(e * 2);
+      ctx.translate(x + w / 2, YP + h / 2);
+      const sc = lerp(.7, 1, eOutBack(e)); ctx.scale(sc, sc);
+      ctx.beginPath(); ctx.roundRect(-w / 2, -h / 2, w, h, h / 2);
+      ctx.fillStyle = 'rgba(94,234,212,.10)'; ctx.fill();
+      ctx.strokeStyle = 'rgba(94,234,212,.55)'; ctx.lineWidth = 1.5; ctx.stroke();
+      ctx.fillStyle = C.mint; ctx.beginPath(); ctx.arc(-w / 2 + 27, 0, 5, 0, 7); ctx.fill();
+      ctx.fillStyle = 'rgba(240,253,250,.92)'; ctx.fillText(s, -w / 2 + 42, 1);
+      ctx.restore();
+    }
+    x += w + 14;
+  });
+  ctx.restore();
+}
+
+function drawVignette() {
+  const g = ctx.createRadialGradient(W / 2, H / 2, H * .45, W / 2, H / 2, W * .75);
+  g.addColorStop(0, 'rgba(0,0,0,0)'); g.addColorStop(1, 'rgba(0,10,10,.45)');
+  ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+}
+
+// ---------- кадр ----------
+function draw(t) {
+  ctx.setTransform(1, 0, 0, 1, 0, 0);
+  ctx.globalAlpha = 1;
+  const s = lerp(1.04, 1, eOutCubic(t / DUR));         // лёгкий «наезд» камеры
+  ctx.setTransform(s, 0, 0, s, (1 - s) * W / 2, (1 - s) * H / 2);
+  drawBg(t);
+  drawParticles(t);
+  drawRing(t);
+  drawIntroECG(t);
+  drawFigure(t);
+  drawTitle(t);
+  drawUnderline(t);
+  drawPills(t);
+  ctx.setTransform(1, 0, 0, 1, 0, 0);
+  drawVignette();
+  const fade = 1 - eOutCubic(prog(t, 0, .7));
+  if (fade > 0) { ctx.fillStyle = `rgba(0,0,0,${fade})`; ctx.fillRect(0, 0, W, H); }
+}
+
+window.renderFrame = draw;
+window.ready = Promise.all([
+  document.fonts.load(`800 100px Manrope`, 'Медицинская'),
+  document.fonts.load(`600 26px Manrope`, 'Здоровье'),
+]).catch(() => {}).then(() => document.fonts.ready).then(setupText);
+
+if (!new URLSearchParams(location.search).has('capture')) {
+  window.ready.then(() => {
+    const start = performance.now();
+    const loop = now => { draw(Math.min(((now - start) / 1000) % (DUR + 1.5), DUR)); requestAnimationFrame(loop); };
+    requestAnimationFrame(loop);
+  });
+}
+</script>
+</body>
+</html>
