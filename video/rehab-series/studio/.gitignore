@@ -7,3 +7,4 @@ tools/*.log
 .DS_Store
 .env
 episodes/*/voice/*.wav
+public/stock/**/*.mp4
