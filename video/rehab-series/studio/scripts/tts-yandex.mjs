@@ -40,8 +40,19 @@ function applyStress(text) {
   return text;
 }
 
+// Произношение аббревиатур из voice/pronunciation.json: точное слово (с учётом регистра) → как читать
+function applyPronunciation(text) {
+  if (!existsSync('voice/pronunciation.json')) return text;
+  const dict = JSON.parse(readFileSync('voice/pronunciation.json', 'utf8'));
+  for (const [word, say] of Object.entries(dict)) {
+    if (word === '_') continue;
+    text = text.replace(new RegExp(`(?<![\\p{L}])${word}(?![\\p{L}])`, 'gu'), say);
+  }
+  return text;
+}
+
 async function synthesize(text, { voice, role, speed = 0.95 }, key) {
-  text = applyStress(text);
+  text = applyStress(applyPronunciation(text));
   const hints = [{ voice }, { speed }];
   if (role) hints.push({ role });
   const request = () => fetch(ENDPOINT, {
