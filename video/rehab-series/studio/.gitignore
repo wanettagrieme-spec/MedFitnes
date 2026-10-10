@@ -5,3 +5,4 @@ tools/venv/
 tools/test/
 tools/*.log
 .DS_Store
+.env
