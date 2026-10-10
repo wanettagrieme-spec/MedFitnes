@@ -28,7 +28,20 @@ function loadKey() {
   return key;
 }
 
+// Ударения из voice/stress.json: ключ — основа слова (регистр первой буквы сохраняется)
+function applyStress(text) {
+  if (!existsSync('voice/stress.json')) return text;
+  const dict = JSON.parse(readFileSync('voice/stress.json', 'utf8'));
+  for (const [word, marked] of Object.entries(dict)) {
+    if (word === '_') continue;
+    const re = new RegExp(`(?<![\\p{L}+])${word}`, 'giu');   // по основе слова: работает во всех падежах
+    text = text.replace(re, m => (m[0] === m[0].toUpperCase() ? marked[0].toUpperCase() + marked.slice(1) : marked));
+  }
+  return text;
+}
+
 async function synthesize(text, { voice, role, speed = 0.95 }, key) {
+  text = applyStress(text);
   const hints = [{ voice }, { speed }];
   if (role) hints.push({ role });
   const request = () => fetch(ENDPOINT, {
