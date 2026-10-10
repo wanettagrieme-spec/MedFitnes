@@ -87,7 +87,13 @@ if (args.samples) {
   writeFileSync(path.join(dir, 'mapping.json'), JSON.stringify(mapping, null, 2));
 } else {
   const text = args.text ?? readFileSync(args['text-file'], 'utf8').trim();
-  const pcm = await synthesize(text, { voice: args.voice ?? 'alena', role: args.role === true ? null : args.role, speed: Number(args.speed ?? 0.95) }, key);
+  // По умолчанию — голос серии из voice/voice.json
+  const series = existsSync('voice/voice.json') ? JSON.parse(readFileSync('voice/voice.json', 'utf8')) : { voice: 'alena', role: 'good', speed: 0.95 };
+  const pcm = await synthesize(text, {
+    voice: args.voice ?? series.voice,
+    role: args.role === true ? null : (args.role ?? (args.voice ? null : series.role)),
+    speed: Number(args.speed ?? series.speed),
+  }, key);
   mkdirSync(path.dirname(args.out), { recursive: true });
   writeFileSync(args.out, wav(pcm));
   console.log(`${args.out}: ${(pcm.length / 2 / SR).toFixed(1)} с`);

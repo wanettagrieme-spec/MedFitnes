@@ -1,0 +1,26 @@
+{
+  "Голос 1": {
+    "voice": "alena",
+    "role": "good"
+  },
+  "Голос 2": {
+    "voice": "dasha",
+    "role": "friendly"
+  },
+  "Голос 3": {
+    "voice": "marina",
+    "role": "friendly"
+  },
+  "Голос 4": {
+    "voice": "ermil",
+    "role": "good"
+  },
+  "Голос 5": {
+    "voice": "alexander",
+    "role": "good"
+  },
+  "Голос 6": {
+    "voice": "anton",
+    "role": "good"
+  }
+}
