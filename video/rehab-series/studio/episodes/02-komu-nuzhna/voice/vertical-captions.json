@@ -2,942 +2,1100 @@
  "words": [
   {
    "text": "Реабилитация —",
-   "startMs": 780,
-   "endMs": 1090
+   "startMs": 660,
+   "endMs": 1050
   },
   {
    "text": "это",
-   "startMs": 1340,
-   "endMs": 1430
+   "startMs": 1300,
+   "endMs": 1310
   },
   {
    "text": "не",
-   "startMs": 1430,
-   "endMs": 1510
+   "startMs": 1310,
+   "endMs": 1460
   },
   {
    "text": "только",
-   "startMs": 1510,
-   "endMs": 2010
+   "startMs": 1460,
+   "endMs": 1950
   },
   {
    "text": "после",
-   "startMs": 2010,
-   "endMs": 2600
+   "startMs": 1950,
+   "endMs": 2440
   },
   {
    "text": "инсульта.",
-   "startMs": 2600,
-   "endMs": 3440
+   "startMs": 2440,
+   "endMs": 3360
   },
   {
    "text": "Она",
-   "startMs": 4260,
-   "endMs": 4260
+   "startMs": 4140,
+   "endMs": 4140
   },
   {
    "text": "нужна,",
-   "startMs": 4260,
+   "startMs": 4140,
+   "endMs": 4680
+  },
+  {
+   "text": "если",
+   "startMs": 4680,
    "endMs": 4790
   },
   {
-   "text": "если",
-   "startMs": 4790,
-   "endMs": 4910
-  },
-  {
    "text": "после",
-   "startMs": 4910,
-   "endMs": 5270
+   "startMs": 4790,
+   "endMs": 5160
   },
   {
    "text": "болезни,",
-   "startMs": 5270,
-   "endMs": 6130
+   "startMs": 5160,
+   "endMs": 6060
   },
   {
    "text": "травмы",
-   "startMs": 6130,
-   "endMs": 6760
+   "startMs": 6060,
+   "endMs": 6580
   },
   {
    "text": "или",
-   "startMs": 6760,
-   "endMs": 7000
+   "startMs": 6580,
+   "endMs": 6880
   },
   {
    "text": "операции",
-   "startMs": 7000,
-   "endMs": 8440
+   "startMs": 6880,
+   "endMs": 8270
   },
   {
    "text": "стало",
-   "startMs": 8440,
-   "endMs": 8530
+   "startMs": 8270,
+   "endMs": 8300
   },
   {
    "text": "трудно",
-   "startMs": 8530,
-   "endMs": 8780
+   "startMs": 8300,
+   "endMs": 8650
   },
   {
    "text": "ходить,",
-   "startMs": 8780,
-   "endMs": 9260
+   "startMs": 8650,
+   "endMs": 9140
   },
   {
    "text": "обслуживать",
-   "startMs": 9600,
-   "endMs": 10250
+   "startMs": 9480,
+   "endMs": 10120
   },
   {
    "text": "себя,",
-   "startMs": 10250,
-   "endMs": 10540
+   "startMs": 10120,
+   "endMs": 10410
   },
   {
    "text": "говорить",
-   "startMs": 10540,
-   "endMs": 11140
+   "startMs": 10410,
+   "endMs": 11230
   },
   {
    "text": "или",
-   "startMs": 11140,
-   "endMs": 11430
+   "startMs": 11230,
+   "endMs": 11260
   },
   {
    "text": "глотать.",
-   "startMs": 11430,
-   "endMs": 12160
+   "startMs": 11260,
+   "endMs": 12020
   },
   {
    "text": "А",
-   "startMs": 12980,
-   "endMs": 12980
+   "startMs": 12840,
+   "endMs": 12840
   },
   {
    "text": "если",
-   "startMs": 12980,
-   "endMs": 12980
+   "startMs": 12840,
+   "endMs": 12840
   },
   {
    "text": "последствий",
-   "startMs": 12980,
-   "endMs": 13710
+   "startMs": 12840,
+   "endMs": 13540
   },
   {
    "text": "нет —",
-   "startMs": 13710,
-   "endMs": 14190
+   "startMs": 13540,
+   "endMs": 14020
   },
   {
    "text": "не",
-   "startMs": 14190,
-   "endMs": 14390
+   "startMs": 14020,
+   "endMs": 14210
   },
   {
    "text": "нужна.",
-   "startMs": 14390,
-   "endMs": 15220
+   "startMs": 14210,
+   "endMs": 15020
   },
   {
-   "text": "Три",
-   "startMs": 16060,
-   "endMs": 16060
+   "text": "В",
+   "startMs": 15020,
+   "endMs": 15410
   },
   {
-   "text": "направления:",
-   "startMs": 16060,
-   "endMs": 16630
-  },
-  {
-   "text": "нервная",
-   "startMs": 16700,
-   "endMs": 17280
-  },
-  {
-   "text": "система,",
-   "startMs": 17280,
-   "endMs": 18130
-  },
-  {
-   "text": "суставы",
-   "startMs": 18130,
-   "endMs": 18790
-  },
-  {
-   "text": "и",
-   "startMs": 18790,
-   "endMs": 18880
-  },
-  {
-   "text": "кости,",
-   "startMs": 18880,
-   "endMs": 19880
-  },
-  {
-   "text": "внутренние",
-   "startMs": 19880,
-   "endMs": 20330
-  },
-  {
-   "text": "органы —",
-   "startMs": 20330,
-   "endMs": 20880
-  },
-  {
-   "text": "например,",
-   "startMs": 21220,
-   "endMs": 21860
-  },
-  {
-   "text": "после",
-   "startMs": 21860,
-   "endMs": 21900
-  },
-  {
-   "text": "инфаркта",
-   "startMs": 21900,
-   "endMs": 22420
-  },
-  {
-   "text": "или",
-   "startMs": 22420,
-   "endMs": 22630
-  },
-  {
-   "text": "тяжёлой",
-   "startMs": 22630,
-   "endMs": 23080
-  },
-  {
-   "text": "пневмонии.",
-   "startMs": 23080,
-   "endMs": 24020
-  },
-  {
-   "text": "Где",
-   "startMs": 24300,
-   "endMs": 24690
-  },
-  {
-   "text": "заниматься,",
-   "startMs": 24690,
-   "endMs": 25440
-  },
-  {
-   "text": "решают",
-   "startMs": 25440,
-   "endMs": 26120
-  },
-  {
-   "text": "по",
-   "startMs": 26120,
-   "endMs": 26130
-  },
-  {
-   "text": "шкале",
-   "startMs": 26130,
-   "endMs": 26590
+   "text": "зависимости",
+   "startMs": 15410,
+   "endMs": 16010
   },
   {
    "text": "от",
-   "startMs": 26590,
-   "endMs": 26800
+   "startMs": 16010,
+   "endMs": 16170
   },
   {
-   "text": "нуля",
-   "startMs": 26800,
-   "endMs": 27040
+   "text": "нарушенных",
+   "startMs": 16170,
+   "endMs": 16990
   },
   {
-   "text": "до",
-   "startMs": 27040,
-   "endMs": 27220
-  },
-  {
-   "text": "шести:",
-   "startMs": 27220,
-   "endMs": 28020
-  },
-  {
-   "text": "от",
-   "startMs": 28020,
-   "endMs": 28320
-  },
-  {
-   "text": "четырёх",
-   "startMs": 28320,
-   "endMs": 28570
-  },
-  {
-   "text": "до",
-   "startMs": 28570,
-   "endMs": 28680
-  },
-  {
-   "text": "шести",
-   "startMs": 28680,
-   "endMs": 29080
-  },
-  {
-   "text": "баллов —",
-   "startMs": 29080,
-   "endMs": 29900
+   "text": "функций —",
+   "startMs": 16990,
+   "endMs": 17570
   },
   {
    "text": "отделение",
-   "startMs": 30320,
-   "endMs": 30710
+   "startMs": 17650,
+   "endMs": 18360
   },
   {
-   "text": "в",
-   "startMs": 30710,
-   "endMs": 30960
+   "text": "одного",
+   "startMs": 18360,
+   "endMs": 19050
   },
   {
-   "text": "больнице,",
-   "startMs": 30960,
-   "endMs": 31640
+   "text": "из",
+   "startMs": 19050,
+   "endMs": 19160
   },
   {
-   "text": "два",
-   "startMs": 31640,
-   "endMs": 31880
+   "text": "трёх",
+   "startMs": 19160,
+   "endMs": 19370
+  },
+  {
+   "text": "профилей:",
+   "startMs": 19370,
+   "endMs": 20120
+  },
+  {
+   "text": "центральная",
+   "startMs": 20640,
+   "endMs": 21020
+  },
+  {
+   "text": "нервная",
+   "startMs": 21020,
+   "endMs": 21480
+  },
+  {
+   "text": "система,",
+   "startMs": 21480,
+   "endMs": 22420
+  },
+  {
+   "text": "периферическая",
+   "startMs": 22420,
+   "endMs": 23380
+  },
+  {
+   "text": "нервная",
+   "startMs": 23380,
+   "endMs": 23960
+  },
+  {
+   "text": "и",
+   "startMs": 23960,
+   "endMs": 24170
+  },
+  {
+   "text": "костно-мышечная",
+   "startMs": 24170,
+   "endMs": 25080
+  },
+  {
+   "text": "системы,",
+   "startMs": 25080,
+   "endMs": 25780
+  },
+  {
+   "text": "соматические",
+   "startMs": 26180,
+   "endMs": 26910
+  },
+  {
+   "text": "заболевания —",
+   "startMs": 26910,
+   "endMs": 27960
+  },
+  {
+   "text": "например,",
+   "startMs": 27960,
+   "endMs": 28320
+  },
+  {
+   "text": "после",
+   "startMs": 28320,
+   "endMs": 28630
+  },
+  {
+   "text": "инфаркта",
+   "startMs": 28630,
+   "endMs": 29190
   },
   {
    "text": "или",
-   "startMs": 31880,
-   "endMs": 32150
+   "startMs": 29190,
+   "endMs": 29430
   },
   {
-   "text": "три —",
-   "startMs": 32150,
-   "endMs": 32610
+   "text": "при",
+   "startMs": 29430,
+   "endMs": 29970
   },
   {
-   "text": "поликлиника,",
-   "startMs": 32610,
-   "endMs": 33690
+   "text": "последствиях",
+   "startMs": 29970,
+   "endMs": 30350
   },
   {
-   "text": "дневной",
-   "startMs": 33690,
-   "endMs": 34350
+   "text": "тяжёлой",
+   "startMs": 30350,
+   "endMs": 30800
   },
   {
-   "text": "стационар",
-   "startMs": 34350,
-   "endMs": 35060
+   "text": "пневмонии.",
+   "startMs": 30800,
+   "endMs": 31620
   },
   {
-   "text": "или",
-   "startMs": 35060,
-   "endMs": 35520
+   "text": "Где",
+   "startMs": 32380,
+   "endMs": 32380
   },
   {
-   "text": "дом.",
-   "startMs": 35520,
-   "endMs": 35960
+   "text": "заниматься,",
+   "startMs": 32380,
+   "endMs": 33150
   },
   {
-   "text": "Стало",
-   "startMs": 36820,
-   "endMs": 36820
-  },
-  {
-   "text": "трудно",
-   "startMs": 36820,
-   "endMs": 37400
-  },
-  {
-   "text": "делать",
-   "startMs": 37400,
-   "endMs": 37470
-  },
-  {
-   "text": "привычные",
-   "startMs": 37470,
-   "endMs": 38130
-  },
-  {
-   "text": "вещи —",
-   "startMs": 38130,
-   "endMs": 38800
-  },
-  {
-   "text": "спросите",
-   "startMs": 39240,
-   "endMs": 39520
-  },
-  {
-   "text": "лечащего",
-   "startMs": 39520,
-   "endMs": 40080
-  },
-  {
-   "text": "врача",
-   "startMs": 40080,
-   "endMs": 40480
-  },
-  {
-   "text": "о",
-   "startMs": 40480,
-   "endMs": 40560
-  },
-  {
-   "text": "реабилитации.",
-   "startMs": 40560,
-   "endMs": 41860
-  },
-  {
-   "text": "Полный",
-   "startMs": 42600,
-   "endMs": 42990
-  },
-  {
-   "text": "выпуск —",
-   "startMs": 42990,
-   "endMs": 43240
+   "text": "решают",
+   "startMs": 33150,
+   "endMs": 33760
   },
   {
    "text": "по",
-   "startMs": 43240,
-   "endMs": 43270
+   "startMs": 33760,
+   "endMs": 34060
+  },
+  {
+   "text": "шкале",
+   "startMs": 34060,
+   "endMs": 34460
+  },
+  {
+   "text": "от",
+   "startMs": 34460,
+   "endMs": 34660
+  },
+  {
+   "text": "нуля",
+   "startMs": 34660,
+   "endMs": 34970
+  },
+  {
+   "text": "до",
+   "startMs": 34970,
+   "endMs": 35170
+  },
+  {
+   "text": "шести:",
+   "startMs": 35170,
+   "endMs": 35680
+  },
+  {
+   "text": "от",
+   "startMs": 35680,
+   "endMs": 36190
+  },
+  {
+   "text": "четырёх",
+   "startMs": 36190,
+   "endMs": 36270
+  },
+  {
+   "text": "до",
+   "startMs": 36270,
+   "endMs": 36520
+  },
+  {
+   "text": "шести",
+   "startMs": 36520,
+   "endMs": 36700
+  },
+  {
+   "text": "баллов —",
+   "startMs": 36700,
+   "endMs": 37420
+  },
+  {
+   "text": "отделение",
+   "startMs": 37880,
+   "endMs": 38270
+  },
+  {
+   "text": "в",
+   "startMs": 38270,
+   "endMs": 38520
+  },
+  {
+   "text": "больнице,",
+   "startMs": 38520,
+   "endMs": 39180
+  },
+  {
+   "text": "два",
+   "startMs": 39180,
+   "endMs": 39390
+  },
+  {
+   "text": "или",
+   "startMs": 39390,
+   "endMs": 39670
+  },
+  {
+   "text": "три —",
+   "startMs": 39670,
+   "endMs": 40100
+  },
+  {
+   "text": "поликлиника,",
+   "startMs": 40100,
+   "endMs": 41210
+  },
+  {
+   "text": "дневной",
+   "startMs": 41210,
+   "endMs": 41980
+  },
+  {
+   "text": "стационар",
+   "startMs": 41980,
+   "endMs": 42580
+  },
+  {
+   "text": "или",
+   "startMs": 42580,
+   "endMs": 42950
+  },
+  {
+   "text": "дом.",
+   "startMs": 42950,
+   "endMs": 43480
+  },
+  {
+   "text": "Стало",
+   "startMs": 43800,
+   "endMs": 44190
+  },
+  {
+   "text": "трудно",
+   "startMs": 44190,
+   "endMs": 44450
+  },
+  {
+   "text": "делать",
+   "startMs": 44450,
+   "endMs": 44920
+  },
+  {
+   "text": "привычные",
+   "startMs": 44920,
+   "endMs": 45720
+  },
+  {
+   "text": "вещи —",
+   "startMs": 45720,
+   "endMs": 46220
+  },
+  {
+   "text": "спросите",
+   "startMs": 46220,
+   "endMs": 46860
+  },
+  {
+   "text": "лечащего",
+   "startMs": 46860,
+   "endMs": 47600
+  },
+  {
+   "text": "врача",
+   "startMs": 47600,
+   "endMs": 47940
+  },
+  {
+   "text": "о",
+   "startMs": 47940,
+   "endMs": 48010
+  },
+  {
+   "text": "реабилитации.",
+   "startMs": 48010,
+   "endMs": 49400
+  },
+  {
+   "text": "Полный",
+   "startMs": 50120,
+   "endMs": 50510
+  },
+  {
+   "text": "выпуск —",
+   "startMs": 50510,
+   "endMs": 50760
+  },
+  {
+   "text": "по",
+   "startMs": 50760,
+   "endMs": 50780
   },
   {
    "text": "ссылке.",
-   "startMs": 43270,
-   "endMs": 44220
+   "startMs": 50780,
+   "endMs": 51700
   }
  ],
  "pages": [
   {
-   "startMs": 780,
-   "endMs": 4260,
+   "startMs": 660,
+   "endMs": 4140,
    "text": "Реабилитация — это не только после инсульта.",
    "words": [
     {
      "text": "Реабилитация —",
-     "startMs": 780,
-     "endMs": 1090
+     "startMs": 660,
+     "endMs": 1050
     },
     {
      "text": "это",
-     "startMs": 1340,
-     "endMs": 1430
+     "startMs": 1300,
+     "endMs": 1310
     },
     {
      "text": "не",
-     "startMs": 1430,
-     "endMs": 1510
+     "startMs": 1310,
+     "endMs": 1460
     },
     {
      "text": "только",
-     "startMs": 1510,
-     "endMs": 2010
+     "startMs": 1460,
+     "endMs": 1950
     },
     {
      "text": "после",
-     "startMs": 2010,
-     "endMs": 2600
+     "startMs": 1950,
+     "endMs": 2440
     },
     {
      "text": "инсульта.",
-     "startMs": 2600,
-     "endMs": 3440
+     "startMs": 2440,
+     "endMs": 3360
     }
    ]
   },
   {
-   "startMs": 4260,
-   "endMs": 6130,
+   "startMs": 4140,
+   "endMs": 6060,
    "text": "Она нужна, если после болезни,",
    "words": [
     {
      "text": "Она",
-     "startMs": 4260,
-     "endMs": 4260
+     "startMs": 4140,
+     "endMs": 4140
     },
     {
      "text": "нужна,",
-     "startMs": 4260,
-     "endMs": 4790
+     "startMs": 4140,
+     "endMs": 4680
     },
     {
      "text": "если",
-     "startMs": 4790,
-     "endMs": 4910
+     "startMs": 4680,
+     "endMs": 4790
     },
     {
      "text": "после",
-     "startMs": 4910,
-     "endMs": 5270
+     "startMs": 4790,
+     "endMs": 5160
     },
     {
      "text": "болезни,",
-     "startMs": 5270,
-     "endMs": 6130
+     "startMs": 5160,
+     "endMs": 6060
     }
    ]
   },
   {
-   "startMs": 6130,
-   "endMs": 9600,
+   "startMs": 6060,
+   "endMs": 9480,
    "text": "травмы или операции стало трудно ходить,",
    "words": [
     {
      "text": "травмы",
-     "startMs": 6130,
-     "endMs": 6760
+     "startMs": 6060,
+     "endMs": 6580
     },
     {
      "text": "или",
-     "startMs": 6760,
-     "endMs": 7000
+     "startMs": 6580,
+     "endMs": 6880
     },
     {
      "text": "операции",
-     "startMs": 7000,
-     "endMs": 8440
+     "startMs": 6880,
+     "endMs": 8270
     },
     {
      "text": "стало",
-     "startMs": 8440,
-     "endMs": 8530
+     "startMs": 8270,
+     "endMs": 8300
     },
     {
      "text": "трудно",
-     "startMs": 8530,
-     "endMs": 8780
+     "startMs": 8300,
+     "endMs": 8650
     },
     {
      "text": "ходить,",
-     "startMs": 8780,
-     "endMs": 9260
+     "startMs": 8650,
+     "endMs": 9140
     }
    ]
   },
   {
-   "startMs": 9600,
-   "endMs": 12980,
+   "startMs": 9480,
+   "endMs": 12840,
    "text": "обслуживать себя, говорить или глотать.",
    "words": [
     {
      "text": "обслуживать",
-     "startMs": 9600,
-     "endMs": 10250
+     "startMs": 9480,
+     "endMs": 10120
     },
     {
      "text": "себя,",
-     "startMs": 10250,
-     "endMs": 10540
+     "startMs": 10120,
+     "endMs": 10410
     },
     {
      "text": "говорить",
-     "startMs": 10540,
-     "endMs": 11140
+     "startMs": 10410,
+     "endMs": 11230
     },
     {
      "text": "или",
-     "startMs": 11140,
-     "endMs": 11430
+     "startMs": 11230,
+     "endMs": 11260
     },
     {
      "text": "глотать.",
-     "startMs": 11430,
-     "endMs": 12160
+     "startMs": 11260,
+     "endMs": 12020
     }
    ]
   },
   {
-   "startMs": 12980,
-   "endMs": 16060,
+   "startMs": 12840,
+   "endMs": 15020,
    "text": "А если последствий нет — не нужна.",
    "words": [
     {
      "text": "А",
-     "startMs": 12980,
-     "endMs": 12980
+     "startMs": 12840,
+     "endMs": 12840
     },
     {
      "text": "если",
-     "startMs": 12980,
-     "endMs": 12980
+     "startMs": 12840,
+     "endMs": 12840
     },
     {
      "text": "последствий",
-     "startMs": 12980,
-     "endMs": 13710
+     "startMs": 12840,
+     "endMs": 13540
     },
     {
      "text": "нет —",
-     "startMs": 13710,
-     "endMs": 14190
+     "startMs": 13540,
+     "endMs": 14020
     },
     {
      "text": "не",
-     "startMs": 14190,
-     "endMs": 14390
+     "startMs": 14020,
+     "endMs": 14210
     },
     {
      "text": "нужна.",
-     "startMs": 14390,
-     "endMs": 15220
+     "startMs": 14210,
+     "endMs": 15020
     }
    ]
   },
   {
-   "startMs": 16060,
-   "endMs": 18130,
-   "text": "Три направления: нервная система,",
+   "startMs": 15020,
+   "endMs": 17650,
+   "text": "В зависимости от нарушенных функций —",
    "words": [
     {
-     "text": "Три",
-     "startMs": 16060,
-     "endMs": 16060
+     "text": "В",
+     "startMs": 15020,
+     "endMs": 15410
     },
     {
-     "text": "направления:",
-     "startMs": 16060,
-     "endMs": 16630
+     "text": "зависимости",
+     "startMs": 15410,
+     "endMs": 16010
+    },
+    {
+     "text": "от",
+     "startMs": 16010,
+     "endMs": 16170
+    },
+    {
+     "text": "нарушенных",
+     "startMs": 16170,
+     "endMs": 16990
+    },
+    {
+     "text": "функций —",
+     "startMs": 16990,
+     "endMs": 17570
+    }
+   ]
+  },
+  {
+   "startMs": 17650,
+   "endMs": 20640,
+   "text": "отделение одного из трёх профилей:",
+   "words": [
+    {
+     "text": "отделение",
+     "startMs": 17650,
+     "endMs": 18360
+    },
+    {
+     "text": "одного",
+     "startMs": 18360,
+     "endMs": 19050
+    },
+    {
+     "text": "из",
+     "startMs": 19050,
+     "endMs": 19160
+    },
+    {
+     "text": "трёх",
+     "startMs": 19160,
+     "endMs": 19370
+    },
+    {
+     "text": "профилей:",
+     "startMs": 19370,
+     "endMs": 20120
+    }
+   ]
+  },
+  {
+   "startMs": 20640,
+   "endMs": 22420,
+   "text": "центральная нервная система,",
+   "words": [
+    {
+     "text": "центральная",
+     "startMs": 20640,
+     "endMs": 21020
     },
     {
      "text": "нервная",
-     "startMs": 16700,
-     "endMs": 17280
+     "startMs": 21020,
+     "endMs": 21480
     },
     {
      "text": "система,",
-     "startMs": 17280,
-     "endMs": 18130
+     "startMs": 21480,
+     "endMs": 22420
     }
    ]
   },
   {
-   "startMs": 18130,
-   "endMs": 21220,
-   "text": "суставы и кости, внутренние органы —",
+   "startMs": 22420,
+   "endMs": 23960,
+   "text": "периферическая нервная",
    "words": [
     {
-     "text": "суставы",
-     "startMs": 18130,
-     "endMs": 18790
+     "text": "периферическая",
+     "startMs": 22420,
+     "endMs": 23380
     },
+    {
+     "text": "нервная",
+     "startMs": 23380,
+     "endMs": 23960
+    }
+   ]
+  },
+  {
+   "startMs": 23960,
+   "endMs": 26180,
+   "text": "и костно-мышечная системы,",
+   "words": [
     {
      "text": "и",
-     "startMs": 18790,
-     "endMs": 18880
+     "startMs": 23960,
+     "endMs": 24170
     },
     {
-     "text": "кости,",
-     "startMs": 18880,
-     "endMs": 19880
+     "text": "костно-мышечная",
+     "startMs": 24170,
+     "endMs": 25080
     },
     {
-     "text": "внутренние",
-     "startMs": 19880,
-     "endMs": 20330
-    },
-    {
-     "text": "органы —",
-     "startMs": 20330,
-     "endMs": 20880
+     "text": "системы,",
+     "startMs": 25080,
+     "endMs": 25780
     }
    ]
   },
   {
-   "startMs": 21220,
-   "endMs": 21860,
-   "text": "например,",
+   "startMs": 26180,
+   "endMs": 28320,
+   "text": "соматические заболевания — например,",
    "words": [
     {
+     "text": "соматические",
+     "startMs": 26180,
+     "endMs": 26910
+    },
+    {
+     "text": "заболевания —",
+     "startMs": 26910,
+     "endMs": 27960
+    },
+    {
      "text": "например,",
-     "startMs": 21220,
-     "endMs": 21860
+     "startMs": 27960,
+     "endMs": 28320
     }
    ]
   },
   {
-   "startMs": 21860,
-   "endMs": 24300,
-   "text": "после инфаркта или тяжёлой пневмонии.",
+   "startMs": 28320,
+   "endMs": 29970,
+   "text": "после инфаркта или при",
    "words": [
     {
      "text": "после",
-     "startMs": 21860,
-     "endMs": 21900
+     "startMs": 28320,
+     "endMs": 28630
     },
     {
      "text": "инфаркта",
-     "startMs": 21900,
-     "endMs": 22420
+     "startMs": 28630,
+     "endMs": 29190
     },
     {
      "text": "или",
-     "startMs": 22420,
-     "endMs": 22630
+     "startMs": 29190,
+     "endMs": 29430
     },
     {
-     "text": "тяжёлой",
-     "startMs": 22630,
-     "endMs": 23080
-    },
-    {
-     "text": "пневмонии.",
-     "startMs": 23080,
-     "endMs": 24020
+     "text": "при",
+     "startMs": 29430,
+     "endMs": 29970
     }
    ]
   },
   {
-   "startMs": 24300,
-   "endMs": 25440,
+   "startMs": 29970,
+   "endMs": 32380,
+   "text": "последствиях тяжёлой пневмонии.",
+   "words": [
+    {
+     "text": "последствиях",
+     "startMs": 29970,
+     "endMs": 30350
+    },
+    {
+     "text": "тяжёлой",
+     "startMs": 30350,
+     "endMs": 30800
+    },
+    {
+     "text": "пневмонии.",
+     "startMs": 30800,
+     "endMs": 31620
+    }
+   ]
+  },
+  {
+   "startMs": 32380,
+   "endMs": 33150,
    "text": "Где заниматься,",
    "words": [
     {
      "text": "Где",
-     "startMs": 24300,
-     "endMs": 24690
+     "startMs": 32380,
+     "endMs": 32380
     },
     {
      "text": "заниматься,",
-     "startMs": 24690,
-     "endMs": 25440
+     "startMs": 32380,
+     "endMs": 33150
     }
    ]
   },
   {
-   "startMs": 25440,
-   "endMs": 28020,
+   "startMs": 33150,
+   "endMs": 35680,
    "text": "решают по шкале от нуля до шести:",
    "words": [
     {
      "text": "решают",
-     "startMs": 25440,
-     "endMs": 26120
+     "startMs": 33150,
+     "endMs": 33760
     },
     {
      "text": "по",
-     "startMs": 26120,
-     "endMs": 26130
+     "startMs": 33760,
+     "endMs": 34060
     },
     {
      "text": "шкале",
-     "startMs": 26130,
-     "endMs": 26590
+     "startMs": 34060,
+     "endMs": 34460
     },
     {
      "text": "от",
-     "startMs": 26590,
-     "endMs": 26800
+     "startMs": 34460,
+     "endMs": 34660
     },
     {
      "text": "нуля",
-     "startMs": 26800,
-     "endMs": 27040
+     "startMs": 34660,
+     "endMs": 34970
     },
     {
      "text": "до",
-     "startMs": 27040,
-     "endMs": 27220
+     "startMs": 34970,
+     "endMs": 35170
     },
     {
      "text": "шести:",
-     "startMs": 27220,
-     "endMs": 28020
+     "startMs": 35170,
+     "endMs": 35680
     }
    ]
   },
   {
-   "startMs": 28020,
-   "endMs": 30320,
+   "startMs": 35680,
+   "endMs": 37880,
    "text": "от четырёх до шести баллов —",
    "words": [
     {
      "text": "от",
-     "startMs": 28020,
-     "endMs": 28320
+     "startMs": 35680,
+     "endMs": 36190
     },
     {
      "text": "четырёх",
-     "startMs": 28320,
-     "endMs": 28570
+     "startMs": 36190,
+     "endMs": 36270
     },
     {
      "text": "до",
-     "startMs": 28570,
-     "endMs": 28680
+     "startMs": 36270,
+     "endMs": 36520
     },
     {
      "text": "шести",
-     "startMs": 28680,
-     "endMs": 29080
+     "startMs": 36520,
+     "endMs": 36700
     },
     {
      "text": "баллов —",
-     "startMs": 29080,
-     "endMs": 29900
+     "startMs": 36700,
+     "endMs": 37420
     }
    ]
   },
   {
-   "startMs": 30320,
-   "endMs": 32610,
+   "startMs": 37880,
+   "endMs": 40100,
    "text": "отделение в больнице, два или три —",
    "words": [
     {
      "text": "отделение",
-     "startMs": 30320,
-     "endMs": 30710
+     "startMs": 37880,
+     "endMs": 38270
     },
     {
      "text": "в",
-     "startMs": 30710,
-     "endMs": 30960
+     "startMs": 38270,
+     "endMs": 38520
     },
     {
      "text": "больнице,",
-     "startMs": 30960,
-     "endMs": 31640
+     "startMs": 38520,
+     "endMs": 39180
     },
     {
      "text": "два",
-     "startMs": 31640,
-     "endMs": 31880
+     "startMs": 39180,
+     "endMs": 39390
     },
     {
      "text": "или",
-     "startMs": 31880,
-     "endMs": 32150
+     "startMs": 39390,
+     "endMs": 39670
     },
     {
      "text": "три —",
-     "startMs": 32150,
-     "endMs": 32610
+     "startMs": 39670,
+     "endMs": 40100
     }
    ]
   },
   {
-   "startMs": 32610,
-   "endMs": 36820,
+   "startMs": 40100,
+   "endMs": 43800,
    "text": "поликлиника, дневной стационар или дом.",
    "words": [
     {
      "text": "поликлиника,",
-     "startMs": 32610,
-     "endMs": 33690
+     "startMs": 40100,
+     "endMs": 41210
     },
     {
      "text": "дневной",
-     "startMs": 33690,
-     "endMs": 34350
+     "startMs": 41210,
+     "endMs": 41980
     },
     {
      "text": "стационар",
-     "startMs": 34350,
-     "endMs": 35060
+     "startMs": 41980,
+     "endMs": 42580
     },
     {
      "text": "или",
-     "startMs": 35060,
-     "endMs": 35520
+     "startMs": 42580,
+     "endMs": 42950
     },
     {
      "text": "дом.",
-     "startMs": 35520,
-     "endMs": 35960
+     "startMs": 42950,
+     "endMs": 43480
     }
    ]
   },
   {
-   "startMs": 36820,
-   "endMs": 39240,
+   "startMs": 43800,
+   "endMs": 46220,
    "text": "Стало трудно делать привычные вещи —",
    "words": [
     {
      "text": "Стало",
-     "startMs": 36820,
-     "endMs": 36820
+     "startMs": 43800,
+     "endMs": 44190
     },
     {
      "text": "трудно",
-     "startMs": 36820,
-     "endMs": 37400
+     "startMs": 44190,
+     "endMs": 44450
     },
     {
      "text": "делать",
-     "startMs": 37400,
-     "endMs": 37470
+     "startMs": 44450,
+     "endMs": 44920
     },
     {
      "text": "привычные",
-     "startMs": 37470,
-     "endMs": 38130
+     "startMs": 44920,
+     "endMs": 45720
     },
     {
      "text": "вещи —",
-     "startMs": 38130,
-     "endMs": 38800
+     "startMs": 45720,
+     "endMs": 46220
     }
    ]
   },
   {
-   "startMs": 39240,
-   "endMs": 42600,
+   "startMs": 46220,
+   "endMs": 50120,
    "text": "спросите лечащего врача о реабилитации.",
    "words": [
     {
      "text": "спросите",
-     "startMs": 39240,
-     "endMs": 39520
+     "startMs": 46220,
+     "endMs": 46860
     },
     {
      "text": "лечащего",
-     "startMs": 39520,
-     "endMs": 40080
+     "startMs": 46860,
+     "endMs": 47600
     },
     {
      "text": "врача",
-     "startMs": 40080,
-     "endMs": 40480
+     "startMs": 47600,
+     "endMs": 47940
     },
     {
      "text": "о",
-     "startMs": 40480,
-     "endMs": 40560
+     "startMs": 47940,
+     "endMs": 48010
     },
     {
      "text": "реабилитации.",
-     "startMs": 40560,
-     "endMs": 41860
+     "startMs": 48010,
+     "endMs": 49400
     }
    ]
   },
   {
-   "startMs": 42600,
-   "endMs": 45420,
+   "startMs": 50120,
+   "endMs": 52900,
    "text": "Полный выпуск — по ссылке.",
    "words": [
     {
      "text": "Полный",
-     "startMs": 42600,
-     "endMs": 42990
+     "startMs": 50120,
+     "endMs": 50510
     },
     {
      "text": "выпуск —",
-     "startMs": 42990,
-     "endMs": 43240
+     "startMs": 50510,
+     "endMs": 50760
     },
     {
      "text": "по",
-     "startMs": 43240,
-     "endMs": 43270
+     "startMs": 50760,
+     "endMs": 50780
     },
     {
      "text": "ссылке.",
-     "startMs": 43270,
-     "endMs": 44220
+     "startMs": 50780,
+     "endMs": 51700
     }
    ]
   }

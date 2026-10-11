@@ -23,10 +23,10 @@ const V = {
 };
 type IconT = React.FC<{ size?: number; color?: string; stroke?: number }>;
 const Shade = () => <AbsoluteFill style={{ background: 'linear-gradient(180deg, rgba(11,37,69,0.9) 0%, rgba(11,37,69,0.35) 32%, rgba(11,37,69,0.15) 55%, rgba(11,37,69,0.8) 100%)' }} />;
-const Row: React.FC<{ at: number; Icon: IconT; color: string; text: string }> = ({ at, Icon, color, text }) => (
+const Row: React.FC<{ at: number; Icon: IconT; color: string; text: string; size?: number }> = ({ at, Icon, color, text, size = 50 }) => (
   <Pop at={at - 0.3} style={{ display: 'flex', alignItems: 'center', gap: 24, padding: '22px 28px', marginBottom: 18, borderRadius: 28, background: 'rgba(11,37,69,0.82)', border: '2px solid rgba(255,255,255,0.15)' }}>
     <div style={{ width: 80, height: 80, borderRadius: 40, background: color, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}><Icon size={50} color={C.navy} stroke={5} /></div>
-    <span style={{ ...font, fontWeight: 800, fontSize: 50 }}>{text}</span>
+    <span style={{ ...font, fontWeight: 800, fontSize: size, lineHeight: 1.12 }}>{text}</span>
   </Pop>
 );
 const Cell: React.FC<{ n: number; on: number }> = ({ n, on }) => (
@@ -35,7 +35,7 @@ const Cell: React.FC<{ n: number; on: number }> = ({ n, on }) => (
   </div>
 );
 
-const t1 = wt('она') - 0.3, t2 = wt('а') - 0.3, t3 = wt('три') - 0.3, t4 = wt('где') - 0.3, t5 = wt('стало', 2) - 0.3;
+const t1 = wt('она') - 0.3, t2 = wt('а') - 0.3, t3 = wt('в') - 0.3, t4 = wt('где') - 0.3, t5 = wt('стало', 2) - 0.3;
 
 const ScaleBlock = () => {
   const hi = useAppearAt(wt('четырёх') - 0.3), lo = useAppearAt(wt('два') - 0.3);
@@ -72,10 +72,10 @@ export const Ep02Vertical: React.FC = () => {
       </At>
       <At from={t3} to={t4}><Clip src={V.N5} focus="40% center" /><Shade />
         <div style={{ position: 'absolute', left: 70, top: 520, width: 940 }}>
-          <Pop at={t3 + 0.1} style={{ marginBottom: 26 }}><span style={{ ...font, fontWeight: 700, fontSize: 46, color: C.mintSoft }}>Три направления:</span></Pop>
-          <Row at={wt('нервная')} Icon={IconBrain} color={C.sky} text="нервная система" />
-          <Row at={wt('суставы')} Icon={IconBone} color={C.coral} text="суставы и кости" />
-          <Row at={wt('внутренние')} Icon={IconHeart} color={C.mint} text="внутренние органы" />
+          <Pop at={t3 + 0.1} style={{ marginBottom: 26 }}><span style={{ ...font, fontWeight: 700, fontSize: 44, color: C.mintSoft }}>Три профиля отделений — по нарушенным функциям:</span></Pop>
+          <Row at={wt('центральная')} Icon={IconBrain} color={C.sky} text="центральная нервная система" size={42} />
+          <Row at={wt('периферическая')} Icon={IconBone} color={C.coral} text="периферическая нервная и костно-мышечная система" size={42} />
+          <Row at={wt('соматические')} Icon={IconHeart} color={C.mint} text="соматические заболевания" size={42} />
         </div>
       </At>
       <At from={t4} to={t5}><Gradient from={C.ink} to={C.navy} angle={160} /><ScaleBlock /></At>

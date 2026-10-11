@@ -66,13 +66,12 @@ async function synthesize(text, { voice, role, speed = 0.95 }, key) {
       unsafeMode: true,
     }),
   });
-  // Соединение через VPN иногда рвётся на рукопожатии — повторяем только сетевые ошибки
-  let res;
+  // Соединение через VPN рвётся и на рукопожатии, и посреди ответа — повторяем запрос целиком (только сетевые ошибки)
+  let res, body;
   for (let attempt = 1; ; attempt++) {
-    try { res = await request(); break; }
-    catch (e) { if (attempt >= 6) throw e; await new Promise(r => setTimeout(r, 800 * attempt)); }
+    try { res = await request(); body = await res.text(); break; }
+    catch (e) { if (attempt >= 8) throw e; await new Promise(r => setTimeout(r, 1000 * attempt)); }
   }
-  const body = await res.text();
   if (!res.ok) throw new Error(`SpeechKit ${res.status}: ${body.slice(0, 300)}`);
   // Ответ — поток JSON-объектов по строкам, в каждом кусок аудио в base64
   const chunks = body.split('\n').filter(Boolean)

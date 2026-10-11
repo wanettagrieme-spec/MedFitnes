@@ -42,7 +42,7 @@ const CutLabel: React.FC<{ at: number; text: string }> = ({ at, text }) => (
   <Pop at={at} style={{ position: 'absolute', left: 120, top: 110 }}><Chip bg="rgba(11,37,69,0.85)" color={C.white} size={44}>{text}</Chip></Pop>
 );
 const Scene1 = () => {
-  const c1 = wt('замены') - 0.15, c2 = wt('перелома') - 0.25, c3 = wt('инфаркта') - 0.2, c4 = wt('пневмонии') - 0.25;
+  const c1 = wt('замены') - 0.15, c2 = wt('перелома') - 0.25, c3 = wt('инфаркта') - 0.2, c4 = wt('последствиях') - 0.2;
   return (
     <>
       <At from={0} to={c1} fadeIn={0}><Clip src={V.N3} from={2} /><CutLabel at={0.5} text="инсульт" /></At>
@@ -50,7 +50,7 @@ const Scene1 = () => {
       <At from={c2} to={c3}><Clip src={V.E} from={1} /><CutLabel at={c2 + 0.1} text="перелом" /></At>
       <At from={c3} to={c4}><Clip src={V.A} from={2} /><CutLabel at={c3 + 0.1} text="инфаркт" /></At>
       <At from={c4} to={B[1]}><Clip src={V.N6} /></At>
-      <At from={c4} to={tTitle} fadeIn={0} fadeOut={0.3}><CutLabel at={c4 + 0.1} text="пневмония" /></At>   {/* подпись гаснет до заголовка */}
+      <At from={c4} to={tTitle} fadeIn={0} fadeOut={0.3}><CutLabel at={c4 + 0.1} text="последствия пневмонии" /></At>   {/* подпись гаснет до заголовка */}
       <At from={tTitle} to={B[1]} fadeIn={0.5}><TitleCard at={tTitle} episode={2} line1="Кому нужна" line2="реабилитация?" sub="Не по диагнозу — по жизни" /></At>
     </>
   );
@@ -103,18 +103,18 @@ const Scene2 = () => (
 const Column: React.FC<{ x: number; at: number; n: string; title: string; color: string; Icon: IconT; clip: string; from?: number; items: { at: number; text: string }[] }> = ({ x, at, n, title, color, Icon, clip, from = 0, items }) => {
   const a = useAppearAt(at);
   return (
-    <div style={{ position: 'absolute', left: x, top: 130, width: 540, height: 680, borderRadius: 34, background: C.white, boxShadow: '0 24px 60px rgba(19,41,61,0.12)', overflow: 'hidden', opacity: a, transform: `translateY(${(1 - a) * 50}px)` }}>
-      <div style={{ position: 'relative', height: 230 }}><Clip src={clip} from={from} /></div>
+    <div style={{ position: 'absolute', left: x, top: 155, width: 540, height: 655, borderRadius: 34, background: C.white, boxShadow: '0 24px 60px rgba(19,41,61,0.12)', overflow: 'hidden', opacity: a, transform: `translateY(${(1 - a) * 50}px)` }}>
+      <div style={{ position: 'relative', height: 200 }}><Clip src={clip} from={from} /></div>
       <div style={{ padding: '24px 34px' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
           <div style={{ width: 60, height: 60, borderRadius: 30, background: color, display: 'flex', alignItems: 'center', justifyContent: 'center' }}><Icon size={38} color={C.white} stroke={5} /></div>
-          <span style={{ ...font, color, fontWeight: 800, fontSize: 30 }}>{n}</span>
+          <span style={{ ...font, color, fontWeight: 800, fontSize: 24 }}>{n}</span>
         </div>
-        <div style={{ ...font, color: C.textDark, fontWeight: 800, fontSize: 44, marginTop: 14, lineHeight: 1.1 }}>{title}</div>
+        <div style={{ ...font, color: C.textDark, fontWeight: 800, fontSize: 36, marginTop: 12, lineHeight: 1.12 }}>{title}</div>
         {items.map(it => (
           <Pop key={it.text} at={it.at - 0.3} dy={14} style={{ display: 'flex', alignItems: 'flex-start', gap: 14, marginTop: 14 }}>
             <div style={{ width: 14, height: 14, borderRadius: 7, background: color, marginTop: 14, flexShrink: 0 }} />
-            <span style={{ ...font, color: C.textDark, fontWeight: 600, fontSize: 31, lineHeight: 1.22 }}>{it.text}</span>
+            <span style={{ ...font, color: C.textDark, fontWeight: 600, fontSize: 30, lineHeight: 1.2 }}>{it.text}</span>
           </Pop>
         ))}
       </div>
@@ -125,13 +125,13 @@ const Scene3 = () => (
   <>
     <At from={B[2]} to={B[3]}><AbsoluteFill style={{ background: C.sand }} /></At>
     <At from={B[2]} to={B[3]}>
-      <Pop at={B[2] + 0.1} style={{ position: 'absolute', left: 120, top: 50 }}><span style={{ ...font, color: C.navy, fontWeight: 800, fontSize: 50 }}>Три направления реабилитации</span></Pop>
-      <Column x={120} at={wt('первое') - 0.3} n="1" title="Нервная система" color={C.skyDeep} Icon={IconBrain} clip={V.N4}
+      <Pop at={B[2] + 0.1} style={{ position: 'absolute', left: 120, top: 34 }}><span style={{ ...font, color: C.navy, fontWeight: 800, fontSize: 46 }}>Три профиля отделений медицинской реабилитации</span><div style={{ ...font, color: C.textMuted, fontWeight: 600, fontSize: 26, marginTop: 4 }}>по нарушенным функциям — Порядок 788н</div></Pop>
+      <Column x={120} at={wt('первый') - 0.3} n="Профиль 1 · нарушения функций" title="Центральная нервная система" color={C.skyDeep} Icon={IconBrain} clip={V.N4}
         items={[{ at: wt('инсульта', 2), text: 'инсульт' }, { at: wt('мозга'), text: 'травмы головного и спинного мозга' }]} />
-      <Column x={690} at={wt('второе') - 0.3} n="2" title="Суставы, кости и мышцы" color={C.coral} Icon={IconBone} clip={V.N2} from={2}
-        items={[{ at: wt('травм', 2), text: 'травмы' }, { at: wt('позвоночнике'), text: 'операции на позвоночнике и суставах' }, { at: wt('замены', 2), text: 'замена сустава' }]} />
-      <Column x={1260} at={wt('третье') - 0.3} n="3" title="Внутренние органы" color={C.teal} Icon={IconHeart} clip={V.N5}
-        items={[{ at: wt('инфаркта', 2), text: 'инфаркт' }, { at: wt('сердце'), text: 'операции на сердце и сосудах' }, { at: wt('пневмонии', 2), text: 'тяжёлая пневмония' }]} />
+      <Column x={690} at={wt('второй') - 0.3} n="Профиль 2 · нарушения функций" title="Периферическая нервная и костно-мышечная система" color={C.coral} Icon={IconBone} clip={V.N2} from={2}
+        items={[{ at: wt('травм'), text: 'травмы' }, { at: wt('позвоночнике'), text: 'операции на позвоночнике и суставах' }, { at: wt('эндопротезирования'), text: 'эндопротезирование' }]} />
+      <Column x={1260} at={wt('третий') - 0.3} n="Профиль 3" title="Соматические заболевания" color={C.teal} Icon={IconHeart} clip={V.N5}
+        items={[{ at: wt('инфаркта', 2), text: 'инфаркт' }, { at: wt('сердце'), text: 'операции на сердце и сосудах' }, { at: wt('последствиях', 2), text: 'последствия тяжёлой пневмонии' }]} />
     </At>
   </>
 );
