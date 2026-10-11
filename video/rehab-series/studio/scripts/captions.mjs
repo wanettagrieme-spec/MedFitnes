@@ -115,6 +115,20 @@ async function run(wavName, text, outName, scenes = []) {
       }
     });
   }
+  // Whisper иногда даёт нескольким словам одно и то же время — растягиваем такие группы до следующего слова пропорционально длине
+  for (let i = 0; i < ws.length;) {
+    let j = i + 1;
+    while (j < ws.length && ws[j].startMs - ws[i].startMs < 30 && ws[j].scene === ws[i].scene) j++;
+    if (j - i > 1 || ws[i].endMs - ws[i].startMs < 60) {
+      const a = ws[i].startMs, run = ws.slice(i, j);
+      const next = j < ws.length && ws[j].scene === ws[i].scene ? ws[j].startMs : null;
+      const b = next !== null && next > a ? next : Math.max(...run.map(w => w.endMs), a + 120 * run.length);
+      const total = run.reduce((s, w) => s + w.text.length, 0);
+      let t = a;
+      for (const w of run) { w.startMs = Math.round(t); t += (b - a) * w.text.length / total; w.endMs = Math.round(t); }
+    }
+    i = j;
+  }
   const pg = pages(ws);
   writeFileSync(path.join(voiceDir, outName), JSON.stringify({ words: ws, pages: pg }, null, 1));
   console.log(`${outName}: слов в сценарии ${script.length}, услышано ${heard.length}, сопоставлено ${matched}; страниц субтитров ${pg.length}`);

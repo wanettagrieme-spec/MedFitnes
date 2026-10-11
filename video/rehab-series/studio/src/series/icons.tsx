@@ -26,3 +26,8 @@ export const IconThermometer: React.FC<P> = p => <Svg {...p}><path d="M26 38 V12
 export const IconGauge: React.FC<P> = p => <Svg {...p}><path d="M10 44 a22 22 0 1 1 44 0" /><path d="M32 44 L44 26" /><circle cx="32" cy="44" r="3" /><path d="M16 44 H20 M44 44 H48 M32 20 V24" /></Svg>;
 export const IconBone: React.FC<P> = p => <Svg {...p}><path d="M20 44 L44 20" /><circle cx="15" cy="44" r="6" /><circle cx="20" cy="50" r="6" /><circle cx="44" cy="14" r="6" /><circle cx="50" cy="20" r="6" /></Svg>;
 export const IconLungs: React.FC<P> = p => <Svg {...p}><path d="M32 8 V30 M32 30 L24 36 M32 30 L40 36" /><path d="M26 20 C 16 18 8 30 8 44 C 8 52 14 54 20 52 C 26 50 26 44 26 36 Z" /><path d="M38 20 C 48 18 56 30 56 44 C 56 52 50 54 44 52 C 38 50 38 44 38 36 Z" /></Svg>;
+export const IconClock: React.FC<P> = p => <Svg {...p}><circle cx="32" cy="32" r="24" /><path d="M32 18 V32 L42 38" /></Svg>;
+export const IconDoc: React.FC<P> = p => <Svg {...p}><path d="M16 8 H40 L50 18 V56 H16 Z" /><path d="M40 8 V18 H50" /><path d="M23 30 H43 M23 38 H43 M23 46 H35" /></Svg>;
+export const IconScreen: React.FC<P> = p => <Svg {...p}><rect x="8" y="12" width="48" height="32" rx="4" /><path d="M24 54 H40 M32 44 V54" /><circle cx="32" cy="26" r="5" /><path d="M24 38 C 26 33 38 33 40 38" /></Svg>;
+export const IconPin: React.FC<P> = p => <Svg {...p}><path d="M32 58 C 20 44 14 34 14 26 a18 18 0 0 1 36 0 C 50 34 44 44 32 58 Z" /><circle cx="32" cy="26" r="6" /></Svg>;
+export const IconArrow: React.FC<P> = p => <Svg {...p}><path d="M10 32 H52 M38 18 L52 32 L38 46" /></Svg>;
