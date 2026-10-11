@@ -31,11 +31,11 @@ export const Chip: React.FC<{ children: React.ReactNode; bg?: string; color?: st
 );
 
 // Титульная карточка выпуска поверх видео (16:9)
-export const TitleCard: React.FC<{ at: number; episode: number; line1: string; line2: string; sub: string }> = ({ at, episode, line1, line2, sub }) => (
+export const TitleCard: React.FC<{ at: number; episode: number; line1: string; line2: string; sub: string; size?: number }> = ({ at, episode, line1, line2, sub, size = 118 }) => (
   <AbsoluteFill style={{ background: 'linear-gradient(90deg, rgba(11,37,69,0.92) 0%, rgba(11,37,69,0.75) 55%, rgba(11,37,69,0.2) 100%)' }}>
     <div style={{ position: 'absolute', left: 130, top: 210 }}>
       <Pop at={at + 0.1}><Chip>Выпуск {episode}</Chip></Pop>
-      <Pop at={at + 0.25} style={{ marginTop: 34 }}><h1 style={{ ...font, fontWeight: 800, fontSize: 118, lineHeight: 1.02 }}>{line1}<br /><span style={{ color: C.mint }}>{line2}</span></h1></Pop>
+      <Pop at={at + 0.25} style={{ marginTop: 34 }}><h1 style={{ ...font, fontWeight: 800, fontSize: size, lineHeight: 1.02 }}>{line1}<br /><span style={{ color: C.mint }}>{line2}</span></h1></Pop>
       <Pop at={at + 0.6} style={{ marginTop: 30 }}><p style={{ ...font, fontWeight: 600, fontSize: 52, color: C.mintSoft }}>{sub}</p></Pop>
     </div>
   </AbsoluteFill>
