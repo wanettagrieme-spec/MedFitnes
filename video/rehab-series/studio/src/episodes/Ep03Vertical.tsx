@@ -20,6 +20,7 @@ const V = {
   K: 'stock/pexels/K-doctor-patient-6998077.mp4',
   N2: 'stock/pexels/N2-balance-training-6023255.mp4',
   N10: 'stock/pexels/N10-senior-doctor-writing-8375665.mp4',
+  P2: 'stock/pexels/P2-doctor-gives-paper-6998080.mp4',
 };
 type IconT = React.FC<{ size?: number; color?: string; stroke?: number }>;
 const STAGE = [C.skyDeep, C.coral, C.teal];
@@ -105,7 +106,7 @@ export const Ep03Vertical: React.FC = () => {
           <Row at={wt('если')} Icon={IconHome} color={C.sun} text="если добираться трудно — на дому" size={44} />
         </Panel>
       </At>
-      <At from={t4} to={END} fadeOut={0.5}><Clip src={V.N10} from={3} focus="50% center" /><Shade />
+      <At from={t4} to={END} fadeOut={0.5}><Clip src={V.P2} from={11} focus="45% center" /><Shade />
         <Panel top={940}>
           <Pop at={t4 + 0.1} style={{ display: 'flex', alignItems: 'center', gap: 20 }}>
             <div style={{ width: 90, height: 90, borderRadius: 45, background: C.sun, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}><IconDoc size={56} color={C.navy} stroke={5} /></div>

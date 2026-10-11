@@ -40,3 +40,28 @@
 | N8-thermometer-8375452.mp4 | A Person Holding a Thermometer | https://www.pexels.com/video/a-person-holding-a-thermometer-8375452/ |
 | N9-senior-doctor-talk-8375621.mp4 | Doctor Having Online Consultation | https://www.pexels.com/video/doctor-having-online-consultation-8375621/ |
 | N10-senior-doctor-writing-8375665.mp4 | A Senior Doctor Writing on a Clipboard | https://www.pexels.com/video/a-senior-doctor-writing-on-a-clipboard-8375665/ |
+
+# Стоковые видео — выпуск 3 (замена повторов)
+
+Скачано с согласия владелицы 11.10.2026 («Сохраняй, выгружай, скачивай»), Pexels, та же лицензия (76 МБ).
+
+| Файл | Название на Pexels | Ссылка |
+|---|---|---|
+| P1-hospital-aerial-39973334.mp4 | Aerial View of Modern Hospital Complex (аэросъёмка, 1080p60) | https://www.pexels.com/video/aerial-view-of-modern-hospital-complex-39973334/ |
+| P2-doctor-gives-paper-6998080.mp4 | Woman Giving Prescription to a Man (документ на руки; Pavel Danilyuk) | https://www.pexels.com/video/woman-giving-prescription-to-a-man-6998080/ |
+
+# Иллюстрации — выпуск 4 (сгенерированы ИИ)
+
+Сгенерированы Claude по описаниям владелицы (обязательные кадры I этапа) 11.10.2026; людей в кадре не существует. Права — по условиям сервисов (Canva — контент, созданный пользователем; Gamma — медиатека аккаунта).
+
+| Файл | Сервис | Что в кадре |
+|---|---|---|
+| canva/C1-tilt-table.png | Canva (дизайн «Выпуск 4 — ранняя реабилитация», DAHXsjIL5Uw) | вертикализация на поворотном столе |
+| canva/C2-bedside-cycle.png | Canva | прикроватный велоэргометр, пациент в дыхательной маске |
+| canva/C3-magnetotherapy.png | Canva | медсестра проводит магнитотерапию |
+| canva/C4-icu-patient.png | Canva | пациент в палате реанимации |
+| canva/C5-team-bedside.png | Canva | команда реабилитации у постели |
+| canva/C6-positioning.png | Canva | позиционирование пациента |
+| gamma/G1-speech-therapist.jpg | Gamma (медиатека) | логопед проверяет глотание |
+| gamma/G2-arm-exercise.jpg | Gamma | упражнение рукой в кровати |
+| gamma/G3-family-hand.jpg | Gamma | дочь держит руку отца, музыка в наушниках |

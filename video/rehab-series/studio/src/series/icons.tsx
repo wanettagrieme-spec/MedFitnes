@@ -31,3 +31,4 @@ export const IconDoc: React.FC<P> = p => <Svg {...p}><path d="M16 8 H40 L50 18 V
 export const IconScreen: React.FC<P> = p => <Svg {...p}><rect x="8" y="12" width="48" height="32" rx="4" /><path d="M24 54 H40 M32 44 V54" /><circle cx="32" cy="26" r="5" /><path d="M24 38 C 26 33 38 33 40 38" /></Svg>;
 export const IconPin: React.FC<P> = p => <Svg {...p}><path d="M32 58 C 20 44 14 34 14 26 a18 18 0 0 1 36 0 C 50 34 44 44 32 58 Z" /><circle cx="32" cy="26" r="6" /></Svg>;
 export const IconArrow: React.FC<P> = p => <Svg {...p}><path d="M10 32 H52 M38 18 L52 32 L38 46" /></Svg>;
+export const IconCup: React.FC<P> = p => <Svg {...p}><path d="M18 12 H46 L42 56 H22 Z" /><path d="M20 26 H44" /></Svg>;

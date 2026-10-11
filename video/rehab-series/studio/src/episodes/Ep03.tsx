@@ -33,6 +33,8 @@ const V = {
   N6: 'stock/pexels/N6-seated-exercise-6023276.mp4',
   N9: 'stock/pexels/N9-senior-doctor-talk-8375621.mp4',
   N10: 'stock/pexels/N10-senior-doctor-writing-8375665.mp4',
+  P1: 'stock/pexels/P1-hospital-aerial-39973334.mp4',   // здание больницы (новый кадр, 11.10.2026)
+  P2: 'stock/pexels/P2-doctor-gives-paper-6998080.mp4', // документ на руки (новый кадр, 11.10.2026)
 };
 type IconT = React.FC<{ size?: number; color?: string; stroke?: number }>;
 const STAGE = [C.skyDeep, C.coral, C.teal];   // цвета этапов: 2 этап — как зона 4–6 ШРМ, 3 этап — как зона 2–3 (выпуск 2)
@@ -156,8 +158,7 @@ const Scene2 = () => (
     <At from={B[1]} to={tEarly} fadeOut={0.3}>
       <Gradient from={C.navy} to={C.teal} />
       <Frame x={100} y={150} w={820} h={620}>
-        <At from={B[1]} to={wt('профильном') - 0.3} fadeIn={0}><Clip src={V.C2} /></At>
-        <At from={wt('профильном') - 0.3} to={tEarly}><Clip src={V.I} from={2} /></At>
+        <At from={B[1]} to={tEarly} fadeIn={0}><Clip src={V.P1} from={1} /></At>
       </Frame>
       <div style={{ position: 'absolute', left: 1000, top: 150, width: 840 }}>
         <Pop at={B[1] + 0.1}><Chip bg={STAGE[0]} color={C.white} size={38}>1 этап</Chip></Pop>
@@ -306,7 +307,7 @@ const Scene4 = () => (
     </At>
     <At from={tWhere} to={tWho} fadeOut={0.3}>
       <Gradient from={C.navy} to={C.ink} angle={160} />
-      <Frame x={100} y={150} w={760} h={620}><Clip src={V.F} rate={0.85} /></Frame>
+      <Frame x={100} y={150} w={760} h={620}><Clip src={V.P1} from={16} /></Frame>
       <div style={{ position: 'absolute', left: 940, top: 170, width: 900 }}>
         <Pop at={tWhere + 0.1}><span style={{ ...font, fontWeight: 800, fontSize: 54, color: C.mint }}>Где есть такие отделения</span></Pop>
         <Item at={wt('каждом')} Icon={IconBuilding} color={C.sun} text="в каждом крупном многопрофильном учреждении" size={42} />
@@ -410,7 +411,7 @@ const Scene6 = () => (
   <>
     <At from={B[5]} to={tNext} fadeOut={0.3}>
       <AbsoluteFill style={{ background: C.paper }} />
-      <Frame x={100} y={110} w={680} h={680}><Clip src={V.N10} from={10} /></Frame>
+      <Frame x={80} y={250} w={740} h={416}><Clip src={V.P2} from={3} zoom={0.03} /></Frame>
       <Pop at={B[5] + 0.1} style={{ position: 'absolute', left: 860, top: 90, width: 960, background: C.white, borderRadius: 26, boxShadow: '0 24px 60px rgba(19,41,61,0.14)', padding: '30px 44px 14px', boxSizing: 'border-box' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 18, paddingBottom: 18 }}>
           <IconDoc size={64} color={C.teal} stroke={4.5} />

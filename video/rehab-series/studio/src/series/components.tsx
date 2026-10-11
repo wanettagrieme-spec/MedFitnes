@@ -1,5 +1,5 @@
 import React from 'react';
-import { AbsoluteFill, Easing, interpolate, Loop, OffthreadVideo, Sequence, spring, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
+import { AbsoluteFill, Easing, Img, interpolate, Loop, OffthreadVideo, Sequence, spring, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
 import { C, fontFamily, sec } from './theme';
 import type { Page } from './captions';
 
@@ -60,6 +60,18 @@ export const Clip: React.FC<{ src: string; from?: number; clipLen?: number; focu
   return (
     <AbsoluteFill style={{ overflow: 'hidden', backgroundColor: '#000', ...style }}>
       {clipLen ? <Loop durationInFrames={sec((clipLen - from) / rate)}>{video}</Loop> : video}
+      {dim > 0 && <AbsoluteFill style={{ backgroundColor: `rgba(5,15,25,${dim})` }} />}
+    </AbsoluteFill>
+  );
+};
+
+// Неподвижная иллюстрация: заполняет блок, медленный наезд и лёгкий сдвиг (эффект Кена Бёрнса)
+export const Photo: React.FC<{ src: string; focus?: string; zoom?: number; drift?: number; dim?: number; style?: React.CSSProperties }> = ({ src, focus = 'center', zoom = 0.08, drift = 0, dim = 0, style }) => {
+  const f = useCurrentFrame();
+  const k = Math.min(1, f / sec(12));
+  return (
+    <AbsoluteFill style={{ overflow: 'hidden', backgroundColor: '#000', ...style }}>
+      <Img src={staticFile(src)} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: focus, transform: `scale(${1.04 + zoom * k}) translateX(${drift * k}%)` }} />
       {dim > 0 && <AbsoluteFill style={{ backgroundColor: `rgba(5,15,25,${dim})` }} />}
     </AbsoluteFill>
   );
