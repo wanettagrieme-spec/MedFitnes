@@ -192,10 +192,10 @@ const Scene4 = () => (
       <div style={{ position: 'absolute', left: 120, top: 160, width: 1680, display: 'flex', flexWrap: 'wrap', gap: 24 }}>
         <Role at={wt('руководит')} Icon={IconDoctor} color={C.sun} title="Врач ФРМ" text="руководит командой и планом" />
         <Role at={wt('инструктор')} Icon={IconWalk} color={C.mint} title="Инструктор ЛФК" text="восстанавливает движение" />
-        <Role at={wt('эрготерапевт')} Icon={IconShirt} color={C.sky} title="Эрготерапевт" text="бытовые навыки" />
-        <Role at={wt('клинический')} Icon={IconBrain} color={C.coral} title="Клинический психолог" text="настроение, память, внимание" />
-        <Role at={wt('клинический', 2)} Icon={IconSpeech} color={C.mintSoft} title="Клинический логопед" text="речь и глотание" />
-        <Role at={wt('медицинская')} Icon={IconNurse} color={C.white} title="Медсестра по медреабилитации" text="закрепляет навыки каждый день" />
+        <Role at={wt('эрготерапевт')} Icon={IconShirt} color={C.sky} title="Эрготерапевт" text="возвращает бытовые навыки" />
+        <Role at={wt('клинический')} Icon={IconBrain} color={C.coral} title="Клинический психолог" text="настроение · память и внимание" />
+        <Role at={wt('клинический', 2)} Icon={IconSpeech} color={C.mintSoft} title="Клинический логопед" text="восстанавливает речь и глотание" />
+        <Role at={wt('медицинская')} Icon={IconNurse} color={C.white} title="Медсестра по медицинской реабилитации" text="помогает закреплять навыки каждый день" />
       </div>
     </At>
   </>
