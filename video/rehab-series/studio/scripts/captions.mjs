@@ -70,7 +70,7 @@ function pages(ws) {
     for (let part = 1; part < k; part++) {
       const target = (len(ph) * part) / k;
       let best = start + 1, bestDiff = Infinity;
-      for (let j = start + 1; j < ph.length; j++) { const d = Math.abs(len(ph.slice(0, j)) - target) + (norm(ph[j - 1].text).length <= 2 ? 10 : 0); if (d < bestDiff) { bestDiff = d; best = j; } }   // предлог/союз не оставляем в конце строки
+      for (let j = start + 1; j < ph.length; j++) { const d = Math.abs(len(ph.slice(0, j)) - target) + (norm(ph[j - 1].text).length <= 2 ? 10 : 0) + (['ли', 'же', 'бы'].includes(norm(ph[j].text)) ? 10 : 0); if (d < bestDiff) { bestDiff = d; best = j; } }   // предлог/союз не оставляем в конце строки
       chunks.push(ph.slice(start, best)); start = best;
     }
     chunks.push(ph.slice(start));

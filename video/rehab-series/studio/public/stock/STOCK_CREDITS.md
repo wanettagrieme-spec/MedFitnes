@@ -23,3 +23,20 @@
 | I-nurse-patient-6290536.mp4 | A Nurse Checking on Her Patient | Gustavo | https://www.pexels.com/video/a-nurse-checking-on-her-patient-6290536/ |
 | J-family-hug-8057635.mp4 | Man Hugging the Woman | Pavel | https://www.pexels.com/video/man-hugging-the-woman-8057635/ |
 | K-doctor-patient-6998077.mp4 | A Doctor Talking to a Patient | Pavel | https://www.pexels.com/video/a-doctor-talking-to-a-patient-6998077/ |
+
+# Стоковые видео — выпуск 2
+
+Скачано с согласия владелицы 11.10.2026 (78 МБ), Pexels, та же лицензия.
+
+| Файл | Название на Pexels | Ссылка |
+|---|---|---|
+| N1-man-walker-855482.mp4 | Old Man Walking (без ходунков — медленная ходьба) | https://www.pexels.com/video/old-man-walking-855482/ |
+| N2-balance-training-6023255.mp4 | Elderly Man (костыли, инструктор) | https://www.pexels.com/video/elderly-man-6023255/ |
+| N3-hand-blue-ball-25950159.mp4 | A person holding a blue ball in their hand | https://www.pexels.com/video/a-person-holding-a-blue-ball-in-their-hand-25950159/ |
+| N4-doctor-reflexes-14936269.mp4 | A Doctor Checking a Patient's Tendon Reflexes | https://www.pexels.com/video/a-doctor-checking-a-patient-s-tendon-reflexes-14936269/ |
+| N5-treadmill-woman-6286151.mp4 | Woman Running in a Gym | https://www.pexels.com/video/woman-running-in-a-gym-6286151/ |
+| N6-seated-exercise-6023276.mp4 | A Woman Stretching | https://www.pexels.com/video/a-woman-stretching-6023276/ |
+| N7-blood-pressure-8670942.mp4 | A Woman Using a Sphygmomanometer at Home | https://www.pexels.com/video/a-woman-using-a-sphygmomanometer-at-home-8670942/ |
+| N8-thermometer-8375452.mp4 | A Person Holding a Thermometer | https://www.pexels.com/video/a-person-holding-a-thermometer-8375452/ |
+| N9-senior-doctor-talk-8375621.mp4 | Doctor Having Online Consultation | https://www.pexels.com/video/doctor-having-online-consultation-8375621/ |
+| N10-senior-doctor-writing-8375665.mp4 | A Senior Doctor Writing on a Clipboard | https://www.pexels.com/video/a-senior-doctor-writing-on-a-clipboard-8375665/ |
