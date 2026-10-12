@@ -13,6 +13,8 @@ import { Ep05, EP05_DURATION } from './episodes/Ep05';
 import { Ep05Vertical, EP05V_DURATION } from './episodes/Ep05Vertical';
 import { Ep06, EP06_DURATION } from './episodes/Ep06';
 import { Ep06Vertical, EP06V_DURATION } from './episodes/Ep06Vertical';
+import { Ep07, EP07_DURATION } from './episodes/Ep07';
+import { Ep07Vertical, EP07V_DURATION } from './episodes/Ep07Vertical';
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -29,6 +31,8 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="Ep05Vertical" component={Ep05Vertical} durationInFrames={EP05V_DURATION} fps={30} width={1080} height={1920} />
     <Composition id="Ep06" component={Ep06} durationInFrames={EP06_DURATION} fps={30} width={1920} height={1080} />
     <Composition id="Ep06Vertical" component={Ep06Vertical} durationInFrames={EP06V_DURATION} fps={30} width={1080} height={1920} />
+    <Composition id="Ep07" component={Ep07} durationInFrames={EP07_DURATION} fps={30} width={1920} height={1080} />
+    <Composition id="Ep07Vertical" component={Ep07Vertical} durationInFrames={EP07V_DURATION} fps={30} width={1080} height={1920} />
     <Composition id="TestCard" component={TestCard} durationInFrames={90} fps={30} width={1920} height={1080} />
   </>
 );
