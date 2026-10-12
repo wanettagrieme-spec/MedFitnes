@@ -39,8 +39,8 @@ export const Film=()=>{
   <AbsoluteFill style={{opacity:fade}}>
    {meta.scenes.map((s,i)=><Sequence key={i} from={Math.round(s.start*fps)} durationInFrames={Math.round((s.duration+.45+(i===meta.scenes.length-1?1:0))*fps)}><Shot scene={s} index={i}/></Sequence>)}
   </AbsoluteFill>
-  <Audio src={staticFile('audio/01-voice.wav')}/>
-  <Audio src={staticFile('audio/01-music.wav')} volume={1.5}/>
+  <Audio src={staticFile('audio/01-marina-voice.wav')}/>
+  <Audio src={staticFile('audio/01-mixkit-music.wav')} volume={1}/>
  </AbsoluteFill>;
 };
 export const Root=()=> <Composition id="Codex01" component={Film} fps={fps} width={1920} height={1080} durationInFrames={duration}/>;

@@ -2,3 +2,7 @@ node_modules/
 .env
 out/
 public/audio/*.wav
+
+sources/*.mp3
+sources/*.html
+history/
