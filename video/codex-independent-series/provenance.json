@@ -1,0 +1,62 @@
+{
+  "project": "Самостоятельная серия Codex",
+  "started": "2026-10-12",
+  "visuals": "Все трёхмерные модели и движение созданы процедурно в src/World.tsx. Нет внешних фото/видео.",
+  "script": "Новый текст, не импортированный из прежнего проекта",
+  "dependencies": "Remotion, React, Three.js; переиспользован установленный браузер движка, а не творческие материалы",
+  "assets": [
+    {
+      "path": "public/audio/01-scene-7.wav",
+      "sha256": "3766fb2cc8c5db222ff0b78de577995fe19fc2badfa493e47191df839cfaefd1",
+      "origin": "Новый синтез SpeechKit 12.10.2026"
+    },
+    {
+      "path": "public/audio/01-scene-6.wav",
+      "sha256": "49ff043431c455a2be65a960c752f04cc376d9a5b510d50789c9f50cd0cd50f9",
+      "origin": "Новый синтез SpeechKit 12.10.2026"
+    },
+    {
+      "path": "public/audio/01-music.wav",
+      "sha256": "16939e4488424f30731c19246d97bb8144f6d3cc8ddb84a46521f084cf4d33dc",
+      "origin": "Оригинальная музыка, scripts/music.mjs"
+    },
+    {
+      "path": "public/audio/01-scene-4.wav",
+      "sha256": "1238d8ade4639319fee35359ad4ab6c54c8768d08102b240bc2a8066f5f5466b",
+      "origin": "Новый синтез SpeechKit 12.10.2026"
+    },
+    {
+      "path": "public/audio/01-scene-5.wav",
+      "sha256": "13a77f277f82d70c33efbfb959e59548aa6d5117b837fe9d19d1deea1c729e71",
+      "origin": "Новый синтез SpeechKit 12.10.2026"
+    },
+    {
+      "path": "public/audio/01-scene-1.wav",
+      "sha256": "8dff3a0a1c63bd7751ad3e16f1eb18c14c31497cccf9f0e51be2f00e59a27818",
+      "origin": "Новый синтез SpeechKit 12.10.2026"
+    },
+    {
+      "path": "public/audio/01-scene-2.wav",
+      "sha256": "8bca21c3b60fb54da01e4d5cbb28504914033061a774ce1e8a43be35ecd2c43a",
+      "origin": "Новый синтез SpeechKit 12.10.2026"
+    },
+    {
+      "path": "public/audio/01-scene-3.wav",
+      "sha256": "f674a205e4d83c6912719ec25a0588c4cb0b932d4485b1b384330c9f88a16e7d",
+      "origin": "Новый синтез SpeechKit 12.10.2026"
+    },
+    {
+      "path": "public/audio/01-voice.wav",
+      "sha256": "6ce9ad2cf777b12e335f3f0ed34050c63b587e3164413ba16c8748f3b0cbcb06",
+      "origin": "Новый синтез SpeechKit 12.10.2026"
+    }
+  ],
+  "final": {
+    "file": "CODEX-01-original-v2-final.mp4",
+    "sha256": "b4cc29cc8b9fab656ae91c57f1e23521425d52ead26be9fa1816544c732d814c",
+    "bytes": 14725525,
+    "durationSeconds": 110.7,
+    "audio": "-16.0 LUFS / true peak -1.5 dBFS",
+    "captions": "Whisper новой записи, сопоставление с новым текстом"
+  }
+}
