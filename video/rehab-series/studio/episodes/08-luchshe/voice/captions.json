@@ -1,0 +1,2983 @@
+{
+ "words": [
+  {
+   "text": "Как",
+   "startMs": 400,
+   "endMs": 600,
+   "scene": 0
+  },
+  {
+   "text": "понять,",
+   "startMs": 600,
+   "endMs": 730,
+   "scene": 0
+  },
+  {
+   "text": "что",
+   "startMs": 730,
+   "endMs": 930,
+   "scene": 0
+  },
+  {
+   "text": "реабилитация",
+   "startMs": 930,
+   "endMs": 1720,
+   "scene": 0
+  },
+  {
+   "text": "действительно",
+   "startMs": 1720,
+   "endMs": 2620,
+   "scene": 0
+  },
+  {
+   "text": "помогает?",
+   "startMs": 2620,
+   "endMs": 3380,
+   "scene": 0
+  },
+  {
+   "text": "Не",
+   "startMs": 3380,
+   "endMs": 3800,
+   "scene": 0
+  },
+  {
+   "text": "на",
+   "startMs": 3800,
+   "endMs": 3880,
+   "scene": 0
+  },
+  {
+   "text": "глаз",
+   "startMs": 3870,
+   "endMs": 4220,
+   "scene": 0
+  },
+  {
+   "text": "и",
+   "startMs": 4220,
+   "endMs": 4320,
+   "scene": 0
+  },
+  {
+   "text": "не",
+   "startMs": 4320,
+   "endMs": 4530,
+   "scene": 0
+  },
+  {
+   "text": "по",
+   "startMs": 4530,
+   "endMs": 4840,
+   "scene": 0
+  },
+  {
+   "text": "ощущениям",
+   "startMs": 4840,
+   "endMs": 5670,
+   "scene": 0
+  },
+  {
+   "text": "«вроде",
+   "startMs": 5670,
+   "endMs": 6220,
+   "scene": 0
+  },
+  {
+   "text": "бы",
+   "startMs": 6220,
+   "endMs": 6440,
+   "scene": 0
+  },
+  {
+   "text": "лучше».",
+   "startMs": 6440,
+   "endMs": 6750,
+   "scene": 0
+  },
+  {
+   "text": "Для",
+   "startMs": 6750,
+   "endMs": 7280,
+   "scene": 0
+  },
+  {
+   "text": "этого",
+   "startMs": 7280,
+   "endMs": 7410,
+   "scene": 0
+  },
+  {
+   "text": "есть",
+   "startMs": 7410,
+   "endMs": 7730,
+   "scene": 0
+  },
+  {
+   "text": "цель",
+   "startMs": 7730,
+   "endMs": 8110,
+   "scene": 0
+  },
+  {
+   "text": "и",
+   "startMs": 8110,
+   "endMs": 8183,
+   "scene": 0
+  },
+  {
+   "text": "понятные",
+   "startMs": 8183,
+   "endMs": 8770,
+   "scene": 0
+  },
+  {
+   "text": "измерения.",
+   "startMs": 8770,
+   "endMs": 9800,
+   "scene": 0
+  },
+  {
+   "text": "В",
+   "startMs": 11080,
+   "endMs": 11114,
+   "scene": 1
+  },
+  {
+   "text": "начале",
+   "startMs": 11114,
+   "endMs": 11319,
+   "scene": 1
+  },
+  {
+   "text": "курса",
+   "startMs": 11319,
+   "endMs": 11491,
+   "scene": 1
+  },
+  {
+   "text": "команда",
+   "startMs": 11491,
+   "endMs": 11730,
+   "scene": 1
+  },
+  {
+   "text": "вместе",
+   "startMs": 11730,
+   "endMs": 12050,
+   "scene": 1
+  },
+  {
+   "text": "с",
+   "startMs": 12050,
+   "endMs": 12140,
+   "scene": 1
+  },
+  {
+   "text": "вами",
+   "startMs": 12140,
+   "endMs": 12500,
+   "scene": 1
+  },
+  {
+   "text": "ставит",
+   "startMs": 12500,
+   "endMs": 13040,
+   "scene": 1
+  },
+  {
+   "text": "цель.",
+   "startMs": 13040,
+   "endMs": 13700,
+   "scene": 1
+  },
+  {
+   "text": "Цель",
+   "startMs": 13700,
+   "endMs": 14030,
+   "scene": 1
+  },
+  {
+   "text": "всегда",
+   "startMs": 14030,
+   "endMs": 14930,
+   "scene": 1
+  },
+  {
+   "text": "одна.",
+   "startMs": 14930,
+   "endMs": 15200,
+   "scene": 1
+  },
+  {
+   "text": "Это",
+   "startMs": 15200,
+   "endMs": 15470,
+   "scene": 1
+  },
+  {
+   "text": "то,",
+   "startMs": 15470,
+   "endMs": 15920,
+   "scene": 1
+  },
+  {
+   "text": "чего",
+   "startMs": 15920,
+   "endMs": 16260,
+   "scene": 1
+  },
+  {
+   "text": "вы",
+   "startMs": 16260,
+   "endMs": 16370,
+   "scene": 1
+  },
+  {
+   "text": "хотите",
+   "startMs": 16370,
+   "endMs": 16910,
+   "scene": 1
+  },
+  {
+   "text": "достичь",
+   "startMs": 16910,
+   "endMs": 17540,
+   "scene": 1
+  },
+  {
+   "text": "в",
+   "startMs": 17540,
+   "endMs": 17630,
+   "scene": 1
+  },
+  {
+   "text": "обычной",
+   "startMs": 17630,
+   "endMs": 18370,
+   "scene": 1
+  },
+  {
+   "text": "жизни",
+   "startMs": 18370,
+   "endMs": 18710,
+   "scene": 1
+  },
+  {
+   "text": "к",
+   "startMs": 18710,
+   "endMs": 18800,
+   "scene": 1
+  },
+  {
+   "text": "определённому",
+   "startMs": 18800,
+   "endMs": 19970,
+   "scene": 1
+  },
+  {
+   "text": "сроку.",
+   "startMs": 19970,
+   "endMs": 20760,
+   "scene": 1
+  },
+  {
+   "text": "У",
+   "startMs": 21807,
+   "endMs": 21816,
+   "scene": 2
+  },
+  {
+   "text": "хорошей",
+   "startMs": 21816,
+   "endMs": 21880,
+   "scene": 2
+  },
+  {
+   "text": "цели",
+   "startMs": 21880,
+   "endMs": 22200,
+   "scene": 2
+  },
+  {
+   "text": "есть",
+   "startMs": 22200,
+   "endMs": 22520,
+   "scene": 2
+  },
+  {
+   "text": "простые",
+   "startMs": 22520,
+   "endMs": 23130,
+   "scene": 2
+  },
+  {
+   "text": "правила.",
+   "startMs": 23130,
+   "endMs": 23880,
+   "scene": 2
+  },
+  {
+   "text": "Их",
+   "startMs": 23880,
+   "endMs": 24100,
+   "scene": 2
+  },
+  {
+   "text": "легко",
+   "startMs": 24100,
+   "endMs": 24440,
+   "scene": 2
+  },
+  {
+   "text": "запомнить",
+   "startMs": 24440,
+   "endMs": 25160,
+   "scene": 2
+  },
+  {
+   "text": "по",
+   "startMs": 25160,
+   "endMs": 25320,
+   "scene": 2
+  },
+  {
+   "text": "фамилии",
+   "startMs": 25320,
+   "endMs": 25880,
+   "scene": 2
+  },
+  {
+   "text": "Сидоров.",
+   "startMs": 25880,
+   "endMs": 26780,
+   "scene": 2
+  },
+  {
+   "text": "Цель",
+   "startMs": 26780,
+   "endMs": 27110,
+   "scene": 2
+  },
+  {
+   "text": "специфичная —",
+   "startMs": 27110,
+   "endMs": 28330,
+   "scene": 2
+  },
+  {
+   "text": "то",
+   "startMs": 28330,
+   "endMs": 28530,
+   "scene": 2
+  },
+  {
+   "text": "есть",
+   "startMs": 28530,
+   "endMs": 28660,
+   "scene": 2
+  },
+  {
+   "text": "конкретная.",
+   "startMs": 28660,
+   "endMs": 29810,
+   "scene": 2
+  },
+  {
+   "text": "Измеримая.",
+   "startMs": 29810,
+   "endMs": 30540,
+   "scene": 2
+  },
+  {
+   "text": "Достижимая.",
+   "startMs": 30540,
+   "endMs": 31510,
+   "scene": 2
+  },
+  {
+   "text": "Реалистичная —",
+   "startMs": 31510,
+   "endMs": 32660,
+   "scene": 2
+  },
+  {
+   "text": "важная",
+   "startMs": 32660,
+   "endMs": 33150,
+   "scene": 2
+  },
+  {
+   "text": "именно",
+   "startMs": 33150,
+   "endMs": 33740,
+   "scene": 2
+  },
+  {
+   "text": "для",
+   "startMs": 33740,
+   "endMs": 33900,
+   "scene": 2
+  },
+  {
+   "text": "вас.",
+   "startMs": 33900,
+   "endMs": 34150,
+   "scene": 2
+  },
+  {
+   "text": "И",
+   "startMs": 34150,
+   "endMs": 34230,
+   "scene": 2
+  },
+  {
+   "text": "определённая",
+   "startMs": 34230,
+   "endMs": 35330,
+   "scene": 2
+  },
+  {
+   "text": "во",
+   "startMs": 35330,
+   "endMs": 35410,
+   "scene": 2
+  },
+  {
+   "text": "времени.",
+   "startMs": 35360,
+   "endMs": 36380,
+   "scene": 2
+  },
+  {
+   "text": "Цель —",
+   "startMs": 37467,
+   "endMs": 37550,
+   "scene": 3
+  },
+  {
+   "text": "не",
+   "startMs": 37550,
+   "endMs": 37800,
+   "scene": 3
+  },
+  {
+   "text": "просто",
+   "startMs": 37800,
+   "endMs": 38080,
+   "scene": 3
+  },
+  {
+   "text": "пройти",
+   "startMs": 38080,
+   "endMs": 38540,
+   "scene": 3
+  },
+  {
+   "text": "по",
+   "startMs": 38540,
+   "endMs": 38690,
+   "scene": 3
+  },
+  {
+   "text": "коридору",
+   "startMs": 38690,
+   "endMs": 39290,
+   "scene": 3
+  },
+  {
+   "text": "больницы.",
+   "startMs": 39290,
+   "endMs": 40060,
+   "scene": 3
+  },
+  {
+   "text": "А,",
+   "startMs": 40060,
+   "endMs": 40280,
+   "scene": 3
+  },
+  {
+   "text": "например,",
+   "startMs": 40280,
+   "endMs": 41060,
+   "scene": 3
+  },
+  {
+   "text": "через",
+   "startMs": 41060,
+   "endMs": 41450,
+   "scene": 3
+  },
+  {
+   "text": "три",
+   "startMs": 41450,
+   "endMs": 41670,
+   "scene": 3
+  },
+  {
+   "text": "недели",
+   "startMs": 41670,
+   "endMs": 42140,
+   "scene": 3
+  },
+  {
+   "text": "самому",
+   "startMs": 42140,
+   "endMs": 42600,
+   "scene": 3
+  },
+  {
+   "text": "сходить",
+   "startMs": 42600,
+   "endMs": 43130,
+   "scene": 3
+  },
+  {
+   "text": "в",
+   "startMs": 43130,
+   "endMs": 43210,
+   "scene": 3
+  },
+  {
+   "text": "магазин",
+   "startMs": 43200,
+   "endMs": 43740,
+   "scene": 3
+  },
+  {
+   "text": "и",
+   "startMs": 43740,
+   "endMs": 43820,
+   "scene": 3
+  },
+  {
+   "text": "принести",
+   "startMs": 43810,
+   "endMs": 44450,
+   "scene": 3
+  },
+  {
+   "text": "сумки.",
+   "startMs": 44450,
+   "endMs": 45270,
+   "scene": 3
+  },
+  {
+   "text": "Или",
+   "startMs": 45270,
+   "endMs": 45730,
+   "scene": 3
+  },
+  {
+   "text": "через",
+   "startMs": 45730,
+   "endMs": 45880,
+   "scene": 3
+  },
+  {
+   "text": "неделю",
+   "startMs": 45880,
+   "endMs": 46310,
+   "scene": 3
+  },
+  {
+   "text": "самому",
+   "startMs": 46310,
+   "endMs": 46770,
+   "scene": 3
+  },
+  {
+   "text": "надеть",
+   "startMs": 46770,
+   "endMs": 47210,
+   "scene": 3
+  },
+  {
+   "text": "рубашку",
+   "startMs": 47210,
+   "endMs": 47760,
+   "scene": 3
+  },
+  {
+   "text": "и",
+   "startMs": 47760,
+   "endMs": 47980,
+   "scene": 3
+  },
+  {
+   "text": "застегнуть",
+   "startMs": 47980,
+   "endMs": 48580,
+   "scene": 3
+  },
+  {
+   "text": "пуговицы.",
+   "startMs": 48580,
+   "endMs": 49500,
+   "scene": 3
+  },
+  {
+   "text": "Чтобы",
+   "startMs": 50860,
+   "endMs": 50910,
+   "scene": 4
+  },
+  {
+   "text": "видеть",
+   "startMs": 50910,
+   "endMs": 50970,
+   "scene": 4
+  },
+  {
+   "text": "движение",
+   "startMs": 50970,
+   "endMs": 51050,
+   "scene": 4
+  },
+  {
+   "text": "к",
+   "startMs": 51050,
+   "endMs": 51210,
+   "scene": 4
+  },
+  {
+   "text": "цели,",
+   "startMs": 51210,
+   "endMs": 51750,
+   "scene": 4
+  },
+  {
+   "text": "команда",
+   "startMs": 51750,
+   "endMs": 52240,
+   "scene": 4
+  },
+  {
+   "text": "пользуется",
+   "startMs": 52240,
+   "endMs": 53000,
+   "scene": 4
+  },
+  {
+   "text": "шкалами",
+   "startMs": 53000,
+   "endMs": 53560,
+   "scene": 4
+  },
+  {
+   "text": "и",
+   "startMs": 53560,
+   "endMs": 53640,
+   "scene": 4
+  },
+  {
+   "text": "тестами.",
+   "startMs": 53640,
+   "endMs": 54730,
+   "scene": 4
+  },
+  {
+   "text": "Например,",
+   "startMs": 54730,
+   "endMs": 55280,
+   "scene": 4
+  },
+  {
+   "text": "сколько",
+   "startMs": 55280,
+   "endMs": 55790,
+   "scene": 4
+  },
+  {
+   "text": "метров",
+   "startMs": 55790,
+   "endMs": 56210,
+   "scene": 4
+  },
+  {
+   "text": "вы",
+   "startMs": 56210,
+   "endMs": 56350,
+   "scene": 4
+  },
+  {
+   "text": "проходите.",
+   "startMs": 56350,
+   "endMs": 57120,
+   "scene": 4
+  },
+  {
+   "text": "Сколько",
+   "startMs": 57120,
+   "endMs": 57640,
+   "scene": 4
+  },
+  {
+   "text": "секунд",
+   "startMs": 57640,
+   "endMs": 58140,
+   "scene": 4
+  },
+  {
+   "text": "удерживаете",
+   "startMs": 58140,
+   "endMs": 58970,
+   "scene": 4
+  },
+  {
+   "text": "равновесие.",
+   "startMs": 58970,
+   "endMs": 59820,
+   "scene": 4
+  },
+  {
+   "text": "Насколько",
+   "startMs": 59820,
+   "endMs": 60390,
+   "scene": 4
+  },
+  {
+   "text": "сами",
+   "startMs": 60390,
+   "endMs": 60650,
+   "scene": 4
+  },
+  {
+   "text": "себя",
+   "startMs": 60650,
+   "endMs": 60910,
+   "scene": 4
+  },
+  {
+   "text": "обслуживаете.",
+   "startMs": 60910,
+   "endMs": 61900,
+   "scene": 4
+  },
+  {
+   "text": "Вас",
+   "startMs": 61900,
+   "endMs": 62200,
+   "scene": 4
+  },
+  {
+   "text": "оценивают",
+   "startMs": 62200,
+   "endMs": 62800,
+   "scene": 4
+  },
+  {
+   "text": "в",
+   "startMs": 62800,
+   "endMs": 62880,
+   "scene": 4
+  },
+  {
+   "text": "начале",
+   "startMs": 62870,
+   "endMs": 63330,
+   "scene": 4
+  },
+  {
+   "text": "курса.",
+   "startMs": 63330,
+   "endMs": 63860,
+   "scene": 4
+  },
+  {
+   "text": "Потом",
+   "startMs": 63860,
+   "endMs": 64250,
+   "scene": 4
+  },
+  {
+   "text": "в",
+   "startMs": 64250,
+   "endMs": 64380,
+   "scene": 4
+  },
+  {
+   "text": "середине.",
+   "startMs": 64380,
+   "endMs": 64930,
+   "scene": 4
+  },
+  {
+   "text": "И",
+   "startMs": 64930,
+   "endMs": 65010,
+   "scene": 4
+  },
+  {
+   "text": "в",
+   "startMs": 65000,
+   "endMs": 65080,
+   "scene": 4
+  },
+  {
+   "text": "конце.",
+   "startMs": 65070,
+   "endMs": 65840,
+   "scene": 4
+  },
+  {
+   "text": "Так",
+   "startMs": 66908,
+   "endMs": 67012,
+   "scene": 5
+  },
+  {
+   "text": "получается",
+   "startMs": 67012,
+   "endMs": 67360,
+   "scene": 5
+  },
+  {
+   "text": "круг.",
+   "startMs": 67360,
+   "endMs": 68060,
+   "scene": 5
+  },
+  {
+   "text": "Оценка.",
+   "startMs": 68060,
+   "endMs": 69090,
+   "scene": 5
+  },
+  {
+   "text": "Цель.",
+   "startMs": 69090,
+   "endMs": 69670,
+   "scene": 5
+  },
+  {
+   "text": "Занятия.",
+   "startMs": 69670,
+   "endMs": 70480,
+   "scene": 5
+  },
+  {
+   "text": "И",
+   "startMs": 70480,
+   "endMs": 70620,
+   "scene": 5
+  },
+  {
+   "text": "снова",
+   "startMs": 70620,
+   "endMs": 71170,
+   "scene": 5
+  },
+  {
+   "text": "оценка.",
+   "startMs": 71170,
+   "endMs": 72300,
+   "scene": 5
+  },
+  {
+   "text": "Если",
+   "startMs": 72300,
+   "endMs": 72800,
+   "scene": 5
+  },
+  {
+   "text": "что-то",
+   "startMs": 72800,
+   "endMs": 73100,
+   "scene": 5
+  },
+  {
+   "text": "идёт",
+   "startMs": 73100,
+   "endMs": 73420,
+   "scene": 5
+  },
+  {
+   "text": "не",
+   "startMs": 73420,
+   "endMs": 73660,
+   "scene": 5
+  },
+  {
+   "text": "так,",
+   "startMs": 73660,
+   "endMs": 73980,
+   "scene": 5
+  },
+  {
+   "text": "команда",
+   "startMs": 73980,
+   "endMs": 74540,
+   "scene": 5
+  },
+  {
+   "text": "меняет",
+   "startMs": 74540,
+   "endMs": 75130,
+   "scene": 5
+  },
+  {
+   "text": "план.",
+   "startMs": 75130,
+   "endMs": 75660,
+   "scene": 5
+  },
+  {
+   "text": "Главный",
+   "startMs": 77040,
+   "endMs": 77244,
+   "scene": 6
+  },
+  {
+   "text": "признак",
+   "startMs": 77244,
+   "endMs": 77447,
+   "scene": 6
+  },
+  {
+   "text": "успеха —",
+   "startMs": 77447,
+   "endMs": 77680,
+   "scene": 6
+  },
+  {
+   "text": "вы",
+   "startMs": 77680,
+   "endMs": 77780,
+   "scene": 6
+  },
+  {
+   "text": "пользуетесь",
+   "startMs": 77780,
+   "endMs": 78800,
+   "scene": 6
+  },
+  {
+   "text": "навыком",
+   "startMs": 78800,
+   "endMs": 79520,
+   "scene": 6
+  },
+  {
+   "text": "сами.",
+   "startMs": 79520,
+   "endMs": 80000,
+   "scene": 6
+  },
+  {
+   "text": "Каждый",
+   "startMs": 80000,
+   "endMs": 80910,
+   "scene": 6
+  },
+  {
+   "text": "день.",
+   "startMs": 80910,
+   "endMs": 81110,
+   "scene": 6
+  },
+  {
+   "text": "И",
+   "startMs": 81110,
+   "endMs": 81200,
+   "scene": 6
+  },
+  {
+   "text": "не",
+   "startMs": 81200,
+   "endMs": 81380,
+   "scene": 6
+  },
+  {
+   "text": "только",
+   "startMs": 81380,
+   "endMs": 81940,
+   "scene": 6
+  },
+  {
+   "text": "в",
+   "startMs": 81940,
+   "endMs": 82030,
+   "scene": 6
+  },
+  {
+   "text": "отделении,",
+   "startMs": 82030,
+   "endMs": 83060,
+   "scene": 6
+  },
+  {
+   "text": "а",
+   "startMs": 83060,
+   "endMs": 83140,
+   "scene": 6
+  },
+  {
+   "text": "дома",
+   "startMs": 83130,
+   "endMs": 83500,
+   "scene": 6
+  },
+  {
+   "text": "и",
+   "startMs": 83500,
+   "endMs": 83590,
+   "scene": 6
+  },
+  {
+   "text": "на",
+   "startMs": 83590,
+   "endMs": 83760,
+   "scene": 6
+  },
+  {
+   "text": "улице.",
+   "startMs": 83760,
+   "endMs": 84680,
+   "scene": 6
+  },
+  {
+   "text": "В",
+   "startMs": 85795,
+   "endMs": 85823,
+   "scene": 7
+  },
+  {
+   "text": "конце",
+   "startMs": 85823,
+   "endMs": 85960,
+   "scene": 7
+  },
+  {
+   "text": "курса",
+   "startMs": 85960,
+   "endMs": 86250,
+   "scene": 7
+  },
+  {
+   "text": "в",
+   "startMs": 86250,
+   "endMs": 86330,
+   "scene": 7
+  },
+  {
+   "text": "реабилитационном",
+   "startMs": 86330,
+   "endMs": 87690,
+   "scene": 7
+  },
+  {
+   "text": "эпикризе",
+   "startMs": 87690,
+   "endMs": 88360,
+   "scene": 7
+  },
+  {
+   "text": "отмечают,",
+   "startMs": 88360,
+   "endMs": 89200,
+   "scene": 7
+  },
+  {
+   "text": "достигнута",
+   "startMs": 89200,
+   "endMs": 90160,
+   "scene": 7
+  },
+  {
+   "text": "ли",
+   "startMs": 90160,
+   "endMs": 90240,
+   "scene": 7
+  },
+  {
+   "text": "цель.",
+   "startMs": 90210,
+   "endMs": 90760,
+   "scene": 7
+  },
+  {
+   "text": "Достигнута.",
+   "startMs": 90760,
+   "endMs": 91720,
+   "scene": 7
+  },
+  {
+   "text": "Достигнута",
+   "startMs": 91720,
+   "endMs": 92610,
+   "scene": 7
+  },
+  {
+   "text": "частично.",
+   "startMs": 92610,
+   "endMs": 93240,
+   "scene": 7
+  },
+  {
+   "text": "Или",
+   "startMs": 93240,
+   "endMs": 93490,
+   "scene": 7
+  },
+  {
+   "text": "не",
+   "startMs": 93490,
+   "endMs": 93890,
+   "scene": 7
+  },
+  {
+   "text": "достигнута.",
+   "startMs": 93890,
+   "endMs": 95000,
+   "scene": 7
+  },
+  {
+   "text": "Это",
+   "startMs": 95000,
+   "endMs": 95420,
+   "scene": 7
+  },
+  {
+   "text": "не",
+   "startMs": 95420,
+   "endMs": 95500,
+   "scene": 7
+  },
+  {
+   "text": "оценка",
+   "startMs": 95500,
+   "endMs": 96160,
+   "scene": 7
+  },
+  {
+   "text": "вам,",
+   "startMs": 96160,
+   "endMs": 96400,
+   "scene": 7
+  },
+  {
+   "text": "а",
+   "startMs": 96400,
+   "endMs": 96480,
+   "scene": 7
+  },
+  {
+   "text": "ориентир",
+   "startMs": 96460,
+   "endMs": 97080,
+   "scene": 7
+  },
+  {
+   "text": "для",
+   "startMs": 97080,
+   "endMs": 97300,
+   "scene": 7
+  },
+  {
+   "text": "следующего",
+   "startMs": 97300,
+   "endMs": 98150,
+   "scene": 7
+  },
+  {
+   "text": "шага.",
+   "startMs": 98150,
+   "endMs": 98820,
+   "scene": 7
+  },
+  {
+   "text": "Замечайте",
+   "startMs": 100120,
+   "endMs": 100355,
+   "scene": 8
+  },
+  {
+   "text": "свои",
+   "startMs": 100355,
+   "endMs": 100460,
+   "scene": 8
+  },
+  {
+   "text": "маленькие",
+   "startMs": 100460,
+   "endMs": 100770,
+   "scene": 8
+  },
+  {
+   "text": "победы.",
+   "startMs": 100770,
+   "endMs": 101240,
+   "scene": 8
+  },
+  {
+   "text": "И",
+   "startMs": 101240,
+   "endMs": 101400,
+   "scene": 8
+  },
+  {
+   "text": "рассказывайте",
+   "startMs": 101400,
+   "endMs": 102460,
+   "scene": 8
+  },
+  {
+   "text": "команде,",
+   "startMs": 102460,
+   "endMs": 103240,
+   "scene": 8
+  },
+  {
+   "text": "что",
+   "startMs": 103240,
+   "endMs": 103990,
+   "scene": 8
+  },
+  {
+   "text": "получается,",
+   "startMs": 103990,
+   "endMs": 104540,
+   "scene": 8
+  },
+  {
+   "text": "а",
+   "startMs": 104540,
+   "endMs": 104620,
+   "scene": 8
+  },
+  {
+   "text": "что",
+   "startMs": 104610,
+   "endMs": 104960,
+   "scene": 8
+  },
+  {
+   "text": "пока",
+   "startMs": 104960,
+   "endMs": 105300,
+   "scene": 8
+  },
+  {
+   "text": "нет.",
+   "startMs": 105300,
+   "endMs": 105860,
+   "scene": 8
+  },
+  {
+   "text": "В",
+   "startMs": 105860,
+   "endMs": 105950,
+   "scene": 8
+  },
+  {
+   "text": "следующем",
+   "startMs": 105950,
+   "endMs": 106770,
+   "scene": 8
+  },
+  {
+   "text": "выпуске —",
+   "startMs": 106770,
+   "endMs": 107410,
+   "scene": 8
+  },
+  {
+   "text": "о",
+   "startMs": 107410,
+   "endMs": 107490,
+   "scene": 8
+  },
+  {
+   "text": "том,",
+   "startMs": 107480,
+   "endMs": 107920,
+   "scene": 8
+  },
+  {
+   "text": "что",
+   "startMs": 107920,
+   "endMs": 108230,
+   "scene": 8
+  },
+  {
+   "text": "зависит",
+   "startMs": 108230,
+   "endMs": 108840,
+   "scene": 8
+  },
+  {
+   "text": "от",
+   "startMs": 108840,
+   "endMs": 109010,
+   "scene": 8
+  },
+  {
+   "text": "вас",
+   "startMs": 109010,
+   "endMs": 109280,
+   "scene": 8
+  },
+  {
+   "text": "и",
+   "startMs": 109280,
+   "endMs": 109370,
+   "scene": 8
+  },
+  {
+   "text": "ваших",
+   "startMs": 109370,
+   "endMs": 109820,
+   "scene": 8
+  },
+  {
+   "text": "близких.",
+   "startMs": 109820,
+   "endMs": 110800,
+   "scene": 8
+  }
+ ],
+ "pages": [
+  {
+   "startMs": 400,
+   "endMs": 730,
+   "text": "Как понять,",
+   "words": [
+    {
+     "text": "Как",
+     "startMs": 400,
+     "endMs": 600,
+     "scene": 0
+    },
+    {
+     "text": "понять,",
+     "startMs": 600,
+     "endMs": 730,
+     "scene": 0
+    }
+   ]
+  },
+  {
+   "startMs": 730,
+   "endMs": 3380,
+   "text": "что реабилитация действительно помогает?",
+   "words": [
+    {
+     "text": "что",
+     "startMs": 730,
+     "endMs": 930,
+     "scene": 0
+    },
+    {
+     "text": "реабилитация",
+     "startMs": 930,
+     "endMs": 1720,
+     "scene": 0
+    },
+    {
+     "text": "действительно",
+     "startMs": 1720,
+     "endMs": 2620,
+     "scene": 0
+    },
+    {
+     "text": "помогает?",
+     "startMs": 2620,
+     "endMs": 3380,
+     "scene": 0
+    }
+   ]
+  },
+  {
+   "startMs": 3380,
+   "endMs": 5670,
+   "text": "Не на глаз и не по ощущениям",
+   "words": [
+    {
+     "text": "Не",
+     "startMs": 3380,
+     "endMs": 3800,
+     "scene": 0
+    },
+    {
+     "text": "на",
+     "startMs": 3800,
+     "endMs": 3880,
+     "scene": 0
+    },
+    {
+     "text": "глаз",
+     "startMs": 3870,
+     "endMs": 4220,
+     "scene": 0
+    },
+    {
+     "text": "и",
+     "startMs": 4220,
+     "endMs": 4320,
+     "scene": 0
+    },
+    {
+     "text": "не",
+     "startMs": 4320,
+     "endMs": 4530,
+     "scene": 0
+    },
+    {
+     "text": "по",
+     "startMs": 4530,
+     "endMs": 4840,
+     "scene": 0
+    },
+    {
+     "text": "ощущениям",
+     "startMs": 4840,
+     "endMs": 5670,
+     "scene": 0
+    }
+   ]
+  },
+  {
+   "startMs": 5670,
+   "endMs": 6750,
+   "text": "«вроде бы лучше».",
+   "words": [
+    {
+     "text": "«вроде",
+     "startMs": 5670,
+     "endMs": 6220,
+     "scene": 0
+    },
+    {
+     "text": "бы",
+     "startMs": 6220,
+     "endMs": 6440,
+     "scene": 0
+    },
+    {
+     "text": "лучше».",
+     "startMs": 6440,
+     "endMs": 6750,
+     "scene": 0
+    }
+   ]
+  },
+  {
+   "startMs": 6750,
+   "endMs": 11000,
+   "text": "Для этого есть цель и понятные измерения.",
+   "words": [
+    {
+     "text": "Для",
+     "startMs": 6750,
+     "endMs": 7280,
+     "scene": 0
+    },
+    {
+     "text": "этого",
+     "startMs": 7280,
+     "endMs": 7410,
+     "scene": 0
+    },
+    {
+     "text": "есть",
+     "startMs": 7410,
+     "endMs": 7730,
+     "scene": 0
+    },
+    {
+     "text": "цель",
+     "startMs": 7730,
+     "endMs": 8110,
+     "scene": 0
+    },
+    {
+     "text": "и",
+     "startMs": 8110,
+     "endMs": 8183,
+     "scene": 0
+    },
+    {
+     "text": "понятные",
+     "startMs": 8183,
+     "endMs": 8770,
+     "scene": 0
+    },
+    {
+     "text": "измерения.",
+     "startMs": 8770,
+     "endMs": 9800,
+     "scene": 0
+    }
+   ]
+  },
+  {
+   "startMs": 11080,
+   "endMs": 11730,
+   "text": "В начале курса команда",
+   "words": [
+    {
+     "text": "В",
+     "startMs": 11080,
+     "endMs": 11114,
+     "scene": 1
+    },
+    {
+     "text": "начале",
+     "startMs": 11114,
+     "endMs": 11319,
+     "scene": 1
+    },
+    {
+     "text": "курса",
+     "startMs": 11319,
+     "endMs": 11491,
+     "scene": 1
+    },
+    {
+     "text": "команда",
+     "startMs": 11491,
+     "endMs": 11730,
+     "scene": 1
+    }
+   ]
+  },
+  {
+   "startMs": 11730,
+   "endMs": 15200,
+   "text": "вместе с вами ставит цель. Цель всегда одна.",
+   "words": [
+    {
+     "text": "вместе",
+     "startMs": 11730,
+     "endMs": 12050,
+     "scene": 1
+    },
+    {
+     "text": "с",
+     "startMs": 12050,
+     "endMs": 12140,
+     "scene": 1
+    },
+    {
+     "text": "вами",
+     "startMs": 12140,
+     "endMs": 12500,
+     "scene": 1
+    },
+    {
+     "text": "ставит",
+     "startMs": 12500,
+     "endMs": 13040,
+     "scene": 1
+    },
+    {
+     "text": "цель.",
+     "startMs": 13040,
+     "endMs": 13700,
+     "scene": 1
+    },
+    {
+     "text": "Цель",
+     "startMs": 13700,
+     "endMs": 14030,
+     "scene": 1
+    },
+    {
+     "text": "всегда",
+     "startMs": 14030,
+     "endMs": 14930,
+     "scene": 1
+    },
+    {
+     "text": "одна.",
+     "startMs": 14930,
+     "endMs": 15200,
+     "scene": 1
+    }
+   ]
+  },
+  {
+   "startMs": 15200,
+   "endMs": 18370,
+   "text": "Это то, чего вы хотите достичь в обычной",
+   "words": [
+    {
+     "text": "Это",
+     "startMs": 15200,
+     "endMs": 15470,
+     "scene": 1
+    },
+    {
+     "text": "то,",
+     "startMs": 15470,
+     "endMs": 15920,
+     "scene": 1
+    },
+    {
+     "text": "чего",
+     "startMs": 15920,
+     "endMs": 16260,
+     "scene": 1
+    },
+    {
+     "text": "вы",
+     "startMs": 16260,
+     "endMs": 16370,
+     "scene": 1
+    },
+    {
+     "text": "хотите",
+     "startMs": 16370,
+     "endMs": 16910,
+     "scene": 1
+    },
+    {
+     "text": "достичь",
+     "startMs": 16910,
+     "endMs": 17540,
+     "scene": 1
+    },
+    {
+     "text": "в",
+     "startMs": 17540,
+     "endMs": 17630,
+     "scene": 1
+    },
+    {
+     "text": "обычной",
+     "startMs": 17630,
+     "endMs": 18370,
+     "scene": 1
+    }
+   ]
+  },
+  {
+   "startMs": 18370,
+   "endMs": 21807,
+   "text": "жизни к определённому сроку.",
+   "words": [
+    {
+     "text": "жизни",
+     "startMs": 18370,
+     "endMs": 18710,
+     "scene": 1
+    },
+    {
+     "text": "к",
+     "startMs": 18710,
+     "endMs": 18800,
+     "scene": 1
+    },
+    {
+     "text": "определённому",
+     "startMs": 18800,
+     "endMs": 19970,
+     "scene": 1
+    },
+    {
+     "text": "сроку.",
+     "startMs": 19970,
+     "endMs": 20760,
+     "scene": 1
+    }
+   ]
+  },
+  {
+   "startMs": 21807,
+   "endMs": 23880,
+   "text": "У хорошей цели есть простые правила.",
+   "words": [
+    {
+     "text": "У",
+     "startMs": 21807,
+     "endMs": 21816,
+     "scene": 2
+    },
+    {
+     "text": "хорошей",
+     "startMs": 21816,
+     "endMs": 21880,
+     "scene": 2
+    },
+    {
+     "text": "цели",
+     "startMs": 21880,
+     "endMs": 22200,
+     "scene": 2
+    },
+    {
+     "text": "есть",
+     "startMs": 22200,
+     "endMs": 22520,
+     "scene": 2
+    },
+    {
+     "text": "простые",
+     "startMs": 22520,
+     "endMs": 23130,
+     "scene": 2
+    },
+    {
+     "text": "правила.",
+     "startMs": 23130,
+     "endMs": 23880,
+     "scene": 2
+    }
+   ]
+  },
+  {
+   "startMs": 23880,
+   "endMs": 26780,
+   "text": "Их легко запомнить по фамилии Сидоров.",
+   "words": [
+    {
+     "text": "Их",
+     "startMs": 23880,
+     "endMs": 24100,
+     "scene": 2
+    },
+    {
+     "text": "легко",
+     "startMs": 24100,
+     "endMs": 24440,
+     "scene": 2
+    },
+    {
+     "text": "запомнить",
+     "startMs": 24440,
+     "endMs": 25160,
+     "scene": 2
+    },
+    {
+     "text": "по",
+     "startMs": 25160,
+     "endMs": 25320,
+     "scene": 2
+    },
+    {
+     "text": "фамилии",
+     "startMs": 25320,
+     "endMs": 25880,
+     "scene": 2
+    },
+    {
+     "text": "Сидоров.",
+     "startMs": 25880,
+     "endMs": 26780,
+     "scene": 2
+    }
+   ]
+  },
+  {
+   "startMs": 26780,
+   "endMs": 29810,
+   "text": "Цель специфичная — то есть конкретная.",
+   "words": [
+    {
+     "text": "Цель",
+     "startMs": 26780,
+     "endMs": 27110,
+     "scene": 2
+    },
+    {
+     "text": "специфичная —",
+     "startMs": 27110,
+     "endMs": 28330,
+     "scene": 2
+    },
+    {
+     "text": "то",
+     "startMs": 28330,
+     "endMs": 28530,
+     "scene": 2
+    },
+    {
+     "text": "есть",
+     "startMs": 28530,
+     "endMs": 28660,
+     "scene": 2
+    },
+    {
+     "text": "конкретная.",
+     "startMs": 28660,
+     "endMs": 29810,
+     "scene": 2
+    }
+   ]
+  },
+  {
+   "startMs": 29810,
+   "endMs": 32660,
+   "text": "Измеримая. Достижимая. Реалистичная —",
+   "words": [
+    {
+     "text": "Измеримая.",
+     "startMs": 29810,
+     "endMs": 30540,
+     "scene": 2
+    },
+    {
+     "text": "Достижимая.",
+     "startMs": 30540,
+     "endMs": 31510,
+     "scene": 2
+    },
+    {
+     "text": "Реалистичная —",
+     "startMs": 31510,
+     "endMs": 32660,
+     "scene": 2
+    }
+   ]
+  },
+  {
+   "startMs": 32660,
+   "endMs": 34150,
+   "text": "важная именно для вас.",
+   "words": [
+    {
+     "text": "важная",
+     "startMs": 32660,
+     "endMs": 33150,
+     "scene": 2
+    },
+    {
+     "text": "именно",
+     "startMs": 33150,
+     "endMs": 33740,
+     "scene": 2
+    },
+    {
+     "text": "для",
+     "startMs": 33740,
+     "endMs": 33900,
+     "scene": 2
+    },
+    {
+     "text": "вас.",
+     "startMs": 33900,
+     "endMs": 34150,
+     "scene": 2
+    }
+   ]
+  },
+  {
+   "startMs": 34150,
+   "endMs": 37467,
+   "text": "И определённая во времени.",
+   "words": [
+    {
+     "text": "И",
+     "startMs": 34150,
+     "endMs": 34230,
+     "scene": 2
+    },
+    {
+     "text": "определённая",
+     "startMs": 34230,
+     "endMs": 35330,
+     "scene": 2
+    },
+    {
+     "text": "во",
+     "startMs": 35330,
+     "endMs": 35410,
+     "scene": 2
+    },
+    {
+     "text": "времени.",
+     "startMs": 35360,
+     "endMs": 36380,
+     "scene": 2
+    }
+   ]
+  },
+  {
+   "startMs": 37467,
+   "endMs": 37550,
+   "text": "Цель —",
+   "words": [
+    {
+     "text": "Цель —",
+     "startMs": 37467,
+     "endMs": 37550,
+     "scene": 3
+    }
+   ]
+  },
+  {
+   "startMs": 37550,
+   "endMs": 40280,
+   "text": "не просто пройти по коридору больницы. А,",
+   "words": [
+    {
+     "text": "не",
+     "startMs": 37550,
+     "endMs": 37800,
+     "scene": 3
+    },
+    {
+     "text": "просто",
+     "startMs": 37800,
+     "endMs": 38080,
+     "scene": 3
+    },
+    {
+     "text": "пройти",
+     "startMs": 38080,
+     "endMs": 38540,
+     "scene": 3
+    },
+    {
+     "text": "по",
+     "startMs": 38540,
+     "endMs": 38690,
+     "scene": 3
+    },
+    {
+     "text": "коридору",
+     "startMs": 38690,
+     "endMs": 39290,
+     "scene": 3
+    },
+    {
+     "text": "больницы.",
+     "startMs": 39290,
+     "endMs": 40060,
+     "scene": 3
+    },
+    {
+     "text": "А,",
+     "startMs": 40060,
+     "endMs": 40280,
+     "scene": 3
+    }
+   ]
+  },
+  {
+   "startMs": 40280,
+   "endMs": 43130,
+   "text": "например, через три недели самому сходить",
+   "words": [
+    {
+     "text": "например,",
+     "startMs": 40280,
+     "endMs": 41060,
+     "scene": 3
+    },
+    {
+     "text": "через",
+     "startMs": 41060,
+     "endMs": 41450,
+     "scene": 3
+    },
+    {
+     "text": "три",
+     "startMs": 41450,
+     "endMs": 41670,
+     "scene": 3
+    },
+    {
+     "text": "недели",
+     "startMs": 41670,
+     "endMs": 42140,
+     "scene": 3
+    },
+    {
+     "text": "самому",
+     "startMs": 42140,
+     "endMs": 42600,
+     "scene": 3
+    },
+    {
+     "text": "сходить",
+     "startMs": 42600,
+     "endMs": 43130,
+     "scene": 3
+    }
+   ]
+  },
+  {
+   "startMs": 43130,
+   "endMs": 45270,
+   "text": "в магазин и принести сумки.",
+   "words": [
+    {
+     "text": "в",
+     "startMs": 43130,
+     "endMs": 43210,
+     "scene": 3
+    },
+    {
+     "text": "магазин",
+     "startMs": 43200,
+     "endMs": 43740,
+     "scene": 3
+    },
+    {
+     "text": "и",
+     "startMs": 43740,
+     "endMs": 43820,
+     "scene": 3
+    },
+    {
+     "text": "принести",
+     "startMs": 43810,
+     "endMs": 44450,
+     "scene": 3
+    },
+    {
+     "text": "сумки.",
+     "startMs": 44450,
+     "endMs": 45270,
+     "scene": 3
+    }
+   ]
+  },
+  {
+   "startMs": 45270,
+   "endMs": 47210,
+   "text": "Или через неделю самому надеть",
+   "words": [
+    {
+     "text": "Или",
+     "startMs": 45270,
+     "endMs": 45730,
+     "scene": 3
+    },
+    {
+     "text": "через",
+     "startMs": 45730,
+     "endMs": 45880,
+     "scene": 3
+    },
+    {
+     "text": "неделю",
+     "startMs": 45880,
+     "endMs": 46310,
+     "scene": 3
+    },
+    {
+     "text": "самому",
+     "startMs": 46310,
+     "endMs": 46770,
+     "scene": 3
+    },
+    {
+     "text": "надеть",
+     "startMs": 46770,
+     "endMs": 47210,
+     "scene": 3
+    }
+   ]
+  },
+  {
+   "startMs": 47210,
+   "endMs": 50700,
+   "text": "рубашку и застегнуть пуговицы.",
+   "words": [
+    {
+     "text": "рубашку",
+     "startMs": 47210,
+     "endMs": 47760,
+     "scene": 3
+    },
+    {
+     "text": "и",
+     "startMs": 47760,
+     "endMs": 47980,
+     "scene": 3
+    },
+    {
+     "text": "застегнуть",
+     "startMs": 47980,
+     "endMs": 48580,
+     "scene": 3
+    },
+    {
+     "text": "пуговицы.",
+     "startMs": 48580,
+     "endMs": 49500,
+     "scene": 3
+    }
+   ]
+  },
+  {
+   "startMs": 50860,
+   "endMs": 51750,
+   "text": "Чтобы видеть движение к цели,",
+   "words": [
+    {
+     "text": "Чтобы",
+     "startMs": 50860,
+     "endMs": 50910,
+     "scene": 4
+    },
+    {
+     "text": "видеть",
+     "startMs": 50910,
+     "endMs": 50970,
+     "scene": 4
+    },
+    {
+     "text": "движение",
+     "startMs": 50970,
+     "endMs": 51050,
+     "scene": 4
+    },
+    {
+     "text": "к",
+     "startMs": 51050,
+     "endMs": 51210,
+     "scene": 4
+    },
+    {
+     "text": "цели,",
+     "startMs": 51210,
+     "endMs": 51750,
+     "scene": 4
+    }
+   ]
+  },
+  {
+   "startMs": 51750,
+   "endMs": 54730,
+   "text": "команда пользуется шкалами и тестами.",
+   "words": [
+    {
+     "text": "команда",
+     "startMs": 51750,
+     "endMs": 52240,
+     "scene": 4
+    },
+    {
+     "text": "пользуется",
+     "startMs": 52240,
+     "endMs": 53000,
+     "scene": 4
+    },
+    {
+     "text": "шкалами",
+     "startMs": 53000,
+     "endMs": 53560,
+     "scene": 4
+    },
+    {
+     "text": "и",
+     "startMs": 53560,
+     "endMs": 53640,
+     "scene": 4
+    },
+    {
+     "text": "тестами.",
+     "startMs": 53640,
+     "endMs": 54730,
+     "scene": 4
+    }
+   ]
+  },
+  {
+   "startMs": 54730,
+   "endMs": 57120,
+   "text": "Например, сколько метров вы проходите.",
+   "words": [
+    {
+     "text": "Например,",
+     "startMs": 54730,
+     "endMs": 55280,
+     "scene": 4
+    },
+    {
+     "text": "сколько",
+     "startMs": 55280,
+     "endMs": 55790,
+     "scene": 4
+    },
+    {
+     "text": "метров",
+     "startMs": 55790,
+     "endMs": 56210,
+     "scene": 4
+    },
+    {
+     "text": "вы",
+     "startMs": 56210,
+     "endMs": 56350,
+     "scene": 4
+    },
+    {
+     "text": "проходите.",
+     "startMs": 56350,
+     "endMs": 57120,
+     "scene": 4
+    }
+   ]
+  },
+  {
+   "startMs": 57120,
+   "endMs": 59820,
+   "text": "Сколько секунд удерживаете равновесие.",
+   "words": [
+    {
+     "text": "Сколько",
+     "startMs": 57120,
+     "endMs": 57640,
+     "scene": 4
+    },
+    {
+     "text": "секунд",
+     "startMs": 57640,
+     "endMs": 58140,
+     "scene": 4
+    },
+    {
+     "text": "удерживаете",
+     "startMs": 58140,
+     "endMs": 58970,
+     "scene": 4
+    },
+    {
+     "text": "равновесие.",
+     "startMs": 58970,
+     "endMs": 59820,
+     "scene": 4
+    }
+   ]
+  },
+  {
+   "startMs": 59820,
+   "endMs": 61900,
+   "text": "Насколько сами себя обслуживаете.",
+   "words": [
+    {
+     "text": "Насколько",
+     "startMs": 59820,
+     "endMs": 60390,
+     "scene": 4
+    },
+    {
+     "text": "сами",
+     "startMs": 60390,
+     "endMs": 60650,
+     "scene": 4
+    },
+    {
+     "text": "себя",
+     "startMs": 60650,
+     "endMs": 60910,
+     "scene": 4
+    },
+    {
+     "text": "обслуживаете.",
+     "startMs": 60910,
+     "endMs": 61900,
+     "scene": 4
+    }
+   ]
+  },
+  {
+   "startMs": 61900,
+   "endMs": 63860,
+   "text": "Вас оценивают в начале курса.",
+   "words": [
+    {
+     "text": "Вас",
+     "startMs": 61900,
+     "endMs": 62200,
+     "scene": 4
+    },
+    {
+     "text": "оценивают",
+     "startMs": 62200,
+     "endMs": 62800,
+     "scene": 4
+    },
+    {
+     "text": "в",
+     "startMs": 62800,
+     "endMs": 62880,
+     "scene": 4
+    },
+    {
+     "text": "начале",
+     "startMs": 62870,
+     "endMs": 63330,
+     "scene": 4
+    },
+    {
+     "text": "курса.",
+     "startMs": 63330,
+     "endMs": 63860,
+     "scene": 4
+    }
+   ]
+  },
+  {
+   "startMs": 63860,
+   "endMs": 66908,
+   "text": "Потом в середине. И в конце.",
+   "words": [
+    {
+     "text": "Потом",
+     "startMs": 63860,
+     "endMs": 64250,
+     "scene": 4
+    },
+    {
+     "text": "в",
+     "startMs": 64250,
+     "endMs": 64380,
+     "scene": 4
+    },
+    {
+     "text": "середине.",
+     "startMs": 64380,
+     "endMs": 64930,
+     "scene": 4
+    },
+    {
+     "text": "И",
+     "startMs": 64930,
+     "endMs": 65010,
+     "scene": 4
+    },
+    {
+     "text": "в",
+     "startMs": 65000,
+     "endMs": 65080,
+     "scene": 4
+    },
+    {
+     "text": "конце.",
+     "startMs": 65070,
+     "endMs": 65840,
+     "scene": 4
+    }
+   ]
+  },
+  {
+   "startMs": 66908,
+   "endMs": 70480,
+   "text": "Так получается круг. Оценка. Цель. Занятия.",
+   "words": [
+    {
+     "text": "Так",
+     "startMs": 66908,
+     "endMs": 67012,
+     "scene": 5
+    },
+    {
+     "text": "получается",
+     "startMs": 67012,
+     "endMs": 67360,
+     "scene": 5
+    },
+    {
+     "text": "круг.",
+     "startMs": 67360,
+     "endMs": 68060,
+     "scene": 5
+    },
+    {
+     "text": "Оценка.",
+     "startMs": 68060,
+     "endMs": 69090,
+     "scene": 5
+    },
+    {
+     "text": "Цель.",
+     "startMs": 69090,
+     "endMs": 69670,
+     "scene": 5
+    },
+    {
+     "text": "Занятия.",
+     "startMs": 69670,
+     "endMs": 70480,
+     "scene": 5
+    }
+   ]
+  },
+  {
+   "startMs": 70480,
+   "endMs": 73980,
+   "text": "И снова оценка. Если что-то идёт не так,",
+   "words": [
+    {
+     "text": "И",
+     "startMs": 70480,
+     "endMs": 70620,
+     "scene": 5
+    },
+    {
+     "text": "снова",
+     "startMs": 70620,
+     "endMs": 71170,
+     "scene": 5
+    },
+    {
+     "text": "оценка.",
+     "startMs": 71170,
+     "endMs": 72300,
+     "scene": 5
+    },
+    {
+     "text": "Если",
+     "startMs": 72300,
+     "endMs": 72800,
+     "scene": 5
+    },
+    {
+     "text": "что-то",
+     "startMs": 72800,
+     "endMs": 73100,
+     "scene": 5
+    },
+    {
+     "text": "идёт",
+     "startMs": 73100,
+     "endMs": 73420,
+     "scene": 5
+    },
+    {
+     "text": "не",
+     "startMs": 73420,
+     "endMs": 73660,
+     "scene": 5
+    },
+    {
+     "text": "так,",
+     "startMs": 73660,
+     "endMs": 73980,
+     "scene": 5
+    }
+   ]
+  },
+  {
+   "startMs": 73980,
+   "endMs": 76860,
+   "text": "команда меняет план.",
+   "words": [
+    {
+     "text": "команда",
+     "startMs": 73980,
+     "endMs": 74540,
+     "scene": 5
+    },
+    {
+     "text": "меняет",
+     "startMs": 74540,
+     "endMs": 75130,
+     "scene": 5
+    },
+    {
+     "text": "план.",
+     "startMs": 75130,
+     "endMs": 75660,
+     "scene": 5
+    }
+   ]
+  },
+  {
+   "startMs": 77040,
+   "endMs": 77680,
+   "text": "Главный признак успеха —",
+   "words": [
+    {
+     "text": "Главный",
+     "startMs": 77040,
+     "endMs": 77244,
+     "scene": 6
+    },
+    {
+     "text": "признак",
+     "startMs": 77244,
+     "endMs": 77447,
+     "scene": 6
+    },
+    {
+     "text": "успеха —",
+     "startMs": 77447,
+     "endMs": 77680,
+     "scene": 6
+    }
+   ]
+  },
+  {
+   "startMs": 77680,
+   "endMs": 81110,
+   "text": "вы пользуетесь навыком сами. Каждый день.",
+   "words": [
+    {
+     "text": "вы",
+     "startMs": 77680,
+     "endMs": 77780,
+     "scene": 6
+    },
+    {
+     "text": "пользуетесь",
+     "startMs": 77780,
+     "endMs": 78800,
+     "scene": 6
+    },
+    {
+     "text": "навыком",
+     "startMs": 78800,
+     "endMs": 79520,
+     "scene": 6
+    },
+    {
+     "text": "сами.",
+     "startMs": 79520,
+     "endMs": 80000,
+     "scene": 6
+    },
+    {
+     "text": "Каждый",
+     "startMs": 80000,
+     "endMs": 80910,
+     "scene": 6
+    },
+    {
+     "text": "день.",
+     "startMs": 80910,
+     "endMs": 81110,
+     "scene": 6
+    }
+   ]
+  },
+  {
+   "startMs": 81110,
+   "endMs": 85795,
+   "text": "И не только в отделении, а дома и на улице.",
+   "words": [
+    {
+     "text": "И",
+     "startMs": 81110,
+     "endMs": 81200,
+     "scene": 6
+    },
+    {
+     "text": "не",
+     "startMs": 81200,
+     "endMs": 81380,
+     "scene": 6
+    },
+    {
+     "text": "только",
+     "startMs": 81380,
+     "endMs": 81940,
+     "scene": 6
+    },
+    {
+     "text": "в",
+     "startMs": 81940,
+     "endMs": 82030,
+     "scene": 6
+    },
+    {
+     "text": "отделении,",
+     "startMs": 82030,
+     "endMs": 83060,
+     "scene": 6
+    },
+    {
+     "text": "а",
+     "startMs": 83060,
+     "endMs": 83140,
+     "scene": 6
+    },
+    {
+     "text": "дома",
+     "startMs": 83130,
+     "endMs": 83500,
+     "scene": 6
+    },
+    {
+     "text": "и",
+     "startMs": 83500,
+     "endMs": 83590,
+     "scene": 6
+    },
+    {
+     "text": "на",
+     "startMs": 83590,
+     "endMs": 83760,
+     "scene": 6
+    },
+    {
+     "text": "улице.",
+     "startMs": 83760,
+     "endMs": 84680,
+     "scene": 6
+    }
+   ]
+  },
+  {
+   "startMs": 85795,
+   "endMs": 87690,
+   "text": "В конце курса в реабилитационном",
+   "words": [
+    {
+     "text": "В",
+     "startMs": 85795,
+     "endMs": 85823,
+     "scene": 7
+    },
+    {
+     "text": "конце",
+     "startMs": 85823,
+     "endMs": 85960,
+     "scene": 7
+    },
+    {
+     "text": "курса",
+     "startMs": 85960,
+     "endMs": 86250,
+     "scene": 7
+    },
+    {
+     "text": "в",
+     "startMs": 86250,
+     "endMs": 86330,
+     "scene": 7
+    },
+    {
+     "text": "реабилитационном",
+     "startMs": 86330,
+     "endMs": 87690,
+     "scene": 7
+    }
+   ]
+  },
+  {
+   "startMs": 87690,
+   "endMs": 90760,
+   "text": "эпикризе отмечают, достигнута ли цель.",
+   "words": [
+    {
+     "text": "эпикризе",
+     "startMs": 87690,
+     "endMs": 88360,
+     "scene": 7
+    },
+    {
+     "text": "отмечают,",
+     "startMs": 88360,
+     "endMs": 89200,
+     "scene": 7
+    },
+    {
+     "text": "достигнута",
+     "startMs": 89200,
+     "endMs": 90160,
+     "scene": 7
+    },
+    {
+     "text": "ли",
+     "startMs": 90160,
+     "endMs": 90240,
+     "scene": 7
+    },
+    {
+     "text": "цель.",
+     "startMs": 90210,
+     "endMs": 90760,
+     "scene": 7
+    }
+   ]
+  },
+  {
+   "startMs": 90760,
+   "endMs": 93240,
+   "text": "Достигнута. Достигнута частично.",
+   "words": [
+    {
+     "text": "Достигнута.",
+     "startMs": 90760,
+     "endMs": 91720,
+     "scene": 7
+    },
+    {
+     "text": "Достигнута",
+     "startMs": 91720,
+     "endMs": 92610,
+     "scene": 7
+    },
+    {
+     "text": "частично.",
+     "startMs": 92610,
+     "endMs": 93240,
+     "scene": 7
+    }
+   ]
+  },
+  {
+   "startMs": 93240,
+   "endMs": 96400,
+   "text": "Или не достигнута. Это не оценка вам,",
+   "words": [
+    {
+     "text": "Или",
+     "startMs": 93240,
+     "endMs": 93490,
+     "scene": 7
+    },
+    {
+     "text": "не",
+     "startMs": 93490,
+     "endMs": 93890,
+     "scene": 7
+    },
+    {
+     "text": "достигнута.",
+     "startMs": 93890,
+     "endMs": 95000,
+     "scene": 7
+    },
+    {
+     "text": "Это",
+     "startMs": 95000,
+     "endMs": 95420,
+     "scene": 7
+    },
+    {
+     "text": "не",
+     "startMs": 95420,
+     "endMs": 95500,
+     "scene": 7
+    },
+    {
+     "text": "оценка",
+     "startMs": 95500,
+     "endMs": 96160,
+     "scene": 7
+    },
+    {
+     "text": "вам,",
+     "startMs": 96160,
+     "endMs": 96400,
+     "scene": 7
+    }
+   ]
+  },
+  {
+   "startMs": 96400,
+   "endMs": 100020,
+   "text": "а ориентир для следующего шага.",
+   "words": [
+    {
+     "text": "а",
+     "startMs": 96400,
+     "endMs": 96480,
+     "scene": 7
+    },
+    {
+     "text": "ориентир",
+     "startMs": 96460,
+     "endMs": 97080,
+     "scene": 7
+    },
+    {
+     "text": "для",
+     "startMs": 97080,
+     "endMs": 97300,
+     "scene": 7
+    },
+    {
+     "text": "следующего",
+     "startMs": 97300,
+     "endMs": 98150,
+     "scene": 7
+    },
+    {
+     "text": "шага.",
+     "startMs": 98150,
+     "endMs": 98820,
+     "scene": 7
+    }
+   ]
+  },
+  {
+   "startMs": 100120,
+   "endMs": 101240,
+   "text": "Замечайте свои маленькие победы.",
+   "words": [
+    {
+     "text": "Замечайте",
+     "startMs": 100120,
+     "endMs": 100355,
+     "scene": 8
+    },
+    {
+     "text": "свои",
+     "startMs": 100355,
+     "endMs": 100460,
+     "scene": 8
+    },
+    {
+     "text": "маленькие",
+     "startMs": 100460,
+     "endMs": 100770,
+     "scene": 8
+    },
+    {
+     "text": "победы.",
+     "startMs": 100770,
+     "endMs": 101240,
+     "scene": 8
+    }
+   ]
+  },
+  {
+   "startMs": 101240,
+   "endMs": 104540,
+   "text": "И рассказывайте команде, что получается,",
+   "words": [
+    {
+     "text": "И",
+     "startMs": 101240,
+     "endMs": 101400,
+     "scene": 8
+    },
+    {
+     "text": "рассказывайте",
+     "startMs": 101400,
+     "endMs": 102460,
+     "scene": 8
+    },
+    {
+     "text": "команде,",
+     "startMs": 102460,
+     "endMs": 103240,
+     "scene": 8
+    },
+    {
+     "text": "что",
+     "startMs": 103240,
+     "endMs": 103990,
+     "scene": 8
+    },
+    {
+     "text": "получается,",
+     "startMs": 103990,
+     "endMs": 104540,
+     "scene": 8
+    }
+   ]
+  },
+  {
+   "startMs": 104540,
+   "endMs": 107920,
+   "text": "а что пока нет. В следующем выпуске — о том,",
+   "words": [
+    {
+     "text": "а",
+     "startMs": 104540,
+     "endMs": 104620,
+     "scene": 8
+    },
+    {
+     "text": "что",
+     "startMs": 104610,
+     "endMs": 104960,
+     "scene": 8
+    },
+    {
+     "text": "пока",
+     "startMs": 104960,
+     "endMs": 105300,
+     "scene": 8
+    },
+    {
+     "text": "нет.",
+     "startMs": 105300,
+     "endMs": 105860,
+     "scene": 8
+    },
+    {
+     "text": "В",
+     "startMs": 105860,
+     "endMs": 105950,
+     "scene": 8
+    },
+    {
+     "text": "следующем",
+     "startMs": 105950,
+     "endMs": 106770,
+     "scene": 8
+    },
+    {
+     "text": "выпуске —",
+     "startMs": 106770,
+     "endMs": 107410,
+     "scene": 8
+    },
+    {
+     "text": "о",
+     "startMs": 107410,
+     "endMs": 107490,
+     "scene": 8
+    },
+    {
+     "text": "том,",
+     "startMs": 107480,
+     "endMs": 107920,
+     "scene": 8
+    }
+   ]
+  },
+  {
+   "startMs": 107920,
+   "endMs": 112000,
+   "text": "что зависит от вас и ваших близких.",
+   "words": [
+    {
+     "text": "что",
+     "startMs": 107920,
+     "endMs": 108230,
+     "scene": 8
+    },
+    {
+     "text": "зависит",
+     "startMs": 108230,
+     "endMs": 108840,
+     "scene": 8
+    },
+    {
+     "text": "от",
+     "startMs": 108840,
+     "endMs": 109010,
+     "scene": 8
+    },
+    {
+     "text": "вас",
+     "startMs": 109010,
+     "endMs": 109280,
+     "scene": 8
+    },
+    {
+     "text": "и",
+     "startMs": 109280,
+     "endMs": 109370,
+     "scene": 8
+    },
+    {
+     "text": "ваших",
+     "startMs": 109370,
+     "endMs": 109820,
+     "scene": 8
+    },
+    {
+     "text": "близких.",
+     "startMs": 109820,
+     "endMs": 110800,
+     "scene": 8
+    }
+   ]
+  }
+ ]
+}
