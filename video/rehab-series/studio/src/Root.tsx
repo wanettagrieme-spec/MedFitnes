@@ -1,4 +1,5 @@
 import { Composition } from 'remotion';
+import { Ep01Modern, EP01_MODERN_DURATION } from './episodes/Ep01Modern';
 import { TestCard } from './TestCard';
 import { Ep01, EP01_DURATION } from './episodes/Ep01';
 import { Ep01Vertical, EP01V_DURATION } from './episodes/Ep01Vertical';
@@ -13,6 +14,7 @@ import { Ep05Vertical, EP05V_DURATION } from './episodes/Ep05Vertical';
 
 export const RemotionRoot: React.FC = () => (
   <>
+    <Composition id="Ep01Modern" component={Ep01Modern} durationInFrames={EP01_MODERN_DURATION} fps={30} width={1920} height={1080} />
     <Composition id="Ep01" component={Ep01} durationInFrames={EP01_DURATION} fps={30} width={1920} height={1080} />
     <Composition id="Ep01Vertical" component={Ep01Vertical} durationInFrames={EP01V_DURATION} fps={30} width={1080} height={1920} />
     <Composition id="Ep02" component={Ep02} durationInFrames={EP02_DURATION} fps={30} width={1920} height={1080} />
