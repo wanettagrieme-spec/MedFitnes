@@ -64,18 +64,18 @@ for i, (a, b, t) in enumerate(subs):
 B = bounds
 amber, cyan, coral, green, blue, navy = (245, 166, 35, 240), (0, 172, 193, 240), (232, 90, 79, 240), (46, 160, 90, 240), (41, 121, 255, 240), (20, 40, 70, 235)
 overlays += [
-    (plate('t1', 'Первые 3 месяца\nрешают очень многое', 230, amber, fg=(25, 25, 25), size=72), 0.3, B[1]),
-    (plate('t2', 'Нейропластичность', 230, cyan, size=70), B[1] + 0.2, B[2]),
-    (plate('t3', '«Пусть полежит» —\nопасная ошибка', 230, coral, size=72), B[2] + 0.2, B[3]),
-    (plate('t4', 'Правильная укладка\nс первых дней', 230, green, size=66), B[3] + 0.1, B[4]),
-    (plate('t5', 'Постепенно поднимать —\nпо решению врача', 230, green, size=62), B[4] + 0.2, B[5]),
-    (plate('t6', 'Команда специалистов', 200, blue, size=62), B[5] + 0.2, B[6]),
+    (plate('t1', 'Первые 3 месяца\nрешают очень многое', 70, amber, fg=(25, 25, 25), size=72), 0.3, B[1]),
+    (plate('t2', 'Нейропластичность', 70, cyan, size=70), B[1] + 0.2, B[2]),
+    (plate('t3', '«Пусть полежит» —\nопасная ошибка', 70, coral, size=72), B[2] + 0.2, B[3]),
+    (plate('t4', 'Правильная укладка\nс первых дней', 70, green, size=66), B[3] + 0.1, B[4]),
+    (plate('t5', 'Постепенно поднимать —\nпо решению врача', 70, green, size=62), B[4] + 0.2, B[5]),
+    (plate('t6', 'Команда специалистов', 70, blue, size=62), B[5] + 0.2, B[6]),
 ]
 # role labels synced with the voice (subs 15..18 -> indices 14..17)
 roles = [('Врач ФРМ — план', 13), ('Инструктор ЛФК — движение', 14), ('Эрготерапевт — бытовые навыки', 15), ('Клинический логопед — речь и глотание', 16)]
 for k, (txt, si) in enumerate(roles):
-    overlays.append((plate(f'r{k}', txt, 330 + k * 105, navy, size=44, maxw=960, fpath=FB, radius=18), subs[si][0], B[6]))
-overlays.append((plate('t7', 'Спросите врача\nо реабилитации сегодня', 230, amber, fg=(25, 25, 25), size=66), B[6] + 0.2, total))
+    overlays.append((plate(f'r{k}', txt, 190 + k * 95, navy, size=44, maxw=960, fpath=FB, radius=18), subs[si][0], B[6]))
+overlays.append((plate('t7', 'Спросите врача\nо реабилитации сегодня', 70, amber, fg=(25, 25, 25), size=66), B[6] + 0.2, total))
 endt = subs[-1][1] + 0.3
 overlays.append((plate('disc', 'Информация не заменяет\nконсультацию врача', 1440, (255, 255, 255, 235), fg=(20, 30, 40), size=52, fpath=FB), endt, total))
 overlays.append((plate('ai', 'Видеоряд создан с помощью ИИ', 1680, (0, 0, 0, 150), size=34, fpath=FB, radius=14), endt, total))
@@ -85,7 +85,7 @@ inputs, filt = [], []
 for i in range(7):
     dur = B[i + 1] - B[i]
     inputs += ['-i', f'v{i + 1}.mp4']
-    filt.append(f'[{i}:v]scale=1080:-2,crop=1080:1920,fps=30,setsar=1,tpad=stop_mode=clone:stop_duration=3,trim=duration={dur:.3f},setpts=PTS-STARTPTS[c{i}]')
+    filt.append(f'[{i}:v]scale=1080:-2,crop=1080:1920:0:0,fps=30,setsar=1,tpad=stop_mode=clone:stop_duration=3,trim=duration={dur:.3f},setpts=PTS-STARTPTS[c{i}]')
 filt.append(''.join(f'[c{i}]' for i in range(7)) + 'concat=n=7:v=1:a=0[base]')
 last = 'base'
 n = 7
