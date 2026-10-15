@@ -53,7 +53,7 @@
 <asset id="r49" name="Голос" start="0s" duration="221300/3000s" hasAudio="1" audioSources="1" audioChannels="1" audioRate="48000"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/media/voice-v3-ermil-good-095.mp3"/></asset>
 <asset id="r50" name="Музыка" start="0s" duration="224200/3000s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/music.wav"/></asset>
 </resources>
-<library>
+<library location="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0.fcpbundle/">
 <event name="Серия 2 МР">
 <project name="Ролик 1 — Золотое окно после инсульта — 9x16">
 <sequence format="r1" duration="221200/3000s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">

@@ -131,7 +131,7 @@ kids.append(f'<asset-clip ref="{ids["music"]}" lane="-2" offset="0s" name="Му�
 
 name = cfg['name'] + (' — 9x16' if V else ' — 16x9')
 xml = ('<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE fcpxml>\n<fcpxml version="1.10">\n<resources>\n' + '\n'.join(res) +
-       f'\n</resources>\n<library>\n<event name="Серия 2 МР">\n<project name="{name}">\n'
+       f'\n</resources>\n<library location="{"file://" + urllib.parse.quote(os.path.dirname(MAC) + "/Серия 2 МР.fcpbundle")}/">\n<event name="Серия 2 МР">\n<project name="{name}">\n'
        f'<sequence format="r1" duration="{fr(total)}" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">\n<spine>\n'
        f'<gap name="Основа" offset="0s" start="0s" duration="{fr(total)}">\n' + '\n'.join(kids) +
        '\n</gap>\n</spine>\n</sequence>\n</project>\n</event>\n</library>\n</fcpxml>\n')
