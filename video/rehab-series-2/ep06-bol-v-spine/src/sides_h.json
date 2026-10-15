@@ -1,0 +1,74 @@
+[
+ {
+  "scene": 1,
+  "side": "left",
+  "clearance_px": 99999,
+  "overlap_px": 0,
+  "other_px": 0,
+  "faces": 6,
+  "min_head_top_px": 211
+ },
+ {
+  "scene": 2,
+  "side": "left",
+  "clearance_px": 99999,
+  "overlap_px": 0,
+  "other_px": 0,
+  "faces": 3,
+  "min_head_top_px": 32
+ },
+ {
+  "scene": 3,
+  "side": "left",
+  "clearance_px": 511,
+  "overlap_px": 0,
+  "other_px": 0,
+  "faces": 12,
+  "min_head_top_px": 259
+ },
+ {
+  "scene": 4,
+  "side": "left",
+  "clearance_px": 476,
+  "overlap_px": 0,
+  "other_px": 0,
+  "faces": 13,
+  "min_head_top_px": 158
+ },
+ {
+  "scene": 5,
+  "side": "left",
+  "clearance_px": 99999,
+  "overlap_px": 0,
+  "other_px": 0,
+  "faces": 12,
+  "min_head_top_px": 356
+ },
+ {
+  "scene": 6,
+  "side": "left",
+  "clearance_px": 99999,
+  "overlap_px": 0,
+  "other_px": 0,
+  "faces": 13,
+  "min_head_top_px": 307
+ },
+ {
+  "scene": 7,
+  "side": "left",
+  "clearance_px": 362,
+  "overlap_px": 0,
+  "other_px": 0,
+  "faces": 24,
+  "min_head_top_px": 379
+ },
+ {
+  "scene": 8,
+  "side": "left",
+  "clearance_px": 436,
+  "overlap_px": 0,
+  "other_px": 0,
+  "faces": 24,
+  "min_head_top_px": 459
+ }
+]
