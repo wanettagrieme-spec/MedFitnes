@@ -78,7 +78,6 @@ for k, (txt, si) in enumerate(roles):
 overlays.append((plate('t7', 'Спросите врача\nо реабилитации сегодня', 40, amber, fg=(25, 25, 25), size=66, x=70), B[6] + 0.2, total))
 endt = subs[-1][1] + 0.3
 overlays.append((plate('disc', 'Информация не заменяет консультацию врача', 850, (255, 255, 255, 235), fg=(20, 30, 40), size=52, fpath=FB, maxw=1600), endt, total))
-overlays.append((plate('ai', 'Видеоряд создан с помощью ИИ', 990, (0, 0, 0, 150), size=34, fpath=FB, radius=14), endt, total))
 
 # --- video: 7 clips trimmed/padded to scene durations, scaled to 1080x1920
 inputs, filt = [], []

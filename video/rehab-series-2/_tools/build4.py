@@ -149,10 +149,8 @@ for k, item in enumerate(titles):
 endt = subs[-1][1] + 0.3
 if V:
     ov.append((plate('disc', 'Информация не заменяет\nконсультацию врача', None, 1440, (255, 255, 255, 235), fg=(20, 30, 40), size=52, fpath=FB), endt, total))
-    ov.append((plate('ai', 'Видеоряд создан с помощью ИИ', None, 1680, (0, 0, 0, 150), size=34, fpath=FB, radius=14), endt, total))
 else:
     ov.append((plate('disc', 'Информация не заменяет консультацию врача', None, 850, (255, 255, 255, 235), fg=(20, 30, 40), size=52, fpath=FB, maxw=1600), endt, total))
-    ov.append((plate('ai', 'Видеоряд создан с помощью ИИ', None, 990, (0, 0, 0, 150), size=34, fpath=FB, radius=14), endt, total))
 json.dump(report, open(f'sides_{ORI}.json', 'w'), ensure_ascii=False, indent=1)
 
 # ---------- 4. сборка: основа + плашки + голос + музыка ----------

@@ -78,10 +78,8 @@ for i, (a, b, t) in enumerate(subs):
 endt = subs[-1][1] + 0.3
 if V:
     ov.append((plate('disc', 'Информация не заменяет\nконсультацию врача', 1440, (255, 255, 255, 235), fg=(20, 30, 40), size=52, fpath=FB), endt, total, 5))
-    ov.append((plate('ai', 'Видеоряд создан с помощью ИИ', 1680, (0, 0, 0, 150), size=34, fpath=FB, radius=14), endt, total, 6))
 else:
     ov.append((plate('disc', 'Информация не заменяет консультацию врача', 850, (255, 255, 255, 235), fg=(20, 30, 40), size=52, fpath=FB, maxw=1600), endt, total, 5))
-    ov.append((plate('ai', 'Видеоряд создан с помощью ИИ', 990, (0, 0, 0, 150), size=34, fpath=FB, radius=14), endt, total, 6))
 
 # ---- музыка (тот же синтез, что в роликах)
 here = os.path.dirname(os.path.abspath(__file__))
