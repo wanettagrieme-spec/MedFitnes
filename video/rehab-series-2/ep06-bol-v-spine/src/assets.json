@@ -9,12 +9,12 @@
    "img/v2.png"
   ],
   [
-   "still",
-   "img/v3.png"
+   "video",
+   "vid/v3.mp4"
   ],
   [
-   "video",
-   "vid/v4.mp4"
+   "still",
+   "img/v4.png"
   ],
   [
    "still",
@@ -29,8 +29,16 @@
    "img/v7.png"
   ],
   [
+   "still",
+   "img/v8.png"
+  ],
+  [
+   "still",
+   "img/v9.png"
+  ],
+  [
    "video",
-   "vid/v8.mp4"
+   "vid/v10.mp4"
   ]
  ],
  "h": [
@@ -43,12 +51,12 @@
    "img/h2.png"
   ],
   [
-   "still",
-   "img/h3.png"
+   "video",
+   "vid/h3.mp4"
   ],
   [
-   "video",
-   "vid/h4.mp4"
+   "still",
+   "img/h4.png"
   ],
   [
    "still",
@@ -63,8 +71,16 @@
    "img/h7.png"
   ],
   [
+   "still",
+   "img/h8.png"
+  ],
+  [
+   "still",
+   "img/h9.png"
+  ],
+  [
    "video",
-   "vid/h8.mp4"
+   "vid/h10.mp4"
   ]
  ]
 }

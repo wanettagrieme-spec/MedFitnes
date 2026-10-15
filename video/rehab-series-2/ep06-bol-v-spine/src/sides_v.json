@@ -2,11 +2,11 @@
  {
   "scene": 1,
   "side": "left",
-  "clearance_px": 233,
+  "clearance_px": 547,
   "overlap_px": 0,
   "other_px": 0,
   "faces": 6,
-  "min_head_top_px": 268
+  "min_head_top_px": 608
  },
  {
   "scene": 2,
@@ -20,55 +20,73 @@
  {
   "scene": 3,
   "side": "left",
-  "clearance_px": 433,
+  "clearance_px": 339,
   "overlap_px": 0,
   "other_px": 0,
-  "faces": 12,
-  "min_head_top_px": 494
+  "faces": 13,
+  "min_head_top_px": 352
  },
  {
   "scene": 4,
   "side": "left",
-  "clearance_px": 489,
+  "clearance_px": 594,
   "overlap_px": 0,
   "other_px": 0,
   "faces": 12,
-  "min_head_top_px": 509
+  "min_head_top_px": 492
  },
  {
   "scene": 5,
   "side": "left",
-  "clearance_px": 611,
+  "clearance_px": 533,
   "overlap_px": 0,
   "other_px": 0,
-  "faces": 12,
-  "min_head_top_px": 670
+  "faces": 19,
+  "min_head_top_px": 586
  },
  {
   "scene": 6,
   "side": "left",
-  "clearance_px": 661,
+  "clearance_px": 562,
   "overlap_px": 0,
   "other_px": 0,
   "faces": 12,
-  "min_head_top_px": 648
+  "min_head_top_px": 623
  },
  {
   "scene": 7,
   "side": "left",
-  "clearance_px": 537,
+  "clearance_px": 649,
   "overlap_px": 0,
   "other_px": 0,
-  "faces": 24,
-  "min_head_top_px": 643
+  "faces": 30,
+  "min_head_top_px": 714
  },
  {
   "scene": 8,
   "side": "left",
-  "clearance_px": 663,
+  "clearance_px": 682,
   "overlap_px": 0,
   "other_px": 0,
-  "faces": 24,
-  "min_head_top_px": 770
+  "faces": 16,
+  "min_head_top_px": 611
+ },
+ {
+  "scene": 9,
+  "side": "left",
+  "clearance_px": 400,
+  "overlap_px": 0,
+  "other_px": 0,
+  "faces": 12,
+  "min_head_top_px": 461
+ },
+ {
+  "scene": 10,
+  "side": "left",
+  "clearance_px": 541,
+  "overlap_px": 0,
+  "other_px": 0,
+  "faces": 6,
+  "min_head_top_px": 471
  }
 ]
