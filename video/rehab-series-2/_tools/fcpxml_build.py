@@ -3,13 +3,15 @@
 Запуск из папки ролика:  python3 ../_tools/fcpxml_build.py v|h <mac_dir>
   v|h       — 9:16 или 16:9
   mac_dir   — папка на Mac, где будут лежать медиа и проект
-              (например /Users/<имя>/Movies/Серия 2 МР — Final Cut/ep01-zolotoe-okno)
+              (например /Users/<имя>/Movies/S2MR-FinalCut/ep01-zolotoe-okno — только латиница: так путь
+              надёжно вводится в диалогах macOS)
 Нужно в папке ролика: src/timeline.json, src/voice.srt, src/fcp.json (сцены, плашки, роли),
 voice-*.mp3 (по fcp.json). Делает: папку fcp_<v|h>/ с PNG-плашками, music.wav и project.fcpxml.
 Видео сцен (Kling) скачиваются на Mac по ссылкам из fcp.json (fetch.sh).
 
 Слои на ленте: V1 — сцены (Kling, растяжение ≤1,25× как в build3.py), V2+ — плашки-заголовки,
-подписи ролей, субтитры, финальные надписи (PNG); A1 — голос, A2 — музыка (−12 дБ).
+подписи ролей, субтитры, финальные надписи (PNG); A1 — голос (+5 дБ), A2 — музыка (−7 дБ): итог ≈ −16 LUFS, как у роликов.
+Импорт: в Final Cut Pro открыть/создать библиотеку «Серия 2 МР» → File › Import › XML.
 """
 import json, os, subprocess, sys, urllib.parse
 from PIL import Image, ImageDraw, ImageFont
@@ -126,12 +128,12 @@ for i, s in enumerate(scenes):
                 f'{retime}<adjust-conform type="fill"/></asset-clip>')
 for (p, a, b, lane) in ov:
     kids.append(f'<video ref="{ids[p]}" lane="{lane}" offset="{fr(a)}" name="{os.path.basename(p)[:-4]}" start="0s" duration="{fr(b - a)}"/>')
-kids.append(f'<asset-clip ref="{ids["voice"]}" lane="-1" offset="0s" name="Голос" start="0s" duration="{fr(total)}"/>')
-kids.append(f'<asset-clip ref="{ids["music"]}" lane="-2" offset="0s" name="Музыка" start="0s" duration="{fr(total)}"><adjust-volume amount="-12dB"/></asset-clip>')
+kids.append(f'<asset-clip ref="{ids["voice"]}" lane="-1" offset="0s" name="Голос" start="0s" duration="{fr(total)}"><adjust-volume amount="5dB"/></asset-clip>')
+kids.append(f'<asset-clip ref="{ids["music"]}" lane="-2" offset="0s" name="Музыка" start="0s" duration="{fr(total)}"><adjust-volume amount="-7dB"/></asset-clip>')
 
 name = cfg['name'] + (' — 9x16' if V else ' — 16x9')
 xml = ('<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE fcpxml>\n<fcpxml version="1.10">\n<resources>\n' + '\n'.join(res) +
-       f'\n</resources>\n<library location="{"file://" + urllib.parse.quote(os.path.dirname(MAC) + "/Серия 2 МР.fcpbundle")}/">\n<event name="Серия 2 МР">\n<project name="{name}">\n'
+       f'\n</resources>\n<library>\n<event name="Серия 2 МР">\n<project name="{name}">\n'
        f'<sequence format="r1" duration="{fr(total)}" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">\n<spine>\n'
        f'<gap name="Основа" offset="0s" start="0s" duration="{fr(total)}">\n' + '\n'.join(kids) +
        '\n</gap>\n</spine>\n</sequence>\n</project>\n</event>\n</library>\n</fcpxml>\n')
