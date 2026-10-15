@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+<fcpxml version="1.10">
+<resources>
+<format id="r1" frameDuration="100/3000s" width="1080" height="1920" colorSpace="1-1-1 (Rec. 709)"/>
+<format id="r2" name="FFVideoFormatRateUndefined" width="1080" height="1920" colorSpace="1-1-1 (sRGB IEC61966-2.1)"/>
+<format id="r3" frameDuration="1/24s" width="716" height="1280" colorSpace="1-1-1 (Rec. 709)"/>
+<asset id="r4" name="Сцена 1" start="0s" duration="169/24s" hasVideo="1" format="r3"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/media/v1.mp4"/></asset>
+<format id="r5" frameDuration="1/24s" width="716" height="1280" colorSpace="1-1-1 (Rec. 709)"/>
+<asset id="r6" name="Сцена 2" start="0s" duration="313/24s" hasVideo="1" format="r5"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/media/v2.mp4"/></asset>
+<format id="r7" frameDuration="1/24s" width="716" height="1280" colorSpace="1-1-1 (Rec. 709)"/>
+<asset id="r8" name="Сцена 3" start="0s" duration="217/24s" hasVideo="1" format="r7"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/media/v3.mp4"/></asset>
+<format id="r9" frameDuration="1/24s" width="716" height="1280" colorSpace="1-1-1 (Rec. 709)"/>
+<asset id="r10" name="Сцена 4" start="0s" duration="121/24s" hasVideo="1" format="r9"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/media/v4.mp4"/></asset>
+<format id="r11" frameDuration="1/24s" width="716" height="1280" colorSpace="1-1-1 (Rec. 709)"/>
+<asset id="r12" name="Сцена 5" start="0s" duration="241/24s" hasVideo="1" format="r11"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/media/v5.mp4"/></asset>
+<format id="r13" frameDuration="1/24s" width="716" height="1280" colorSpace="1-1-1 (Rec. 709)"/>
+<asset id="r14" name="Сцена 6" start="0s" duration="337/24s" hasVideo="1" format="r13"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/media/v6.mp4"/></asset>
+<format id="r15" frameDuration="1/24s" width="716" height="1280" colorSpace="1-1-1 (Rec. 709)"/>
+<asset id="r16" name="Сцена 7" start="0s" duration="241/24s" hasVideo="1" format="r15"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/media/v7.mp4"/></asset>
+<asset id="r17" name="t0" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/t0.png"/></asset>
+<asset id="r18" name="t1" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/t1.png"/></asset>
+<asset id="r19" name="t2" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/t2.png"/></asset>
+<asset id="r20" name="t3" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/t3.png"/></asset>
+<asset id="r21" name="t4" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/t4.png"/></asset>
+<asset id="r22" name="t5" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/t5.png"/></asset>
+<asset id="r23" name="t6" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/t6.png"/></asset>
+<asset id="r24" name="r0" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/r0.png"/></asset>
+<asset id="r25" name="r1" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/r1.png"/></asset>
+<asset id="r26" name="r2" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/r2.png"/></asset>
+<asset id="r27" name="r3" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/r3.png"/></asset>
+<asset id="r28" name="sub00" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/sub00.png"/></asset>
+<asset id="r29" name="sub01" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/sub01.png"/></asset>
+<asset id="r30" name="sub02" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/sub02.png"/></asset>
+<asset id="r31" name="sub03" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/sub03.png"/></asset>
+<asset id="r32" name="sub04" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/sub04.png"/></asset>
+<asset id="r33" name="sub05" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/sub05.png"/></asset>
+<asset id="r34" name="sub06" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/sub06.png"/></asset>
+<asset id="r35" name="sub07" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/sub07.png"/></asset>
+<asset id="r36" name="sub08" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/sub08.png"/></asset>
+<asset id="r37" name="sub09" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/sub09.png"/></asset>
+<asset id="r38" name="sub10" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/sub10.png"/></asset>
+<asset id="r39" name="sub11" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/sub11.png"/></asset>
+<asset id="r40" name="sub12" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/sub12.png"/></asset>
+<asset id="r41" name="sub13" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/sub13.png"/></asset>
+<asset id="r42" name="sub14" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/sub14.png"/></asset>
+<asset id="r43" name="sub15" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/sub15.png"/></asset>
+<asset id="r44" name="sub16" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/sub16.png"/></asset>
+<asset id="r45" name="sub17" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/sub17.png"/></asset>
+<asset id="r46" name="sub18" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/sub18.png"/></asset>
+<asset id="r47" name="disc" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/disc.png"/></asset>
+<asset id="r48" name="ai" start="0s" duration="0s" hasVideo="1" format="r2"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/ov/ai.png"/></asset>
+<asset id="r49" name="Голос" start="0s" duration="221300/3000s" hasAudio="1" audioSources="1" audioChannels="1" audioRate="48000"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/media/voice-v3-ermil-good-095.mp3"/></asset>
+<asset id="r50" name="Музыка" start="0s" duration="224200/3000s" hasAudio="1" audioSources="1" audioChannels="2" audioRate="48000"><media-rep kind="original-media" src="file:///Users/sergeykozhevnikov/Movies/%D0%A1%D0%B5%D1%80%D0%B8%D1%8F%202%20%D0%9C%D0%A0%20%E2%80%94%20Final%20Cut/ep01-zolotoe-okno/music.wav"/></asset>
+</resources>
+<library>
+<event name="Серия 2 МР">
+<project name="Ролик 1 — Золотое окно после инсульта — 9x16">
+<sequence format="r1" duration="221200/3000s" tcStart="0s" tcFormat="NDF" audioLayout="stereo" audioRate="48k">
+<spine>
+<gap name="Основа" offset="0s" start="0s" duration="221200/3000s">
+<asset-clip ref="r4" lane="1" offset="0/3000s" name="Сцена 1" start="0s" duration="24500/3000s"><timeMap><timept time="0s" value="0s" interp="linear"/><timept time="24500/3000s" value="21125/3000s" interp="linear"/></timeMap><adjust-conform type="fill"/></asset-clip>
+<asset-clip ref="r6" lane="1" offset="24500/3000s" name="Сцена 2" start="0s" duration="44200/3000s"><timeMap><timept time="0s" value="0s" interp="linear"/><timept time="44200/3000s" value="39125/3000s" interp="linear"/></timeMap><adjust-conform type="fill"/></asset-clip>
+<asset-clip ref="r8" lane="1" offset="68700/3000s" name="Сцена 3" start="0s" duration="30100/3000s"><timeMap><timept time="0s" value="0s" interp="linear"/><timept time="30100/3000s" value="27000/3000s" interp="linear"/></timeMap><adjust-conform type="fill"/></asset-clip>
+<asset-clip ref="r10" lane="1" offset="98800/3000s" name="Сцена 4" start="0s" duration="15400/3000s"><timeMap><timept time="0s" value="0s" interp="linear"/><timept time="15400/3000s" value="15000/3000s" interp="linear"/></timeMap><adjust-conform type="fill"/></asset-clip>
+<asset-clip ref="r12" lane="1" offset="114200/3000s" name="Сцена 5" start="0s" duration="32700/3000s"><timeMap><timept time="0s" value="0s" interp="linear"/><timept time="32700/3000s" value="30125/3000s" interp="linear"/></timeMap><adjust-conform type="fill"/></asset-clip>
+<asset-clip ref="r14" lane="1" offset="146900/3000s" name="Сцена 6" start="0s" duration="47300/3000s"><timeMap><timept time="0s" value="0s" interp="linear"/><timept time="47300/3000s" value="42000/3000s" interp="linear"/></timeMap><adjust-conform type="fill"/></asset-clip>
+<asset-clip ref="r16" lane="1" offset="194200/3000s" name="Сцена 7" start="0s" duration="27000/3000s"><adjust-conform type="fill"/></asset-clip>
+<video ref="r17" lane="2" offset="400/3000s" name="t0" start="0s" duration="24000/3000s"/>
+<video ref="r18" lane="2" offset="24900/3000s" name="t1" start="0s" duration="43700/3000s"/>
+<video ref="r19" lane="2" offset="69100/3000s" name="t2" start="0s" duration="29600/3000s"/>
+<video ref="r20" lane="2" offset="99200/3000s" name="t3" start="0s" duration="14900/3000s"/>
+<video ref="r21" lane="2" offset="114600/3000s" name="t4" start="0s" duration="32300/3000s"/>
+<video ref="r22" lane="2" offset="147300/3000s" name="t5" start="0s" duration="46800/3000s"/>
+<video ref="r23" lane="2" offset="194600/3000s" name="t6" start="0s" duration="26600/3000s"/>
+<video ref="r24" lane="3" offset="148600/3000s" name="r0" start="0s" duration="45600/3000s"/>
+<video ref="r25" lane="3" offset="165100/3000s" name="r1" start="0s" duration="29100/3000s"/>
+<video ref="r26" lane="3" offset="175300/3000s" name="r2" start="0s" duration="18800/3000s"/>
+<video ref="r27" lane="3" offset="182900/3000s" name="r3" start="0s" duration="11200/3000s"/>
+<video ref="r28" lane="4" offset="1900/3000s" name="sub00" start="0s" duration="11700/3000s"/>
+<video ref="r29" lane="4" offset="13400/3000s" name="sub01" start="0s" duration="10900/3000s"/>
+<video ref="r30" lane="4" offset="26000/3000s" name="sub02" start="0s" duration="10100/3000s"/>
+<video ref="r31" lane="4" offset="35900/3000s" name="sub03" start="0s" duration="13600/3000s"/>
+<video ref="r32" lane="4" offset="49800/3000s" name="sub04" start="0s" duration="8100/3000s"/>
+<video ref="r33" lane="4" offset="57800/3000s" name="sub05" start="0s" duration="10700/3000s"/>
+<video ref="r34" lane="4" offset="70400/3000s" name="sub06" start="0s" duration="13200/3000s"/>
+<video ref="r35" lane="4" offset="83700/3000s" name="sub07" start="0s" duration="15000/3000s"/>
+<video ref="r36" lane="4" offset="100500/3000s" name="sub08" start="0s" duration="3100/3000s"/>
+<video ref="r37" lane="4" offset="103400/3000s" name="sub09" start="0s" duration="11000/3000s"/>
+<video ref="r38" lane="4" offset="115800/3000s" name="sub10" start="0s" duration="14800/3000s"/>
+<video ref="r39" lane="4" offset="130500/3000s" name="sub11" start="0s" duration="6700/3000s"/>
+<video ref="r40" lane="4" offset="137000/3000s" name="sub12" start="0s" duration="10000/3000s"/>
+<video ref="r41" lane="4" offset="148400/3000s" name="sub13" start="0s" duration="16600/3000s"/>
+<video ref="r42" lane="4" offset="164900/3000s" name="sub14" start="0s" duration="10400/3000s"/>
+<video ref="r43" lane="4" offset="175200/3000s" name="sub15" start="0s" duration="7800/3000s"/>
+<video ref="r44" lane="4" offset="182800/3000s" name="sub16" start="0s" duration="11700/3000s"/>
+<video ref="r45" lane="4" offset="195900/3000s" name="sub17" start="0s" duration="5400/3000s"/>
+<video ref="r46" lane="4" offset="201200/3000s" name="sub18" start="0s" duration="12700/3000s"/>
+<video ref="r47" lane="5" offset="212900/3000s" name="disc" start="0s" duration="8300/3000s"/>
+<video ref="r48" lane="6" offset="212900/3000s" name="ai" start="0s" duration="8300/3000s"/>
+<asset-clip ref="r49" lane="-1" offset="0s" name="Голос" start="0s" duration="221200/3000s"/>
+<asset-clip ref="r50" lane="-2" offset="0s" name="Музыка" start="0s" duration="221200/3000s"><adjust-volume amount="-12dB"/></asset-clip>
+</gap>
+</spine>
+</sequence>
+</project>
+</event>
+</library>
+</fcpxml>

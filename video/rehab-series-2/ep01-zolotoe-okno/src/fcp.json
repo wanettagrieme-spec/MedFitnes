@@ -1,0 +1,121 @@
+{
+ "name": "Ролик 1 — Золотое окно после инсульта",
+ "voice": "voice-v3-ermil-good-095.mp3",
+ "voice_dur": 73.776,
+ "titles": [
+  [
+   "Первые 3 месяца\nрешают очень многое",
+   "amber",
+   true
+  ],
+  [
+   "Нейропластичность",
+   "cyan",
+   false
+  ],
+  [
+   "«Пусть полежит» —\nопасная ошибка",
+   "coral",
+   false
+  ],
+  [
+   "Правильная укладка\nс первых дней",
+   "green",
+   false
+  ],
+  [
+   "Постепенно поднимать —\nпо решению врача",
+   "green",
+   false
+  ],
+  [
+   "Команда специалистов",
+   "blue",
+   false
+  ],
+  [
+   "Спросите врача\nо реабилитации сегодня",
+   "amber",
+   true
+  ]
+ ],
+ "roles": [
+  [
+   "Врач ФРМ — план",
+   13
+  ],
+  [
+   "Инструктор ЛФК — движение",
+   14
+  ],
+  [
+   "Эрготерапевт — бытовые навыки",
+   15
+  ],
+  [
+   "Клинический логопед — речь и глотание",
+   16
+  ]
+ ],
+ "roles_until_scene": 6,
+ "scenes": {
+  "v": [
+   {
+    "file": "v1.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KgWXdLcKXUq2hFSOQT2WwaG2Cr/hf_20261014_160517_317bc7a3-09b6-47ef-a6ba-77661df9bd78.mp4",
+    "w": 716,
+    "h": 1280,
+    "fps": 24,
+    "frames": 169
+   },
+   {
+    "file": "v2.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KgWXdLcKXUq2hFSOQT2WwaG2Cr/hf_20261014_160517_81558cf4-3375-4b57-b579-253649b88dc7.mp4",
+    "w": 716,
+    "h": 1280,
+    "fps": 24,
+    "frames": 313
+   },
+   {
+    "file": "v3.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KgWXdLcKXUq2hFSOQT2WwaG2Cr/hf_20261014_160416_50ffc073-820a-4cc4-9d3b-12abaa5e4219.mp4",
+    "w": 716,
+    "h": 1280,
+    "fps": 24,
+    "frames": 217
+   },
+   {
+    "file": "v4.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KgWXdLcKXUq2hFSOQT2WwaG2Cr/hf_20261014_160528_bec42c64-4ef4-4c41-be00-ac1985e6b24d.mp4",
+    "w": 716,
+    "h": 1280,
+    "fps": 24,
+    "frames": 121
+   },
+   {
+    "file": "v5.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KgWXdLcKXUq2hFSOQT2WwaG2Cr/hf_20261014_160528_2cac9ed8-4d83-4ad0-8f8c-8be63605f5e7.mp4",
+    "w": 716,
+    "h": 1280,
+    "fps": 24,
+    "frames": 241
+   },
+   {
+    "file": "v6.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KgWXdLcKXUq2hFSOQT2WwaG2Cr/hf_20261014_160647_f228fed3-cf5e-4d64-a47a-7d683bc9fcec.mp4",
+    "w": 716,
+    "h": 1280,
+    "fps": 24,
+    "frames": 337
+   },
+   {
+    "file": "v7.mp4",
+    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3KgWXdLcKXUq2hFSOQT2WwaG2Cr/hf_20261014_160647_c777196c-c815-442c-bcee-0af9ddee3c10.mp4",
+    "w": 716,
+    "h": 1280,
+    "fps": 24,
+    "frames": 241
+   }
+  ]
+ }
+}
