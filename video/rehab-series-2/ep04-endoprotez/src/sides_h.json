@@ -1,0 +1,65 @@
+[
+ {
+  "scene": 1,
+  "side": "left",
+  "clearance_px": 99999,
+  "overlap_px": 0,
+  "other_px": 0,
+  "faces": 0,
+  "min_head_top_px": null
+ },
+ {
+  "scene": 2,
+  "side": "left",
+  "clearance_px": 99999,
+  "overlap_px": 0,
+  "other_px": 4350,
+  "faces": 12,
+  "min_head_top_px": 29
+ },
+ {
+  "scene": 3,
+  "side": "left",
+  "clearance_px": 99999,
+  "overlap_px": 0,
+  "other_px": 22534,
+  "faces": 12,
+  "min_head_top_px": -67
+ },
+ {
+  "scene": 4,
+  "side": "right",
+  "clearance_px": 99999,
+  "overlap_px": 0,
+  "other_px": 0,
+  "faces": 12,
+  "min_head_top_px": 44
+ },
+ {
+  "scene": 5,
+  "side": "right",
+  "clearance_px": 151,
+  "overlap_px": 0,
+  "other_px": 88922,
+  "faces": 12,
+  "min_head_top_px": -12
+ },
+ {
+  "scene": 6,
+  "side": "right",
+  "clearance_px": 180,
+  "overlap_px": 0,
+  "other_px": 19855,
+  "faces": 7,
+  "min_head_top_px": -26
+ },
+ {
+  "scene": 7,
+  "side": "left",
+  "clearance_px": 99999,
+  "overlap_px": 0,
+  "other_px": 60058,
+  "faces": 12,
+  "min_head_top_px": 5
+ }
+]
