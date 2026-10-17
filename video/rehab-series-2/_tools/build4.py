@@ -58,7 +58,7 @@ for i, (typ, f) in enumerate(scenes):
         inputs += ['-i', f]
         sc = f'scale={W}:-2,crop={W}:{H}:0:0' if V else f'scale={W}:{H}'
         clen = float(subprocess.check_output(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f]).decode())
-        k = min(max(dur / clen, 1.0), 1.25)
+        k = min(max(dur / clen, 1.0), float(os.environ.get('MAXSTRETCH', '1.25')))  # 17.10.2026: MAXSTRETCH — чтобы финал не замирал
         filt.append(f'[{i}:v]setpts={k:.4f}*PTS,{sc},fps=30,setsar=1,tpad=stop_mode=clone:stop_duration=4,trim=duration={dur:.3f},setpts=PTS-STARTPTS[c{i}]')
     else:
         inputs += ['-loop', '1', '-t', f'{dur + 0.5:.3f}', '-i', f]

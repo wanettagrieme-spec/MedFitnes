@@ -1,0 +1,92 @@
+[
+ {
+  "scene": 1,
+  "side": "left",
+  "clearance_px": 302,
+  "overlap_px": 0,
+  "other_px": 0,
+  "faces": 12,
+  "min_head_top_px": 286
+ },
+ {
+  "scene": 2,
+  "side": "left",
+  "clearance_px": 329,
+  "overlap_px": 0,
+  "other_px": 0,
+  "faces": 18,
+  "min_head_top_px": 358
+ },
+ {
+  "scene": 3,
+  "side": "left",
+  "clearance_px": 120,
+  "overlap_px": 0,
+  "other_px": 0,
+  "faces": 36,
+  "min_head_top_px": 204
+ },
+ {
+  "scene": 4,
+  "side": "left",
+  "clearance_px": 99999,
+  "overlap_px": 0,
+  "other_px": 0,
+  "faces": 0,
+  "min_head_top_px": null
+ },
+ {
+  "scene": 5,
+  "side": "left",
+  "clearance_px": 355,
+  "overlap_px": 0,
+  "other_px": 0,
+  "faces": 36,
+  "min_head_top_px": 410
+ },
+ {
+  "scene": 6,
+  "side": "left",
+  "clearance_px": 356,
+  "overlap_px": 0,
+  "other_px": 0,
+  "faces": 18,
+  "min_head_top_px": 403
+ },
+ {
+  "scene": 7,
+  "side": "left",
+  "clearance_px": 396,
+  "overlap_px": 0,
+  "other_px": 0,
+  "faces": 24,
+  "min_head_top_px": 448
+ },
+ {
+  "scene": 8,
+  "side": "left",
+  "clearance_px": 1215,
+  "overlap_px": 0,
+  "other_px": 0,
+  "faces": 3,
+  "min_head_top_px": 1017
+ },
+ {
+  "scene": 9,
+  "side": "left",
+  "clearance_px": 233,
+  "overlap_px": 0,
+  "other_px": 0,
+  "faces": 18,
+  "min_head_top_px": 285
+ },
+ {
+  "scene": 10,
+  "side": "left",
+  "clearance_px": 275,
+  "overlap_px": 0,
+  "other_px": 0,
+  "faces": 12,
+  "min_head_top_px": 188
+ }
+]

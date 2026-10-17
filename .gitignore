@@ -1,2 +1,9 @@
 video/rehab-series-2/_tools/key
 __pycache__/
+# промежуточные файлы монтажа роликов (крупные, пересобираются скриптами)
+video/rehab-series-2/*/src/base4_*.mp4
+video/rehab-series-2/*/src/final4_*.mp4
+video/rehab-series-2/*/src/ov4_*/
+video/rehab-series-2/*/src/v3/
+video/rehab-series-2/*/src/*.wav
+video/rehab-series-2/*/src/vid/_*
