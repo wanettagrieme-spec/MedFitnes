@@ -15,16 +15,16 @@
   "overlap_px": 0,
   "other_px": 0,
   "faces": 18,
-  "min_head_top_px": 149
+  "min_head_top_px": 150
  },
  {
   "scene": 3,
   "side": "left",
   "clearance_px": 57,
   "overlap_px": 0,
-  "other_px": 14223,
+  "other_px": 14292,
   "faces": 36,
-  "min_head_top_px": 69
+  "min_head_top_px": 71
  },
  {
   "scene": 4,
@@ -42,7 +42,7 @@
   "overlap_px": 0,
   "other_px": 0,
   "faces": 30,
-  "min_head_top_px": 124
+  "min_head_top_px": 127
  },
  {
   "scene": 6,
@@ -51,7 +51,7 @@
   "overlap_px": 0,
   "other_px": 0,
   "faces": 18,
-  "min_head_top_px": 142
+  "min_head_top_px": 143
  },
  {
   "scene": 7,
@@ -60,7 +60,7 @@
   "overlap_px": 0,
   "other_px": 0,
   "faces": 24,
-  "min_head_top_px": 143
+  "min_head_top_px": 142
  },
  {
   "scene": 8,
@@ -77,7 +77,7 @@
   "clearance_px": 99999,
   "overlap_px": 0,
   "other_px": 0,
-  "faces": 19,
+  "faces": 18,
   "min_head_top_px": 181
  },
  {
