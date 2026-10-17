@@ -2,6 +2,7 @@ import sys, json, re, base64, urllib.request, os
 S=os.path.dirname(os.path.abspath(__file__))
 key=open(os.path.join(S,'key')).read().strip()
 def apply(text):
+    text=re.sub(r'\s*\|\s*',' ',text)  # «|» — граница для субтитров без паузы в голосе (17.10.2026)
     for fn,stress in (('pronunciation.json',False),('stress.json',True)):
         p=os.path.join(S,fn)
         if not os.path.exists(p): continue
