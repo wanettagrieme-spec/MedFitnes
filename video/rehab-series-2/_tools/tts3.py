@@ -14,7 +14,23 @@ def apply(text):
             else:
                 text=re.sub(r'(?<!\w)'+re.escape(w)+r'(?!\w)', m, text)
     return text
-def synth(text,out,voice='ermil',role='good',speed=0.95):
+def synth(text,out,voice='ermil',role='good',speed=0.95,gap=0.2):
+    """«¦» в тексте: куски озвучиваются отдельно и склеиваются с ровной микропаузой gap (17.10.2026:
+    в длинной фразе синтезатор сам ставил паузы после «потэнцыал»; владелица — паузы только между видами потенциала)."""
+    if '¦' in text:
+        parts=[x.strip() for x in text.split('¦') if x.strip()]; tmp=[]
+        for i,pt in enumerate(parts):
+            f=f'{out}.part{i}.wav'; _synth1(pt,f); tmp.append(f)
+        # срезаем тишину по краям кусков, чтобы микропауза была ровно gap
+        ins=[];flt=[]
+        for i,f in enumerate(tmp):
+            ins+=['-i',f]; flt.append(f'[{i}:a]silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse,apad=pad_dur={(0.5 if parts[i].endswith(('.','!','?')) else gap) if i<len(tmp)-1 else 0}[a{i}]')
+        flt.append(''.join(f'[a{i}]' for i in range(len(tmp)))+f'concat=n={len(tmp)}:v=0:a=1[o]')
+        os.system('ffmpeg -v error -y '+' '.join(f"'{x}'" if x!='-i' else x for x in ins)+f" -filter_complex '{';'.join(flt)}' -map '[o]' -ar 48000 -ac 1 '{out}'")
+        for f in tmp: os.remove(f); os.path.exists(f+'.raw') and os.remove(f+'.raw')
+        return
+    _synth1(text,out,voice,role,speed)
+def _synth1(text,out,voice='ermil',role='good',speed=0.95):
     body={'text':apply(text),'hints':[{'voice':voice},{'speed':speed},{'role':role}],
           'outputAudioSpec':{'rawAudio':{'audioEncoding':'LINEAR16_PCM','sampleRateHertz':48000}},
           'loudnessNormalizationType':'LUFS','unsafeMode':True}

@@ -18,7 +18,7 @@ def chunks(txt):
     return res
 blocks = []
 for i in range(N):
-    sents = chunks(re.sub(r'\s*(sil<\[\d+\]>|\|)\s*', ', ', open(f'p{i + 1}.txt').read().strip())); d = tl['durs'][i]; st = tl['starts'][i]  # разметка пауз SpeechKit в субтитры не идёт
+    sents = chunks(re.sub(r'\s*¦\s*', ' ', re.sub(r'\s*(sil<\[\d+\]>|\|)\s*', ', ', open(f'p{i + 1}.txt').read().strip()))); d = tl['durs'][i]; st = tl['starts'][i]  # разметка пауз SpeechKit в субтитры не идёт
     r = subprocess.run(['ffmpeg', '-hide_banner', '-i', f'v3/p{i + 1}.wav', '-af', 'silencedetect=noise=-38dB:d=0.12', '-f', 'null', '-'], capture_output=True, text=True).stderr
     se = [float(x) for x in re.findall(r'silence_start: ([\d.]+)', r)]; ee = [float(x) for x in re.findall(r'silence_end: ([\d.]+)', r)]
     pauses = [(a + b) / 2 for a, b in zip(se, ee) if 0.25 < a < d - 0.25]
