@@ -1,0 +1,13 @@
+{
+  "name": "icf-singapore-tests",
+  "private": true,
+  "type": "module",
+  "description": "Самотест ICF SINGAPORE: настоящие клики в браузере, путь данных до назначения и печати, PDF-прогон печатных форм",
+  "scripts": {
+    "selftest": "node selftest.mjs",
+    "print": "node print_pdf.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.56.0"
+  }
+}

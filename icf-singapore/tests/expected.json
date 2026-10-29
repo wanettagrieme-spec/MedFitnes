@@ -1,0 +1,38 @@
+{
+  "_comment": "Ожидания самотеста. Снято с ICF SINGAPORE 15 (29.10.2026). Изменилось намеренно (добавили программу, переименовали функцию) — обнови это число здесь же, в том же коммите, и напиши почему в сообщении коммита.",
+  "storeKey": "icfModule_v2_34",
+  "functions": [
+    "integrityCheck", "runIntegrityCheck", "btlRxLines", "printMdrkProtocol", "printGraphicIcf",
+    "standalonePrintCss", "graphicPrintHtml", "freshProtocol", "freshFunctional", "freshRows",
+    "resetCaseState", "carryOverSettings", "applySnapshotData", "loadPatientCard", "writeArchive",
+    "versionStamp", "doseGateReport", "doseGateHtml", "doseGateLines", "allElectro",
+    "btlSafe", "btlFail", "toggleTactic", "newPatientCard", "newEpisodeCard", "savePatientCard",
+    "misBlocks", "misCopy", "renderIpmr", "ensureIpmr"
+  ],
+  "catalogs": {
+    "BTL_HILT": 61, "BTL_SIS": 55, "BTL_TECAR": 31, "BTL_ESWT": 78, "BTL_MAGNET": 171,
+    "BTL_MICROWAVE": 58, "BTL_LLLT": 306, "BTL_SONO": 59, "BTL_ELECTRO": 210,
+    "BTL_ELECTRO_SMART": 147, "ATLAS_EX": 316, "WL_PROG": 63
+  },
+  "rxPath": [
+    { "key": "hil",  "title": "HIL-лазер",                "list": "BTL_HILT",      "toggle": "toggleBtlHilt",      "idField": "id",  "state": "btlHilt" },
+    { "key": "sis",  "title": "SIS (ВИМТ)",               "list": "BTL_SIS",       "toggle": "toggleBtlSis",       "idField": "id",  "state": "btlSis" },
+    { "key": "trt",  "title": "ТЕКАР",                    "list": "BTL_TECAR",     "toggle": "toggleBtlTecar",     "idField": "id",  "state": "btlTecar" },
+    { "key": "uvt",  "title": "УВТ",                      "list": "BTL_ESWT",      "toggle": "toggleBtlEswt",      "idField": "key", "state": "btlEswt" },
+    { "key": "mag",  "title": "Магнитотерапия",           "list": "BTL_MAGNET",    "toggle": "toggleBtlMagnet",    "idField": "id",  "state": "btlMagnet" },
+    { "key": "mw",   "title": "Микроволновая",            "list": "BTL_MICROWAVE", "toggle": "toggleBtlMicrowave", "idField": "id",  "state": "btlMicrowave" },
+    { "key": "el",   "title": "Электротерапия",           "list": "allElectro()",  "toggle": "toggleElectro",      "idField": "id",  "state": "btlElectro" },
+    { "key": "wl",   "title": "Электростимуляция Wireless","list": "WL_PROG",      "toggle": "toggleWl",           "idField": "id",  "state": "wlPick" },
+    { "key": "lllt", "title": "НИЛИ (классич. лазер)",    "list": "BTL_LLLT",      "toggle": "toggleBtlLllt",      "idField": "id",  "state": "btlLllt" },
+    { "key": "sono", "title": "Ультразвук",               "list": "BTL_SONO",      "toggle": "toggleBtlSono",      "idField": "id",  "state": "btlSono" },
+    { "key": "mass", "title": "Массаж (СОП)",             "list": "SOP_MASSAGE",   "toggle": "toggleMassage",      "idField": "id",  "state": "btlMassage" },
+    { "key": "lfk",  "title": "ЛФК (СОП)",                "list": "SOP_LFK",       "toggle": "toggleLfkSop",       "idField": "id",  "state": "btlLfkSop" }
+  ],
+  "printCalls": [
+    "printMdrkProtocol()", "printGraphicIcf()", "printTaktikaFrm()", "printShrmForm()",
+    "printFunctionalSummary()", "printCorePackage()", "printScale('barthel','blank')", "printScale('vas','filled')"
+  ],
+  "printAllowedEmpty": {
+    "printAtlasComplex()": "защита «Отметьте упражнения в атласе», не дефект"
+  }
+}

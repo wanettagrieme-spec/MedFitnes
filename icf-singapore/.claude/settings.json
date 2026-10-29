@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Bash(node tests/*)",
+      "Bash(node --check *)",
+      "Bash(npm --prefix tests *)",
+      "Bash(npx playwright *)",
+      "Bash(python3 *)",
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git show*)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git pull --rebase*)",
+      "Bash(git push)",
+      "Bash(git push origin *)",
+      "Bash(git tag *)",
+      "Bash(git -C * status*)",
+      "Bash(git -C * diff*)",
+      "Bash(git -C * log*)",
+      "Bash(git -C * add *)",
+      "Bash(git -C * commit *)",
+      "Bash(git -C * pull --rebase*)",
+      "Bash(git -C * push)",
+      "Bash(unzip *)",
+      "Bash(ls *)",
+      "Bash(wc *)",
+      "Bash(du *)",
+      "Bash(shasum *)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          { "type": "command", "command": "python3 \"${CLAUDE_PROJECT_DIR}/.claude/hooks/session_start.py\"", "timeout": 60 }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Write|Bash",
+        "hooks": [
+          { "type": "command", "command": "python3 \"${CLAUDE_PROJECT_DIR}/.claude/hooks/guard.py\"", "timeout": 15 }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          { "type": "command", "command": "python3 \"${CLAUDE_PROJECT_DIR}/.claude/hooks/after_edit.py\"", "timeout": 180 }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          { "type": "command", "command": "python3 \"${CLAUDE_PROJECT_DIR}/.claude/hooks/stop_gate.py\"", "timeout": 180 }
+        ]
+      }
+    ]
+  }
+}
