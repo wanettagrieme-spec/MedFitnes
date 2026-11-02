@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Сборка инфографических карточек месяца 2 в стиле утверждённой карточки A (Canva, 30.09.2026).
 
-Вход: month2_texts.json (тексты), фото постов (photos/<KEY>.png), значок «МедФитнес» (logo_badge.png).
+Вход: month2_texts.json или файл из переменной TEXTS (например month3_texts.json), фото постов (photos/<KEY>.png), значок «МедФитнес» (logo_badge.png).
 Выход: out/<KEY>.jpg 1080×1440.
 Запуск: python3 build_cards.py <папка_с_фото> <node_modules> <выходная_папка> [KEY ...]
 """
@@ -29,6 +29,19 @@ ICONS = {
     "J": ["weight", "shield-plus", "users-round", "waves"],
     "K": ["tag", "bike", "heart-pulse", "settings-2"],
     "L": ["megaphone", "users", "target", "dumbbell"],
+    # месяц 3
+    "25": ["activity", "dumbbell", "footprints", "salad"],
+    "26": ["heart-pulse", "droplet", "bone", "brain"],
+    "27": ["calendar-clock", "user-plus", "users", "clipboard-list"],
+    "28": ["house", "flame", "person-standing", "layers"],
+    "29": ["thermometer-snowflake", "repeat", "timer", "circle-alert"],
+    "30": ["salad", "beef", "wheat", "droplet"],
+    "31": ["shirt", "flame", "activity", "snowflake"],
+    "32": ["gift", "calendar-clock", "phone-call", "chart-column"],
+    "33": ["trending-down", "scale", "calendar-clock", "message-circle"],
+    "34": ["person-standing", "bone", "brain", "dumbbell"],
+    "35": ["move-horizontal", "bone", "timer", "circle-alert"],
+    "36": ["wallet", "receipt", "users", "piggy-bank"],
 }
 # цвета кружков — как в карточке A: бирюзовый, зелёный, коралловый, жёлтый
 DOTS = ["#5cc8c6", "#5cbf72", "#f0705a", "#f2bf3b"]
@@ -134,12 +147,14 @@ def page(p, photo, fonts):
 
 
 def main():
-    posts = json.loads((HERE / "month2_texts.json").read_text(encoding="utf-8"))
+    import os
+    posts = json.loads((HERE / os.environ.get("TEXTS", "month2_texts.json")).read_text(encoding="utf-8"))
     fdir = NM / "@fontsource/open-sans/files"
     fonts = "".join("@font-face{font-family:OS;font-weight:%d;src:url(%s)}" % (w, b64(fdir / f"open-sans-{sub}-{w}-normal.woff2", "font/woff2"))
                     for sub in ("latin", "cyrillic") for w in (400, 600, 700))
     with sync_playwright() as pw:
-        br = pw.chromium.launch(executable_path="/opt/google/chrome/chrome", args=["--no-sandbox"])
+        exe = "/opt/google/chrome/chrome"
+        br = pw.chromium.launch(**({"executable_path": exe} if Path(exe).exists() else {}), args=["--no-sandbox"])
         pg = br.new_page(viewport={"width": 1080, "height": 1440})
         for p in posts:
             if p["key"] == "A" or (ONLY and p["key"] not in ONLY):
