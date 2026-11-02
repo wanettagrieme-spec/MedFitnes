@@ -9,3 +9,8 @@
 - `workspace/MEMORY.md` — руководство Claude, medfit-vault только на чтение, Telegram-сессия только на чтение; удалён записанный открытым текстом пароль.
 - `workspace/skills/telegram-sbor/SKILL.md` — навык сбора (копия здесь).
 - `workspace/projects/telegram-sbor/` — папка результатов (CSV для реестра).
+
+## 02.11.2026, вечер — модель починена
+- Шлюз Kimi Claw (agent-gw.kimi.com/coding, K2.6) постоянно обрывался. Добавлен провайдер `kimi-sub`: api.kimi.com/coding, `anthropic-messages`, модель `k3.1-pro`, ключ — тот же ключ подписки Kimi Code, что у Hermes (в openclaw.json, сюда не копируется). Основная модель `kimi-sub/k3.1-pro`, запасная `kimi-coding/k2p6`.
+- Проверено: ответ за 11 с, в журнале provider kimi-sub, model k3.1-pro.
+- Риск: приложение Kimi при перезапуске может переписать модель — ежедневная проверка Claude восстанавливает.
