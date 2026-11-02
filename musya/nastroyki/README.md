@@ -10,5 +10,8 @@
 - `workspace/skills/medfit-vault/SKILL.md` — чтение базы medfit-vault, без права правки.
 - `workspace/projects/telegram-sbor/` — папка результатов (CSV для реестра).
 
+- Поиск: `tools.web.search.provider: duckduckgo` (Grok и Codex не работали).
+- Браузер: профиль `comet` (existing-session, Comet владелицы), по умолчанию; в навыке — запасной путь поиска через Comet.
+
 Бот Муси в Telegram: @MyOpenClaw155bot.
 Реестр: Google Таблица «Реестр Telegram — реабилитация, массаж, фитнес».
