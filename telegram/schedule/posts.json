@@ -320,7 +320,8 @@
     "month": 3,
     "card": "25",
     "photo_file": "images/post-25.jpg",
-    "media_planned": "podcast-01"
+    "media_planned": "podcast-01",
+    "audio_file": "audio/podcast-01.mp3"
   },
   {
     "id": 26,
@@ -357,7 +358,8 @@
     "month": 3,
     "card": "28",
     "photo_file": "images/post-28.jpg",
-    "media_planned": "podcast-02"
+    "media_planned": "podcast-02",
+    "audio_file": "audio/podcast-02.mp3"
   },
   {
     "id": 29,
@@ -370,7 +372,8 @@
     "month": 3,
     "card": "29",
     "photo_file": "images/post-29.jpg",
-    "media_planned": "video-01"
+    "media_planned": "video-01",
+    "video_file": "video/video-01.mp4"
   },
   {
     "id": 30,
@@ -395,7 +398,8 @@
     "month": 3,
     "card": "31",
     "photo_file": "images/post-31.jpg",
-    "media_planned": "podcast-03"
+    "media_planned": "podcast-03",
+    "audio_file": "audio/podcast-03.mp3"
   },
   {
     "id": 32,
@@ -432,7 +436,8 @@
     "month": 3,
     "card": "34",
     "photo_file": "images/post-34.jpg",
-    "media_planned": "podcast-04"
+    "media_planned": "podcast-04",
+    "audio_file": "audio/podcast-04.mp3"
   },
   {
     "id": 35,
@@ -445,7 +450,8 @@
     "month": 3,
     "card": "35",
     "photo_file": "images/post-35.jpg",
-    "media_planned": "video-02"
+    "media_planned": "video-02",
+    "video_file": "video/video-02.mp4"
   },
   {
     "id": 36,
