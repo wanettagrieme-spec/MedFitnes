@@ -2,7 +2,7 @@
 
 Роль (решение владелицы 02.11.2026): сбор информации в Telegram по медицинской реабилитации, медицинскому массажу и фитнесу. Руководит и проверяет Claude.
 
-Реестр: Google Таблица «Kimi Claw — реестр Telegram (реабилитация, массаж, фитнес)»
+Реестр: Google Таблица «Реестр Telegram — реабилитация, массаж, фитнес»
 https://docs.google.com/spreadsheets/d/1xbOBuoepP5H6oU0nM80NzXC0u9nh8voOqe0zWgqZdQc/edit
 
 ## Вкладки
