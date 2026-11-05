@@ -1,0 +1,41 @@
+# Управление Hermes на сервере HostKey без Mac (Claude, 05.11.2026, решение владелицы «НАЧИНАЕМ»).
+# Запуск: вкладка Actions → «Hermes — управление» → Run workflow, выбрать действие.
+# На сервере ключ github-actions-hermes-ops разрешает ТОЛЬКО скрипт ~/bin/hermes-ops.sh
+# (status, sessions, logs, restart) — произвольные команды невозможны.
+name: Hermes — управление
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: Действие
+        type: choice
+        options: [status, sessions, logs, restart]
+        default: status
+permissions:
+  contents: read
+concurrency:
+  group: hermes-ops
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Выполнить на сервере
+        env:
+          KEY: ${{ secrets.HERMES_OPS_KEY }}
+          ACTION: ${{ inputs.action }}
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$KEY" > ~/.ssh/k && chmod 600 ~/.ssh/k
+          echo '185.130.224.145 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEpdTLVXySxNqUwZ9/L6gFEANhMMjVXZHtFkYwYkfpB5' > ~/.ssh/known_hosts
+          ssh -i ~/.ssh/k -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes -o BatchMode=yes -o ConnectTimeout=20 \
+            hermes@185.130.224.145 "$ACTION" 2>&1 | tee result.txt
+          rm -f ~/.ssh/k
+      - name: Сохранить результат
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: hermes-${{ inputs.action }}
+          path: result.txt
+          retention-days: 14
