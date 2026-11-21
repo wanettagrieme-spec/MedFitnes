@@ -35,6 +35,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Публикуем пост
+        id: publish_post
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL: ${{ vars.TELEGRAM_CHANNEL }}
@@ -42,7 +43,9 @@ jobs:
           POST_ID: ${{ inputs.post_id }}
           CHECK_ONLY: ${{ inputs.check_only && '1' || '0' }}
         run: python telegram/publisher/publish.py
-      - name: Отмечаем «опубликовано» в расписании
+      - name: Сохраняем результат публикации
+        # Карточка могла уже выйти, даже если Telegram отклонил вложение.
+        if: ${{ !cancelled() && (steps.publish_post.outcome == 'success' || steps.publish_post.outcome == 'failure') }}
         run: |
           if ! git diff --quiet telegram/schedule/posts.json; then
             git config user.name "medfitnes-bot"
